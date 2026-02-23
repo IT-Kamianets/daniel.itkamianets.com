@@ -1,0 +1,492 @@
+[
+  {
+    "id": "stracciatella",
+    "name": {
+      "uk": "Stracciatella",
+      "en": "Stracciatella"
+    },
+    "ingredients": {
+      "uk": "Сальса, чері, орегано, оливкова олія, листя шпинату, страчателла, на вибір анчоуси або прошуто крудо",
+      "en": "Salsa, cherry tomatoes, oregano, olive oil, spinach leaves, stracciatella cheese, choice of anchovies or prosciutto crudo"
+    },
+    "price": { "30": 310, "45": 450, "60": 590 },
+    "image": "stracciatella.jpg",
+    "tags": []
+  },
+  {
+    "id": "ferara",
+    "name": {
+      "uk": "Ферара",
+      "en": "Ferara"
+    },
+    "ingredients": {
+      "uk": "Пармське в'ялене м'ясо, моцарела, помодоріні, шампіньйони гриль, нитки чілі, пеперончіно сушене",
+      "en": "Parma cured meat, mozzarella, pomodorini, grilled champignons, chili threads, dried peperoncino"
+    },
+    "price": { "30": 290, "45": 420, "60": 550 },
+    "image": "ferara.jpg",
+    "tags": []
+  },
+  {
+    "id": "margherita",
+    "name": {
+      "uk": "Маргеріта",
+      "en": "Margherita"
+    },
+    "ingredients": {
+      "uk": "Моцарела, базилік, оливкова олія",
+      "en": "Mozzarella, basil, olive oil"
+    },
+    "price": { "30": 185, "45": 270, "60": 350 },
+    "image": "margherita.jpg",
+    "tags": ["recommended"]
+  },
+  {
+    "id": "fantasia",
+    "name": {
+      "uk": "Фантазія",
+      "en": "Fantasia"
+    },
+    "ingredients": {
+      "uk": "Моцарела, сосиски, картопля фрі",
+      "en": "Mozzarella, sausages, french fries"
+    },
+    "price": { "30": 225, "45": 325, "60": 430 },
+    "image": "fantasia.jpg",
+    "tags": []
+  },
+  {
+    "id": "diavola",
+    "name": {
+      "uk": "Д'явола",
+      "en": "Diavola"
+    },
+    "ingredients": {
+      "uk": "Моцарела, паприка, салямі, базилік, оливкова олія",
+      "en": "Mozzarella, paprika, salami, basil, olive oil"
+    },
+    "price": { "30": 225, "45": 325, "60": 430 },
+    "image": "diavola.jpg",
+    "tags": ["spicy"]
+  },
+  {
+    "id": "seba",
+    "name": {
+      "uk": "Себа",
+      "en": "Seba"
+    },
+    "ingredients": {
+      "uk": "Моцарела, підчеревина, цибуля, кукурудза",
+      "en": "Mozzarella, pork belly, onion, corn"
+    },
+    "price": { "30": 225, "45": 325, "60": 430 },
+    "image": "seba.jpg",
+    "tags": []
+  },
+  {
+    "id": "pollo",
+    "name": {
+      "uk": "Полло",
+      "en": "Pollo"
+    },
+    "ingredients": {
+      "uk": "Курка, кукурудза, моцарела, оливкова олія",
+      "en": "Chicken, corn, mozzarella, olive oil"
+    },
+    "price": { "30": 225, "45": 325, "60": 430 },
+    "image": "pollo.jpg",
+    "tags": []
+  },
+  {
+    "id": "capriciosa",
+    "name": {
+      "uk": "Капрічьоза",
+      "en": "Capriciosa"
+    },
+    "ingredients": {
+      "uk": "Моцарела, шампіньйони, прошутто котто, оливки, артишоки, базилік, оливкова олія",
+      "en": "Mozzarella, champignons, prosciutto cotto, olives, artichokes, basil, olive oil"
+    },
+    "price": { "30": 245, "45": 355, "60": 465 },
+    "image": "capriciosa.jpg",
+    "tags": []
+  },
+  {
+    "id": "contadino",
+    "name": {
+      "uk": "Кoнтадіно",
+      "en": "Contadino"
+    },
+    "ingredients": {
+      "uk": "Моцарела, кабачок, баклажан, солодкий перець, помідори, базилік, оливкова олія",
+      "en": "Mozzarella, zucchini, eggplant, bell pepper, tomatoes, basil, olive oil"
+    },
+    "price": { "30": 255, "45": 370, "60": 485 },
+    "image": "contadino.jpg",
+    "tags": []
+  },
+  {
+    "id": "ricca",
+    "name": {
+      "uk": "Рікка",
+      "en": "Ricca"
+    },
+    "ingredients": {
+      "uk": "Моцарела, курка, шинка, салямі, прошутто котто, базилік, оливкова олія",
+      "en": "Mozzarella, chicken, ham, salami, prosciutto cotto, basil, olive oil"
+    },
+    "price": { "30": 245, "45": 355, "60": 465 },
+    "image": "ricca.jpg",
+    "tags": []
+  },
+  {
+    "id": "saraceno",
+    "name": {
+      "uk": "Сарачено",
+      "en": "Saraceno"
+    },
+    "ingredients": {
+      "uk": "Тунець, моцарела, чорні маслини, кукурудза, рукола, помодоріні",
+      "en": "Tuna, mozzarella, black olives, corn, arugula, pomodorini"
+    },
+    "price": { "30": 265, "45": 385, "60": 505 },
+    "image": "saraceno.jpg",
+    "tags": []
+  },
+  {
+    "id": "calzone",
+    "name": {
+      "uk": "Кальцоне",
+      "en": "Calzone"
+    },
+    "ingredients": {
+      "uk": "Закрита піца: рікотта, моцарела, шампіньйони мариновані, прошутто котто, оливки, кукурудза",
+      "en": "Closed pizza: ricotta, mozzarella, marinated champignons, prosciutto cotto, olives, corn"
+    },
+    "price": { "30": 245, "45": 355, "60": 465 },
+    "image": "calzone.jpg",
+    "tags": []
+  },
+  {
+    "id": "frutti-di-mare",
+    "name": {
+      "uk": "Фрутті ді маре",
+      "en": "Frutti di mare"
+    },
+    "ingredients": {
+      "uk": "Моцарела, креветки, кальмари, лосось, два види мідій",
+      "en": "Mozzarella, shrimp, squid, salmon, two types of mussels"
+    },
+    "price": { "30": 325, "45": 470, "60": 620 },
+    "image": "frutti-di-mare.jpg",
+    "tags": []
+  },
+  {
+    "id": "quattro-staggione",
+    "name": {
+      "uk": "Кватро стаджоні",
+      "en": "Quattro staggione"
+    },
+    "ingredients": {
+      "uk": "Шинка, салямі, прошутто котто, курка, маслини, шампіньйони мариновані, артишоки, кукурудза",
+      "en": "Ham, salami, prosciutto cotto, chicken, olives, marinated champignons, artichokes, corn"
+    },
+    "price": { "30": 255, "45": 370, "60": 485 },
+    "image": "quattro-staggione.jpg",
+    "tags": []
+  },
+  {
+    "id": "schicciata",
+    "name": {
+      "uk": "Ск'яччата",
+      "en": "Schicciata"
+    },
+    "ingredients": {
+      "uk": "Дві основи, сальса з помідорів, шинка, шампіньйони, салямі, маслини, помідори, моцарела",
+      "en": "Double base, tomato salsa, ham, champignons, salami, olives, tomatoes, mozzarella"
+    },
+    "price": { "30": 265, "45": 385, "60": 505 },
+    "image": "schicciata.jpg",
+    "tags": []
+  },
+  {
+    "id": "oliva",
+    "name": {
+      "uk": "Оліва",
+      "en": "Oliva"
+    },
+    "ingredients": {
+      "uk": "Моцарела, салямі, оливки calamati, шампіньйони, перець болгарський, перець маринований пікантний",
+      "en": "Mozzarella, salami, calamata olives, champignons, bell pepper, pickled spicy pepper"
+    },
+    "price": { "30": 285, "45": 415, "60": 540 },
+    "image": "oliva.jpg",
+    "tags": ["spicy"]
+  },
+  {
+    "id": "sancho",
+    "name": {
+      "uk": "Санчо",
+      "en": "Sancho"
+    },
+    "ingredients": {
+      "uk": "Бекон, курка, гострий маринований перець халапеньйо, кукурудза, шампіньйони мариновані, домашні чіпси",
+      "en": "Bacon, chicken, spicy pickled jalapeno pepper, corn, marinated champignons, homemade chips"
+    },
+    "price": { "30": 265, "45": 385, "60": 505 },
+    "image": "sancho.jpg",
+    "tags": ["spicy"]
+  },
+  {
+    "id": "porchetta",
+    "name": {
+      "uk": "Порчетта",
+      "en": "Porchetta"
+    },
+    "ingredients": {
+      "uk": "Моцарела, рвана свинина, бекон, маринована цибуля, халапеньйо",
+      "en": "Mozzarella, pulled pork, bacon, pickled onion, jalapeno"
+    },
+    "price": { "30": 285, "45": 415, "60": 540 },
+    "image": "porchetta.jpg",
+    "tags": ["spicy", "recommended"]
+  },
+  {
+    "id": "vitello",
+    "name": {
+      "uk": "Vitello",
+      "en": "Vitello"
+    },
+    "ingredients": {
+      "uk": "Вершкова основа, моцарела, базилік, телятина, свіжі шампіньйони, орегано, оливкова олія, помодоріні",
+      "en": "Cream base, mozzarella, basil, veal, fresh champignons, oregano, olive oil, pomodorini"
+    },
+    "price": { "30": 285, "45": 415, "60": 540 },
+    "image": "vitello.jpg",
+    "tags": []
+  },
+  {
+    "id": "anetta",
+    "name": {
+      "uk": "Анетта",
+      "en": "Anetta"
+    },
+    "ingredients": {
+      "uk": "Вершкова основа, моцарела, бекон, камамбер, малина",
+      "en": "Cream base, mozzarella, bacon, camembert, raspberries"
+    },
+    "price": { "30": 255, "45": 370, "60": 485 },
+    "image": "anetta.jpg",
+    "tags": []
+  },
+  {
+    "id": "chorizo",
+    "name": {
+      "uk": "Чорізо",
+      "en": "Chorizo"
+    },
+    "ingredients": {
+      "uk": "Вершкова основа, моцарела, салямі чорізо, свіжі шампіньйони",
+      "en": "Cream base, mozzarella, chorizo salami, fresh champignons"
+    },
+    "price": { "30": 245, "45": 355, "60": 465 },
+    "image": "chorizo.jpg",
+    "tags": ["spicy"]
+  },
+  {
+    "id": "funghi-cipolla",
+    "name": {
+      "uk": "Funghi cipolla",
+      "en": "Funghi cipolla"
+    },
+    "ingredients": {
+      "uk": "Моцарела, вершки, грибний соус з 3 видів грибів, свіжі шампіньйони, петрушка, оливкова олія, карамелізована цибуля, цибуля кріспі",
+      "en": "Mozzarella, cream, mushroom sauce from 3 types of mushrooms, fresh champignons, parsley, olive oil, caramelized onion, crispy onion"
+    },
+    "price": { "30": 250, "45": 365, "60": 475 },
+    "image": "funghi-cipolla.jpg",
+    "tags": []
+  },
+  {
+    "id": "verona",
+    "name": {
+      "uk": "Верона",
+      "en": "Verona"
+    },
+    "ingredients": {
+      "uk": "Моцарела, шпинатна основа, лосось, чері, броколі",
+      "en": "Mozzarella, spinach base, salmon, cherry tomatoes, broccoli"
+    },
+    "price": { "30": 315, "45": 455, "60": 600 },
+    "image": "verona.jpg",
+    "tags": []
+  },
+  {
+    "id": "molfetta",
+    "name": {
+      "uk": "Мольфетта",
+      "en": "Molfetta"
+    },
+    "ingredients": {
+      "uk": "Сир моцарела, мортаделла, бейбі моцарела кульками, фісташка, базилік",
+      "en": "Mozzarella cheese, mortadella, baby mozzarella balls, pistachios, basil"
+    },
+    "price": { "30": 285, "45": 415, "60": 540 },
+    "image": "molfetta.jpg",
+    "tags": ["recommended"]
+  },
+  {
+    "id": "quattro-formaggi",
+    "name": {
+      "uk": "Куатро формаджі",
+      "en": "Quattro formaggi"
+    },
+    "ingredients": {
+      "uk": "Чотири види італійського сиру, базилік, оливкова олія",
+      "en": "Four types of Italian cheese, basil, olive oil"
+    },
+    "price": { "30": 265, "45": 385, "60": 505 },
+    "image": "quattro-formaggi.jpg",
+    "tags": []
+  },
+  {
+    "id": "daniel",
+    "name": {
+      "uk": "Даніель",
+      "en": "Daniel"
+    },
+    "ingredients": {
+      "uk": "Моцарела, креветки, лосось, базилік",
+      "en": "Mozzarella, shrimp, salmon, basil"
+    },
+    "price": { "30": 300, "45": 435, "60": 570 },
+    "image": "daniel.jpg",
+    "tags": []
+  },
+  {
+    "id": "tonno-cipolla",
+    "name": {
+      "uk": "Тонно чіпола",
+      "en": "Tonno cipolla"
+    },
+    "ingredients": {
+      "uk": "Тунець, цибуля, моцарелла, оливкова олія",
+      "en": "Tuna, onion, mozzarella, olive oil"
+    },
+    "price": { "30": 255, "45": 370, "60": 485 },
+    "image": "tonno-cipolla.jpg",
+    "tags": []
+  },
+  {
+    "id": "salami",
+    "name": {
+      "uk": "Салямі",
+      "en": "Salami"
+    },
+    "ingredients": {
+      "uk": "Салямі, помідори, моцарела, оливкова олія",
+      "en": "Salami, tomatoes, mozzarella, olive oil"
+    },
+    "price": { "30": 245, "45": 355, "60": 465 },
+    "image": "salami.jpg",
+    "tags": []
+  },
+  {
+    "id": "prosciutto",
+    "name": {
+      "uk": "Прошутто",
+      "en": "Prosciutto"
+    },
+    "ingredients": {
+      "uk": "Моцарела, прошутто котто, кукурудза, маринована в бальзамічному оцеті цибуля",
+      "en": "Mozzarella, prosciutto cotto, corn, onion marinated in balsamic vinegar"
+    },
+    "price": { "30": 235, "45": 340, "60": 445 },
+    "image": "prosciutto.jpg",
+    "tags": []
+  },
+  {
+    "id": "positano",
+    "name": {
+      "uk": "Позітано",
+      "en": "Positano"
+    },
+    "ingredients": {
+      "uk": "Пармське в'ялене м'ясо, моцарела, помодоріні, рукола, сир пармезан",
+      "en": "Parma cured meat, mozzarella, pomodorini, arugula, parmesan cheese"
+    },
+    "price": { "30": 295, "45": 430, "60": 560 },
+    "image": "positano.jpg",
+    "tags": []
+  },
+  {
+    "id": "mortadella",
+    "name": {
+      "uk": "Мортаделла",
+      "en": "Mortadella"
+    },
+    "ingredients": {
+      "uk": "Моцарела, пармезан, мортаделла, шпинат, помодоріні",
+      "en": "Mozzarella, parmesan, mortadella, spinach, pomodorini"
+    },
+    "price": { "30": 285, "45": 415, "60": 540 },
+    "image": "mortadella.jpg",
+    "tags": []
+  },
+  {
+    "id": "luciano",
+    "name": {
+      "uk": "Лучано",
+      "en": "Luciano"
+    },
+    "ingredients": {
+      "uk": "Сир combozola, моцарелла, креветки, манго, пармезан, горіхи, м’ята",
+      "en": "Combozola cheese, mozzarella, shrimp, mango, parmesan, nuts, mint"
+    },
+    "price": { "30": 295, "45": 430, "60": 560 },
+    "image": "luciano.jpg",
+    "tags": []
+  },
+  {
+    "id": "tropea",
+    "name": {
+      "uk": "Тропея",
+      "en": "Tropea"
+    },
+    "ingredients": {
+      "uk": "Курка, маринована цибуля, помодоріні",
+      "en": "Chicken, pickled onion, pomodorini"
+    },
+    "price": { "30": 235, "45": 340, "60": 445 },
+    "image": "tropea.jpg",
+    "tags": []
+  },
+  {
+    "id": "mamma-mia",
+    "name": {
+      "uk": "Мама мія!",
+      "en": "Mamma mia!"
+    },
+    "ingredients": {
+      "uk": "6 видів м'яса: прошуто кото, салямі, шинка, курка, підчеревина, сосиски",
+      "en": "6 types of meat: prosciutto cotto, salami, ham, chicken, pork belly, sausages"
+    },
+    "price": { "30": 265, "45": 385, "60": 505 },
+    "image": "mamma-mia.jpg",
+    "tags": []
+  },
+  {
+    "id": "trufaldino",
+    "name": {
+      "uk": "Трюфальдіно",
+      "en": "Trufaldino"
+    },
+    "ingredients": {
+      "uk": "Королівські креветки та кальмари обсмажені у фритюрі, сир рікота, соус з чорного трюфеля",
+      "en": "King prawns and squid deep-fried, ricotta cheese, black truffle sauce"
+    },
+    "price": { "30": 345, "45": 500, "60": 655 },
+    "image": "trufaldino.jpg",
+    "tags": []
+  }
+]
