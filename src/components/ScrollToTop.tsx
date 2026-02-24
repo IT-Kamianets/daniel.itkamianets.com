@@ -32,11 +32,12 @@ export default function ScrollToTop() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.5 }}
-          whileTap={{ scale: 0.9 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
           onClick={scrollToTop}
-          className="fixed bottom-24 md:bottom-8 right-4 md:right-8 z-50 p-3 rounded-full bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-colors"
+          className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-50 p-2.5 md:p-3 rounded-full bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-colors"
         >
-          <ArrowUp size={24} />
+          <ArrowUp size={20} className="md:w-6 md:h-6" />
         </motion.button>
       )}
     </AnimatePresence>

@@ -33,7 +33,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <img 
-            src="/images/logo/logo.png" 
+            src="images/logo/logo.png" 
             alt="Daniel Pizzeria Logo" 
             className="h-9 md:h-11 w-auto object-contain"
           />
@@ -101,17 +101,21 @@ export default function Header() {
             </span>
           </div>
 
-          <button
+          <motion.button
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
             onClick={toggleLanguage}
-            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-700 transition-colors text-sm font-semibold"
+            className="flex items-center gap-1 md:gap-1.5 px-2.5 py-1 md:px-3.5 md:py-1.5 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-700 transition-colors text-xs md:text-sm font-bold md:font-semibold cursor-pointer"
           >
-            <Globe size={18} />
+            <Globe size={14} className="md:w-[18px] md:h-[18px]" />
             <span className="uppercase">{language}</span>
-          </button>
+          </motion.button>
 
-          <button
+          <motion.button
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
             onClick={toggleTheme}
-            className="relative p-2 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-700 transition-colors overflow-hidden w-10 h-10 flex items-center justify-center"
+            className="relative p-1.5 md:p-2 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-700 transition-colors overflow-hidden w-8 h-8 md:w-10 md:h-10 flex items-center justify-center cursor-pointer"
           >
             <AnimatePresence mode="wait" initial={false}>
               <motion.div
@@ -122,10 +126,10 @@ export default function Header() {
                 transition={{ duration: 0.3, ease: "easeInOut" }}
                 className="absolute"
               >
-                {theme === "dark" ? <Moon size={20} /> : <Sun size={20} />}
+                {theme === "dark" ? <Moon size={16} className="md:w-5 md:h-5" /> : <Sun size={16} className="md:w-5 md:h-5" />}
               </motion.div>
             </AnimatePresence>
-          </button>
+          </motion.button>
         </div>
       </div>
     </header>

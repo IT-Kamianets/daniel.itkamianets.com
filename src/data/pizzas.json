@@ -2,7 +2,7 @@
   {
     "id": "stracciatella",
     "name": {
-      "uk": "Stracciatella",
+      "uk": "Страчателла",
       "en": "Stracciatella"
     },
     "ingredients": {
@@ -254,7 +254,7 @@
   {
     "id": "vitello",
     "name": {
-      "uk": "Vitello",
+      "uk": "Вітелло",
       "en": "Vitello"
     },
     "ingredients": {
@@ -296,7 +296,7 @@
   {
     "id": "funghi-cipolla",
     "name": {
-      "uk": "Funghi cipolla",
+      "uk": "Фунгі чіпола",
       "en": "Funghi cipolla"
     },
     "ingredients": {

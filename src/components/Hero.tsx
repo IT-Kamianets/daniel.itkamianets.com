@@ -47,28 +47,34 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4"
         >
-          <a
+          <motion.a
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
             href="#menu"
-            className="group flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg transition-all hover:scale-105"
+            className="group flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg transition-colors cursor-pointer"
           >
             {t("viewMenu")}
             <ChevronRight
               size={20}
               className="group-hover:translate-x-1 transition-transform"
             />
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
             href="#booking"
-            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg transition-all hover:scale-105"
+            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg transition-colors cursor-pointer"
           >
             {t("bookTable")}
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
             href="#delivery"
-            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg transition-all hover:scale-105"
+            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg transition-colors cursor-pointer"
           >
             {t("deliveryBtn")}
-          </a>
+          </motion.a>
         </motion.div>
       </div>
 

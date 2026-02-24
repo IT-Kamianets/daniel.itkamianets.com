@@ -16,7 +16,7 @@ export default function InteractiveMenu() {
   const { addToCart } = useCart();
   const [activePizza, setActivePizza] = useState(pizzasData[0]);
   const [activeSize, setActiveSize] = useState(sizes[0]);
-  const [showToast, setShowToast] = useState(false);
+  const [toasts, setToasts] = useState<{ id: number; message: string }[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [likedPizzas, setLikedPizzas] = useState<Set<string>>(new Set());
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
@@ -53,22 +53,27 @@ export default function InteractiveMenu() {
     });
   };
 
-  const handleAddToCart = (e: React.MouseEvent) => {
+  const removeToast = (id: number) => {
+    setToasts((prev) => prev.filter((toast) => toast.id !== id));
+  };
+
+  const handleAddToCart = (e: React.MouseEvent, pizza: any) => {
     e.stopPropagation();
     
     // @ts-ignore
-    const price = activePizza.price[activeSize.id];
+    const price = pizza.price[activeSize.id];
     
     addToCart({
-      id: activePizza.id,
-      nameKey: activePizza.name[language], // Storing the translated name directly for now, or key if we had one
+      id: pizza.id,
+      nameKey: pizza.name[language],
       price: price,
       size: activeSize.id,
-      image: `/images/pizzas/${activePizza.image}`
+      image: `images/pizzas/${pizza.image}`
     });
 
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 3000);
+    const id = Date.now();
+    setToasts((prev) => [...prev, { id, message: t("addedToCart") }]);
+    setTimeout(() => removeToast(id), 2000);
   };
 
   return (
@@ -76,20 +81,24 @@ export default function InteractiveMenu() {
       id="menu"
       className="py-10 md:py-16 bg-white dark:bg-zinc-950 overflow-hidden relative"
     >
-      {/* Toast Notification - Top Center */}
-      <AnimatePresence>
-        {showToast && (
-          <motion.div
-            initial={{ opacity: 0, y: -50, x: "-50%" }}
-            animate={{ opacity: 1, y: 0, x: "-50%" }}
-            exit={{ opacity: 0, y: -50, x: "-50%" }}
-            className="fixed top-20 left-1/2 z-50 flex items-center gap-2 bg-emerald-500 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-2xl font-medium text-sm md:text-base"
-          >
-            <Check size={18} />
-            {t("addedToCart")}
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* Stacked Toast Notifications - Top Center */}
+      <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 pointer-events-none">
+        <AnimatePresence>
+          {toasts.map((toast) => (
+            <motion.div
+              key={toast.id}
+              initial={{ opacity: 0, y: -20, scale: 0.8 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.2 } }}
+              layout
+              className="flex items-center gap-2 bg-emerald-500 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-2xl font-medium text-sm md:text-base whitespace-nowrap"
+            >
+              <Check size={18} />
+              {toast.message}
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -122,7 +131,7 @@ export default function InteractiveMenu() {
                 className="relative z-20 w-[240px] h-[240px] md:w-[300px] md:h-[300px] lg:w-[450px] lg:h-[450px]"
               >
                 <img
-                  src={`/images/pizzas/${activePizza.image}`}
+                  src={`images/pizzas/${activePizza.image}`}
                   alt={activePizza.name[language]}
                   className="w-full h-full object-cover rounded-full shadow-2xl border-4 border-white/10"
                   onError={(e) => {
@@ -140,17 +149,19 @@ export default function InteractiveMenu() {
             <div className="flex flex-col gap-4 mb-6">
               <div className="flex justify-center lg:justify-start gap-2">
                 {sizes.map((size) => (
-                  <button
+                  <motion.button
                     key={size.id}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
                     onClick={() => setActiveSize(size)}
-                    className={`px-4 py-1.5 md:px-6 md:py-2 rounded-full text-xs md:text-sm font-bold transition-all ${
+                    className={`px-4 py-1.5 md:px-6 md:py-2 rounded-full text-xs md:text-sm font-bold transition-colors cursor-pointer ${
                       activeSize.id === size.id
                         ? "bg-orange-500 text-white shadow-lg shadow-orange-500/30"
                         : "bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-300 dark:hover:bg-zinc-700"
                     }`}
                   >
                     {t(size.labelKey as any)}
-                  </button>
+                  </motion.button>
                 ))}
               </div>
 
@@ -166,9 +177,11 @@ export default function InteractiveMenu() {
                     className="w-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl pl-10 pr-4 py-2.5 text-sm md:text-base text-zinc-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all"
                   />
                 </div>
-                <button
+                <motion.button
+                  whileTap={{ scale: 0.95 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
-                  className={`p-2.5 rounded-xl border transition-all ${
+                  className={`p-2.5 rounded-xl border transition-colors cursor-pointer ${
                     showFavoritesOnly
                       ? "bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800 text-red-500"
                       : "bg-zinc-100 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-400 hover:text-red-500"
@@ -176,7 +189,7 @@ export default function InteractiveMenu() {
                   title={t("favorites")}
                 >
                   <Heart size={20} fill={showFavoritesOnly ? "currentColor" : "none"} />
-                </button>
+                </motion.button>
               </div>
             </div>
 
@@ -220,26 +233,26 @@ export default function InteractiveMenu() {
                             {price} {t("currency")}
                           </span>
                           <div className="flex items-center gap-2">
-                            <button
+                            <motion.button
+                              whileTap={{ scale: 0.95 }}
+                              transition={{ type: "spring", stiffness: 400, damping: 17 }}
                               onClick={(e) => toggleLike(e, pizza.id)}
-                              className={`p-1.5 rounded-full transition-all ${
+                              className={`p-1.5 rounded-full transition-colors cursor-pointer ${
                                 isLiked
                                   ? "text-red-500 bg-red-50 dark:bg-red-900/20"
                                   : "text-zinc-400 hover:text-red-500 hover:bg-zinc-200 dark:hover:bg-zinc-800"
                               }`}
                             >
                               <Heart size={16} fill={isLiked ? "currentColor" : "none"} />
-                            </button>
-                            <button
-                              onClick={handleAddToCart}
-                              className={`p-1.5 rounded-full transition-all ${
-                                isActive
-                                  ? "bg-orange-500 text-white hover:bg-orange-600 shadow-md shadow-orange-500/30"
-                                  : "bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-orange-500 hover:text-white"
-                              }`}
+                            </motion.button>
+                            <motion.button
+                              whileTap={{ scale: 0.95 }}
+                              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                              onClick={(e) => handleAddToCart(e, pizza)}
+                              className="p-1.5 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-orange-500 hover:text-white transition-colors shadow-sm hover:shadow-orange-500/30 cursor-pointer"
                             >
                               <Plus size={16} />
-                            </button>
+                            </motion.button>
                           </div>
                         </div>
                       </div>

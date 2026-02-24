@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer
       id="contacts"
-      className="bg-zinc-950 text-zinc-300 py-8 md:py-12 border-t border-zinc-900"
+      className="bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-300 py-8 md:py-12 border-t border-zinc-200 dark:border-zinc-900 transition-colors duration-300"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8">
@@ -23,31 +23,33 @@ export default function Footer() {
                 Daniel Pizzeria
               </div>
             </div>
-            <p className="text-xs md:text-sm text-zinc-400">{t("heroSubtitle")}</p>
+            <p className="text-xs md:text-sm text-zinc-500 dark:text-zinc-400">
+              {t("heroSubtitle")}
+            </p>
           </div>
 
           {/* Contacts */}
           <div className="space-y-2 md:space-y-3">
-            <h4 className="text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm">
+            <h4 className="text-zinc-900 dark:text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
               {t("contacts")}
             </h4>
             <a
               href="tel:+380507232362"
-              className="flex items-center gap-3 hover:text-orange-500 transition-colors text-sm py-1"
+              className="flex items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1"
             >
               <Phone size={16} className="text-orange-500" />
               <span>+380 50 723 2362</span>
             </a>
             <a
               href="tel:+380686080028"
-              className="flex items-center gap-3 hover:text-orange-500 transition-colors text-sm py-1"
+              className="flex items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1"
             >
               <Phone size={16} className="text-orange-500" />
               <span>+380 68 608 0028</span>
             </a>
             <a
               href="mailto:daniel.big.family@gmail.com"
-              className="flex items-center gap-3 hover:text-orange-500 transition-colors text-sm py-1"
+              className="flex items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1"
             >
               <Mail size={16} className="text-orange-500" />
               <span>daniel.big.family@gmail.com</span>
@@ -56,7 +58,7 @@ export default function Footer() {
 
           {/* Location */}
           <div className="space-y-2 md:space-y-3">
-            <h4 className="text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm">
+            <h4 className="text-zinc-900 dark:text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
               {t("location")}
             </h4>
             <div className="flex items-start gap-3 text-sm">
@@ -70,15 +72,15 @@ export default function Footer() {
           </div>
 
           {/* Social */}
-          <div className="space-y-2 md:space-y-3">
-            <h4 className="text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm">
+          <div className="flex flex-col items-start space-y-2 md:space-y-3">
+            <h4 className="text-zinc-900 dark:text-white font-semibold mb-2 md:mb-3 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
               {t("social")}
             </h4>
             <a
               href="https://www.instagram.com/p/Csg_JMetbqI/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 hover:text-orange-500 transition-colors text-sm py-1.5 px-2 -ml-2 rounded-lg hover:bg-zinc-900"
+              className="flex w-fit items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1.5 rounded-lg"
             >
               <Instagram size={16} className="text-orange-500" />
               <span>Instagram</span>
@@ -87,7 +89,7 @@ export default function Footer() {
               href="https://www.facebook.com/p/%D0%94%D0%B0%D0%BD%D1%96%D0%B5%D0%BB%D1%8C-%D0%9A%D0%B0%D0%BC%D1%8F%D0%BD%D0%B5%D1%86%D1%8C-%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-100068689121934/?locale=uk_UA"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 hover:text-orange-500 transition-colors text-sm py-1.5 px-2 -ml-2 rounded-lg hover:bg-zinc-900"
+              className="flex w-fit items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1.5 rounded-lg"
             >
               <Facebook size={16} className="text-orange-500" />
               <span>Facebook</span>
@@ -96,20 +98,19 @@ export default function Footer() {
         </div>
 
         {/* Map */}
-        <div className="w-full h-48 md:h-64 rounded-xl md:rounded-2xl overflow-hidden border border-zinc-800 mb-6 md:mb-8">
+        <div className="w-full h-48 md:h-64 rounded-xl md:rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 mb-6 md:mb-8 transition-colors duration-300">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.550678877145!2d26.57139881567401!3d48.67582967927063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733b7001476d05f%3A0x8e5f8f8f8f8f8f8f!2sPizzeria%20Daniel!5e0!3m2!1suk!2sua!4v1620000000000!5m2!1suk!2sua"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
+            src="https://maps.google.com/maps?q=Піцерія+Даніель,+Кам'янець-Подільський&hl=uk&z=16&output=embed"
+            className="w-full h-full border-0 transition-all duration-300 dark:[filter:grayscale(1)_invert(0.9)_contrast(1.2)]"
             allowFullScreen={false}
             loading="lazy"
-            title="Google Maps Location"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Pizzeria Daniel Location"
           ></iframe>
         </div>
 
-        <div className="text-center text-[10px] md:text-xs text-zinc-600 pt-6 border-t border-zinc-900">
-          © {new Date().getFullYear()} Pizzeria Daniel. All rights reserved.
+        <div className="text-center text-[10px] md:text-xs text-zinc-500 dark:text-zinc-600 pt-6 border-t border-zinc-200 dark:border-zinc-900 transition-colors duration-300">
+          © {new Date().getFullYear()} Pizzeria Daniel. {t("allRightsReserved")}
         </div>
       </div>
     </footer>
