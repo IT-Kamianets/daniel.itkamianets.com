@@ -125,9 +125,11 @@ export default function DeliveryFlow() {
                               <h4 className="font-bold text-xs md:text-base text-zinc-900 dark:text-white leading-tight">
                                 {item.nameKey}
                               </h4>
-                              <p className="text-[10px] md:text-xs text-zinc-500">
-                                {item.size} cm
-                              </p>
+                              {item.size && (
+                                <p className="text-[10px] md:text-xs text-zinc-500">
+                                  {item.size} cm
+                                </p>
+                              )}
                             </div>
                           </div>
                           
