@@ -1,6 +1,6 @@
 export const translations = {
   uk: {
-    heroTitle: "Справжня Неаполітанська Піца",
+    heroTitle: "Найкраща піца на дровах, паста, суші та багато іншого",
     heroSubtitle: "Піцерія «Даніель» - серце Італії в Кам'янці-Подільському",
     viewMenu: "Дивитись Меню",
     bookTable: "Забронювати Стіл",
@@ -78,7 +78,7 @@ export const translations = {
     priceByWeight: "Ціна за вагу",
   },
   en: {
-    heroTitle: "Authentic Neapolitan Pizza",
+    heroTitle: "The best wood-fired pizza, pasta, sushi, and much more",
     heroSubtitle:
       "Pizzeria 'Daniel' - the heart of Italy in Kamianets-Podilskyi",
     viewMenu: "View Menu",
