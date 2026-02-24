@@ -1,0 +1,2690 @@
+{
+  "categories": [
+    {
+      "name": "САЛАТИ",
+      "products": [
+        {
+          "slug": "insalata-di-barbabietole",
+          "title": "Insalata di Barbabietole",
+          "price": 235,
+          "description": "Салат Барбабіетоле з сувідованого буряка з страчателлою: Буряк, оливкова олія, шпинат, рукола, страчателла, соус vinigret, мигдальні пластівці, кедровий горіх, фісташка Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_G-Y-F.jpeg"
+        },
+        {
+          "slug": "insalata-di-panzanella",
+          "title": "Insalata di Panzanella",
+          "price": 245,
+          "description": "Панцанелла - тосканський салат: Грінки домашнього хліба, помідоріні, печений маринований перець, оливки, каперси, оливкова олія, маринована червона цибуля, базилік, анчоуси. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZwFOUHE-DPSGznE-aFLzQcG_y-D-I.jpeg"
+        },
+        {
+          "slug": "posa-posa",
+          "title": "Posa-posa",
+          "price": 265,
+          "description": "Поза-поза (креветки обсмажені, мікс салату, помідоріні, порей, пармезан, кунжут, соус з оливкової олії, амереканської гірчиці та винного оцту)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tIizGnY-kxUJdDd-qesIRSZ_A-u-C.jpeg"
+        },
+        {
+          "slug": "tutto",
+          "title": "Tutto",
+          "price": 0,
+          "description": "з Королівськими креветками - 285 грн з Лососем слабосоленим - 285 грн з Куркою - 255 грн Тутто (перець болгарський, мікс салатів, пармезан, перепелине яйце, стручкова квасоля, крутони, конжут, соус на вершковій основі) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_lxhHfTj-hzNXIDe-kBlgWZq_U-F-F.jpeg"
+        },
+        {
+          "slug": "gourmet",
+          "title": "Gourmet",
+          "price": 0,
+          "description": "з Кармелізованою куркою - 255 грн з Королівськими креветками - 285 грн з Лососем слабосоленим - 285 грн Гурме (сир рамзес, сир камамбер, мікс салату, помідоріні, ніжне сирне rafaello, кедрові горіхи, мангово-апельсиновий соус) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_MgLBGeK-DskgfBO-lScHHDj_y-y-E.jpeg"
+        },
+        {
+          "slug": "caprese",
+          "title": "Caprese",
+          "price": 0,
+          "description": "з Вʼяленим мʼясом - 265 грн з Лососем слабосоленим - 265 грн Класичне - 235 грн Капрезе (моцарела, помідоріні, рукола, песто, пармезан) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_iFowOej-jGUIOYK-tdZhDbw_d-d-w.jpeg"
+        },
+        {
+          "slug": "tagliata",
+          "title": "Tagliata",
+          "price": 265,
+          "description": "Tальята (телятина обсмажена на сковороді з помодоріні, мікс салатів, сир пармезан, горіхи, соус для заправки insalata)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DlGFjnl-lrDeYHI-geLqTks_f-J-L.jpeg"
+        },
+        {
+          "slug": "campania",
+          "title": "Campania",
+          "price": 265,
+          "description": "Кампанія (мікс салатів, моцарелла бейбі, тунець консервований, кукурудза, оливки, помодоріні, перепелині яйця, соус інсалата)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_LeHBMds-vXGDDOr-hOcplKV_w-J-a.jpeg"
+        },
+        {
+          "slug": "insalata-alla-griglia",
+          "title": "Insalata alla Griglia",
+          "price": 215,
+          "description": "Овочі гриль, мікс салту, помідоріні. Заправка: Оливкова олія, соєвий соус, лимоний сік, гірчиця, зелень.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_blbYi-OkDyD-vpwPB.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ГАСТРОНОМІЯ",
+      "products": [
+        {
+          "slug": "pomodori-secchi",
+          "title": "Pomodori secchi",
+          "price": 100,
+          "description": "В’ялені помідори",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DFHoMMR-yAzScsR-DXJVUEZ_I-l-x.jpeg"
+        },
+        {
+          "slug": "formaggi",
+          "title": "Formaggi",
+          "price": 160,
+          "description": "Різні види сирів",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CDLxLbB-UHYUWon-TIaJqIH_v-e-k.jpeg"
+        },
+        {
+          "slug": "salumi",
+          "title": "Salumi",
+          "price": 185,
+          "description": "Сиро-в'ялені м'ясні вироби",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_dHZOlGe-crOILJs-IDJOJjG_D-H-e.jpeg"
+        },
+        {
+          "slug": "olive",
+          "title": "Olive",
+          "price": 100,
+          "description": "Оливки",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_URHzICc-NzBkupI-uJREUFG_j-N-E.jpeg"
+        },
+        {
+          "slug": "prosciutto-grudo",
+          "title": "Prosciutto Grudo",
+          "price": 185,
+          "description": "Прошутто грудо (Пармське в'ялене м'ясо)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JWwMhjR-ZVZVvTI-WFYWCIJ_F-i-P.jpeg"
+        },
+        {
+          "slug": "copacollo",
+          "title": "Copacollo",
+          "price": 120,
+          "description": "традиційна італійська м'ясна нарізка зі свинини. Ціна вказана за 100г",
+          "image": ""
+        },
+        {
+          "slug": "salami-chorizo",
+          "title": "Salami Chorizo",
+          "price": 150,
+          "description": "Салямі чорізо",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QTHwxgq-FGkekYs-DYHeGGy_S-r-V.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ЗАКУСКИ",
+      "products": [
+        {
+          "slug": "pomodori-all-aglio-al-forno",
+          "title": "Pomodori all'aglio al forno",
+          "price": 235,
+          "description": "Запечені помідори чері з часником конфі і пряною олією з травами, подається з сиром Страчателла, базиліком та грінками з печі.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_kKDejdw-YihjfGj-kgwFJba_x-C-J.jpeg"
+        },
+        {
+          "slug": "bruschette",
+          "title": "Bruschette",
+          "price": 0,
+          "description": "Брускетте (3 шт)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_uHNSHRJ-crJTDnl-dVrGeAC_w-O-H.jpeg"
+        },
+        {
+          "slug": "carpaccio-di-vitello",
+          "title": "Carpaccio di vitello",
+          "price": 255,
+          "description": "Карпаччо ді вітелло (тонкі слайси промаринованої сирої яловичини з часником і пармезаном, каперсам, руколою під соусом «vinaigrette»)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ikEIKPl-DVixeHJ-KshwDxv_S-l-b.jpeg"
+        },
+        {
+          "slug": "carpaccio-di-salmone",
+          "title": "Carpaccio di salmone",
+          "price": 255,
+          "description": "Карпаччо ді сальмоне (тонкі слайси промаринованого лосося з часником і пармезаном, каперсами, руколою під соусом «vinaigrette»)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tNDcKBT-ReLsmRG-CArPIeT_I-Y-e.jpeg"
+        },
+        {
+          "slug": "cozze",
+          "title": "Cozze",
+          "price": 265,
+          "description": "Коци (мідії тушковані у власному соці з додаванням помідорів, вершків, спецій, часника та зелені)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_pJtiRVy-EYbHWmS-FZDREdH_l-w-X.jpeg"
+        },
+        {
+          "slug": "ali-di-pollo-563",
+          "title": "Ali di pollo",
+          "price": 235,
+          "description": "Курячі крильця в хрусткій паніровці, подаються заправлені пікантним, медово-гірчичним соусом. 5-6 шт на порцію Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_WCwNOCI-DtfqNex-RoGcgJP_i-F-d.jpeg"
+        },
+        {
+          "slug": "set-degustazione",
+          "title": "Set degustazione",
+          "price": 800,
+          "description": "Сет дегустаційний (салямі: Чорізо, Мілано, прошуто грудо, пармезан, Рамзес, Дорблю, Брі, в'ялені помідори, маринований перець гострий, фокача, мед, соус вершково-часниковий, соус помідоровий) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_leRewPe-ljtPkmi-jKDIaRj_l-H-B.jpeg"
+        },
+        {
+          "slug": "bolognese-con-focaccia",
+          "title": "Bolognese con focaccia",
+          "price": 225,
+          "description": "Пікантний соус болоньєзе в поєднанні з фокачою.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_cWINGcF-FqiCIAU-xqtVFZH_F-m-H.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-piccante-647",
+          "title": "Misto di frittura Piccante",
+          "price": 510,
+          "description": "Батат, сирні нагетси з перцем, нагетси халапеньйо, курячі крильця, соус часниковий, соус кисло солодкий чіллі",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UFWPdIC-BvHaiHc-vbiaQfI_y-z-Z.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura",
+          "title": "Misto di frittura",
+          "price": 290,
+          "description": "Мікс фрі (картопля фрі, нагетси, домашні чипси, картопляне кроке, два соуси)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KIrdGTm-MFtGCwd-beOBEAh_k-R-o.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-vip",
+          "title": "Misto di frittura VIP",
+          "price": 590,
+          "description": "Мікс фрі VIP (кальмари фрі, креветки фрі, лосось фрі, домашні чіпси, соус часниковий, соус помідоровий)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JlIqTWQ-epwjqsv-lkvBdcv_k-q-u.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-mega-hit",
+          "title": "Misto di frittura Mega Hit",
+          "price": 750,
+          "description": "Курячі нагитси, картопля фрі, тартилья, картопляні кроке, равіолі Болоньєзе, курячі крильця, картопля дольками, соус Bianco. BBQ, соус Picante",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UCLZUyO-ZdMJcor-ipJHVOc_q-t-t.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-premium",
+          "title": "Misto di frittura Premium",
+          "price": 900,
+          "description": "Кальмари, креветки тигрові, мідії, лосось, креветочні чіпси, сурімі 4шт, соус Кисло солодкий чілі, соус Bianco, соус Pomodoro.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tYzGQUn-foXFDri-cSEApLG_e-b-B.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "СУПИ",
+      "products": [
+        {
+          "slug": "stracciatella",
+          "title": "Stracciatella",
+          "price": 135,
+          "description": "Страчателла (куряче м'ясо, макарони, овочі блендеровані, яйце, сир пармезан)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_elFFNGD-cGtOmaM-DYhojVI_B-K-C.jpeg"
+        },
+        {
+          "slug": "zuppa-di-formaggi",
+          "title": "Zuppa di formaggi",
+          "price": 140,
+          "description": "Зуппа ді формаджі - крем-суп (мікс італійських сирів, картопля, цибуля, морква, оливкова олія, біле сухе вино, грінки)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_orlxYLA-MLbTuGR-GVhZyFk_Z-K-b.jpeg"
+        },
+        {
+          "slug": "zuppa-di-fungi",
+          "title": "Zuppa di fungi",
+          "price": 150,
+          "description": "Зуппа ді фунгі (крем-суп сирно-грибний, чіпси)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FFIeuza-zlnkkQM-ebsAwCl_v-N-W.jpeg"
+        },
+        {
+          "slug": "brodo-di-pollo-con-tortellini",
+          "title": "Brodo di pollo con tortellini",
+          "price": 150,
+          "description": "Курячий бульйон з овочами і тортельні начинені індиком. На вибір може бути пікантний уточнюємо у офіціанта",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_zpFFI-OKbYF-ezpez.jpeg"
+        },
+        {
+          "slug": "hlib-vlasnoyi-vipichki",
+          "title": "Хліб власної випічки",
+          "price": 6,
+          "description": "(1 скибка)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tkPpXRS-kkjbkgS-vHlgibu_J-k-N.jpeg"
+        },
+        {
+          "slug": "focaccia",
+          "title": "Focaccia",
+          "price": 60,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vukGlea-RTWenle-ToktVLd_z-d-O.jpeg"
+        },
+        {
+          "slug": "focaccia-con-parmigiano",
+          "title": "Focaccia con parmigiano",
+          "price": 80,
+          "description": "Фокача з пармезаном",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_gIpFKJJ-fBggoMZ-TcQlIuX_P-u-E.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ФРІ",
+      "products": [
+        {
+          "slug": "patatine",
+          "title": "Patatine",
+          "price": 100,
+          "description": "Картопля фрі",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JJgoxTn-uxVvdMJ-IpqJFzd_k-P-n.jpeg"
+        },
+        {
+          "slug": "patatine-fritte-dolci",
+          "title": "Patatine fritte dolci",
+          "price": 140,
+          "description": "Картопля фрі з батату",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_rEDODhS-KCfWaVI-JVfTAbC_P-f-b.jpeg"
+        },
+        {
+          "slug": "bastoncini-di-formaggio-fritti",
+          "title": "Bastoncini di formaggio fritti",
+          "price": 175,
+          "description": "Сирні палички з моцарели у хрусткій паніровці, обсмажені до золотистої скоринки.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_YvDqySE-SVHfGZX-PRmtIwh_m-W-J.jpeg"
+        },
+        {
+          "slug": "bocconcini-jalapeno",
+          "title": "Bocconcini Jalapeno",
+          "price": 205,
+          "description": "Нагетси з халапеньо і крем сиром (5 шт на порцію)",
+          "image": ""
+        },
+        {
+          "slug": "bocconcini-di-pollo",
+          "title": "Bocconcini di pollo",
+          "price": 125,
+          "description": "Курячі нагетси",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_egzQIMF-qQcGDZl-aHHoFCL_l-N-b.jpeg"
+        },
+        {
+          "slug": "brie-impanato",
+          "title": "Brie impanato",
+          "price": 200,
+          "description": "Сир Брі в паніровці (5 шт на порцію)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_eTfJFtq-EZibQHJ-CUnjwqG_J-b-k.jpeg"
+        },
+        {
+          "slug": "crocchette-di-patate",
+          "title": "Crocchette di patate",
+          "price": 125,
+          "description": "Картопляні крокети",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DIuPbEv-VkXgJms-pNgxwLw_k-x-C.jpeg"
+        },
+        {
+          "slug": "calamaro",
+          "title": "Calamaro",
+          "price": 235,
+          "description": "Кальмари Ціна за 100г",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_pYIbNWI-JqyWJNM-nmFWCup_t-P-r.jpeg"
+        },
+        {
+          "slug": "gamberetti",
+          "title": "Gamberetti",
+          "price": 255,
+          "description": "Креветки За 100 грам",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_jYFFhzv-lkdFkhH-VfzRENw_v-H-N.jpeg"
+        },
+        {
+          "slug": "tartilla-chips",
+          "title": "Tartilla chips",
+          "price": 80,
+          "description": "Чипси домашні з тартильї",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_yRFtIOu-nfDOZIW-FgcruUE_k-D-V.jpeg"
+        },
+        {
+          "slug": "surimi",
+          "title": "Surimi",
+          "price": 60,
+          "description": "Сурімі - це клешня краба в паніровці. Ціна вказана за 1шт",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OcDVlHD-DUBHIcB-rlfiXsz_F-G-k.jpeg"
+        },
+        {
+          "slug": "marino-chips",
+          "title": "Мarino chips",
+          "price": 80,
+          "description": "Рисові чіпси з морським смаком (50гр)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KFbyqkc-VelDjcn-JcgYcul_y-z-h.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-piccante",
+          "title": "Misto di frittura Piccante",
+          "price": 510,
+          "description": "Батат, сирні нагетси з перцем, нагетси халапеньйо, курячі крильця, соус часниковий, соус кисло солодкий чіллі",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_yCcsUzC-FWcaiYG-rkGDIuC_Q-S-V.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-761",
+          "title": "Misto di frittura",
+          "price": 280,
+          "description": "Мікс фрі (картопля фрі, нагетси, картопляні кроке, домашні чіпси, два соуси)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZbatELN-BUHnkkC-LjRSszz_e-z-Q.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-vip-714",
+          "title": "Misto di frittura VIP",
+          "price": 590,
+          "description": "Мікс фрі VIP — кальмари фрі, креветки фрі, лосось фрі, домашні чіпси, помідоровий соус, часниковий соус.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_XesHxbW-bUAWsHb-zqeAzXX_v-j-h.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-mega-hit-153",
+          "title": "Misto di frittura Mega Hit",
+          "price": 750,
+          "description": "Курячі нагітси, картопля фрі, тартилья, картопляні кроке, равіолі Болоньєзе, курячі крильця, картопля дольками, соус Bianco. BBQ, соус Picante",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_SFyHWmX-duIyWOy-JxhJcNW_F-h-e.jpeg"
+        },
+        {
+          "slug": "misto-di-frittura-premium-200",
+          "title": "Misto di frittura Premium",
+          "price": 900,
+          "description": "Кальмари фрі, креветки тигрові фрі, мідії фрі, лосось фрі, креветочні чіпси, сурімі 4шт, соус кисло солодкий Чілі, соус Bianco, соус Pomodoro",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_EPpwJfU-OSxIMaD-yJkIGAu_I-O-C.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПАСТА РУЧНОЇ РОБОТИ",
+      "products": [
+        {
+          "slug": "ravioli-di-salmone",
+          "title": "Ravioli di Salmone",
+          "price": 255,
+          "description": "Равіолі з лососем під ніжним соусом DorBlue з ікрою Тобіко",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CGvuVPG-bHAWHln-mrUOHCq_K-e-k.jpeg"
+        },
+        {
+          "slug": "gnocchi-al-quattro-formaggi",
+          "title": "Gnocchi al Quattro formaggi",
+          "price": 235,
+          "description": "Ньоккі аль куатро формаджі (італійські палюшки в сирно-вершковому соусі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ecNeenk-BFYebHb-UqHFfbl_T-U-p.jpeg"
+        },
+        {
+          "slug": "gnocchi-di-sorrento",
+          "title": "Gnocchi di Sorrento",
+          "price": 205,
+          "description": "Ньоккі ді Соренто (італійські палюшки в помідоровому соусі з сиром моцарелла)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_dbJVlzb-QxMYtMQ-SdZHzXq_F-U-S.jpeg"
+        },
+        {
+          "slug": "gnocchi-al-forno",
+          "title": "Gnocchi al Forno",
+          "price": 235,
+          "description": "Ньоккі аль Форно (італійські палюшки запечені в печі з соусом бешамель, цибуля, прошутто котто, моцарелою)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_nbMujKY-gLwoJck-VlwNiFU_v-D-k.jpeg"
+        },
+        {
+          "slug": "ravioli",
+          "title": "Ravioli",
+          "price": 235,
+          "description": "Равіолі (домашнє тісто, начинене шпинатом та рікотою, під соусом з грибів)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OXJJtYo-VqpPmdq-KsGxZRe_V-C-f.jpeg"
+        },
+        {
+          "slug": "ravioli-bolognese",
+          "title": "Ravioli Bolognese",
+          "price": 245,
+          "description": "Равіолі болоньєзе (домашнє тісто, начинене болоньєзе, моцарелою з пармезаном, та сальсою з помідорів)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JgaPkeg-yaeJGkF-bIWTlgl_x-M-H.jpeg"
+        },
+        {
+          "slug": "ravioli-al-tacchino",
+          "title": "Ravioli al tacchino",
+          "price": 270,
+          "description": "Равіолі з індиком на бурачаному тісті (домашнє тісто начинене м‘ясом індика та крем-сиром, під соусом з вершків, грибів та молодого горошка)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_Dbslpbn-lHDQGYJ-ylIbIbm_h-C-v.jpeg"
+        },
+        {
+          "slug": "ravioli-dello-chef",
+          "title": "Ravioli dello chef",
+          "price": 325,
+          "description": "Равіолі делло шеф (домашнє тісто начинене кальмарами, креветками, сиром філадельфія, під вершковим соусом та пармезаном)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vlvOEjO-iAvbdbd-HLSRkFw_Z-b-m.jpeg"
+        },
+        {
+          "slug": "lasagna-tradizionale",
+          "title": "Lasagna Tradizionale",
+          "price": 245,
+          "description": "Лазанья Традиціонале (викладена шарами широка паста з начинкою із м’ясного фаршу, помідоровoго соусу, соусу бешамель, сирів моцарела та пармезан)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FvPZcDh-eoSRJls-KVoRrfO_D-D-o.jpeg"
+        },
+        {
+          "slug": "lasagna-con-salmone",
+          "title": "Lasagna con Salmone",
+          "price": 265,
+          "description": "Лазанья з лососем Домашня широка паста, лосось, бешамель, Помідорова сальса, моцарела, пармезан",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_yvaNVeY-BrbVlFZ-eNCiOkB_B-f-i.jpeg"
+        },
+        {
+          "slug": "cannelloni-con-fungi",
+          "title": "Cannelloni con Fungi",
+          "price": 235,
+          "description": "Канелони (Канелони начинені моцарелою, овочами та соусом бешамель та грибним соусом)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_NfUzjMk-lbuewHv-esntTJC_J-d-p.jpeg"
+        },
+        {
+          "slug": "cannelloni-con-gamberetti",
+          "title": "Cannelloni con Gamberetti",
+          "price": 265,
+          "description": "Канелони (Канелони начинені моцарелою, овочами, соусом бешамель та королівськими креветками з вершками)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZepIFrH-oeqItIL-vedDanY_u-t-o.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПАСТА",
+      "products": [
+        {
+          "slug": "pasta-salsicha-e-friarielli",
+          "title": "Pasta Salsicha e Friarielli",
+          "price": 255,
+          "description": "Соковита Сальсіча, Friarielli, часник, пармезан і оливкова олія - у поєднанні з пастою на вибір. Friarielli - це традиційна неаполітанська зелень, схожа на молоді броколі з легкою гірчинкою, та яскравим смаком. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_aJAiDGX-wDmnMpT-xthEqkR_U-d-s.jpeg"
+        },
+        {
+          "slug": "vongole",
+          "title": "Vongole",
+          "price": 265,
+          "description": "Паста з Вонголами: Паста на вибір, мідії Вонголе, очищені мідії, часник, оливкова олія, петрушка, біле вино.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_lWvtLqG-xxJiRFQ-XgrunJM_A-C-i.jpeg"
+        },
+        {
+          "slug": "bascaiola",
+          "title": "Bascaiola",
+          "price": 255,
+          "description": "Паста Лісника: Сальсіча (паста на вибір, ковбаска свинина, цибуля, петрушка, шампінйони, соус з 3 видів грибів, сальса, вершки, пармезан) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_LwbWJzJ-vbJCFlv-SGHhlcf_o-B-W.jpeg"
+        },
+        {
+          "slug": "frutti-di-mare",
+          "title": "Frutti di mare",
+          "price": 365,
+          "description": "Фрутті ді маре (паста на вибір, мікс морепродуктів, помодоріні, часник, рукола, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_VvkklyF-JCIlbVe-ZPRqjBm_d-g-l.jpeg"
+        },
+        {
+          "slug": "formaggi-378",
+          "title": "Formaggi",
+          "price": 225,
+          "description": "Формаджі (паста на вибір, декілька видів італійських сирів, вершки, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_piJVyEn-CqrlAtQ-jzCyHPK_A-P-H.jpeg"
+        },
+        {
+          "slug": "bolognese",
+          "title": "Bolognese",
+          "price": 225,
+          "description": "Болоньєзе (паста на вибір, м’ясний соус bolognese, сир пармезан)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_gorpGCT-CzJhCHY-XewfnDG_h-z-p.jpeg"
+        },
+        {
+          "slug": "carbonara",
+          "title": "Carbonara",
+          "price": 225,
+          "description": "Карбонара (паста на вибір, підчеревина, жовток, вершки, цибуля, пармезан, суміш перців)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vESafVU-XGffqSN-lEreWNb_O-p-d.jpeg"
+        },
+        {
+          "slug": "funghi-e-pollo",
+          "title": "Funghi e pollo",
+          "price": 240,
+          "description": "Фунгі е полло (паста на вибір, курка, стручкова квасоля, бейбі морква, білий соус з грибами)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_GjDThMi-IwgvtxX-ilEgiHJ_e-W-D.jpeg"
+        },
+        {
+          "slug": "leggera-con-stracciatella",
+          "title": "Leggera con stracciatella",
+          "price": 265,
+          "description": "Леджера (паста на вибір, страчателла, помодоріні, шпинат, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CLUClTF-gVDjEqS-DJUjBqy_e-E-p.jpeg"
+        },
+        {
+          "slug": "italiana",
+          "title": "Italiana",
+          "price": 295,
+          "description": "Італьяна (паста на вибір, креветки, кальмари, вершки, пармезан, часникова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fIbkDXJ-tyjCsge-dYyVlBl_y-C-J.jpeg"
+        },
+        {
+          "slug": "tartufo-e-gamberi",
+          "title": "Тartufo e gamberi",
+          "price": 320,
+          "description": "Тартуфо е гамбері (паста на вибір, королівські креветки, пармезан, трюфельна паста, вершки, петрушка)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CIRfDVl-CkdThQT-mmJeBDD_B-v-e.jpeg"
+        },
+        {
+          "slug": "ricco-di-funghi",
+          "title": "Ricco di funghi",
+          "price": 265,
+          "description": "Рікко ді фунгі (три види грибів, пармезан, вершки, цибуля, петрушка)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_LcBshsp-lavMvIV-RdQOlJf_C-f-q.jpeg"
+        },
+        {
+          "slug": "pasta-puttanesca",
+          "title": "Pasta Puttanesca",
+          "price": 220,
+          "description": "Тунець, помідори чері, оливки, оливкова олія",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CVJlkPb-kFZhBqa-DOambSn_r-o-n.jpeg"
+        },
+        {
+          "slug": "arrabiata",
+          "title": "Arrabiata",
+          "price": 205,
+          "description": "Помідорова сальса, пеперончіні гостра, оливкова олія, помідори чері, пармезан",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_zWFwWXD-BCQcICn-UsSgTik_l-p-d.jpeg"
+        },
+        {
+          "slug": "pasta-alla-pizzaiola",
+          "title": "Pasta alla pizzaiola",
+          "price": 275,
+          "description": "Телятина, помідорова сальса або вершки на вибір, пармезан",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_eGYtlfP-tLtkkmF-jehXStJ_k-w-M.jpeg"
+        },
+        {
+          "slug": "pasta-per-bambini",
+          "title": "Pasta per Bambini",
+          "price": 150,
+          "description": "Дитяча паста на маслі з пармезаном.",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "МʼЯСО",
+      "products": [
+        {
+          "slug": "filetto-di-pollo-ripieno",
+          "title": "Filetto di Pollo Ripieno",
+          "price": 310,
+          "description": "Куряче філе начинене: шпинатом, лисичками, цибулею, вяленими помідорами. Подається на подушці сирного соусу, міксу салат та чері, посипається пармезаном",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fUJBDmE-DbJkYSZ-EyCZJdO_L-Q-k.jpeg"
+        },
+        {
+          "slug": "bistecca-di-miale-con-l-osso-za-100g-sirogo-produktu",
+          "title": "Bistecca di miale con l'osso за 100г (сирого продукту)",
+          "price": 120,
+          "description": "Свиний стейк на кістці з сиром рамзес і маринованими Friarielli , подається з стручковою квасолею, міксом салатів і помідоріні, соус bianco.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KfTmz-bnnlI-NHCyz.jpeg"
+        },
+        {
+          "slug": "cosce-di-pollo-alla-griglia-za-100gram-sirogo-produktu",
+          "title": "Cosce di pollo alla griglia за 100грам (сирого продукту)",
+          "price": 95,
+          "description": "Коше ді полло (куряче стегно, очищене від кістки, запечене на грилі зі спеціями та соусом вершково-часниковим)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CXvexbx-HdHdzJe-biXtkrZ_I-J-H.jpeg"
+        },
+        {
+          "slug": "grigliato-di-carne-za-100gram-sirogo-produktu",
+          "title": "Grigliato di carne за 100грам (сирого продукту)",
+          "price": 93,
+          "description": "Грільято ді карне (ошийок зі свинини, свинні ребра, курятина запечені на грилі зі спеціями та двома соусами) (від 1 кг)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_YvkGUGM-HUOjtQl-QxOBobD_d-y-l.jpeg"
+        },
+        {
+          "slug": "costollette-di-maiale-za-100gram-sirogo-produktu",
+          "title": "Costollette di maiale за 100грам (сирого продукту)",
+          "price": 99,
+          "description": "Костолетте ді маяле (ребра свинні в медовому маринаді)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_srHAGbS-alxXEnw-BvXdDbj_m-q-M.jpeg"
+        },
+        {
+          "slug": "salsiccia-alla-griglia-za-300g",
+          "title": "Salsiccia alla griglia за 300г",
+          "price": 295,
+          "description": "Ковбаска Свинна смажена на грилі і запеченна, подається з соусом BBQ, мікс салатом, помідорками чері.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_mFpQgYk-gdDfbON-CHHFjMD_I-M-I.jpeg"
+        },
+        {
+          "slug": "collo-di-maiale-za-100gram-sirogo-produktu",
+          "title": "Collo di maiale за 100грам (сирого продукту)",
+          "price": 100,
+          "description": "Колло ді маяле (ошийок свинний, запечений на грилі, подається з соусом BBQ, міксом салату та помідорами)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FHLGFkD-bPpZHcr-TuPGnXP_H-T-p.jpeg"
+        },
+        {
+          "slug": "filetto-al-pepe-verde-za-100gram-sirogo-produktu",
+          "title": "Filetto al pepe verde за 100грам (сирого продукту)",
+          "price": 160,
+          "description": "Яловичина в вершково-коньячному соусі За замовчуванням прожарка Medium, за бажанням можемо приготувати Ваш улюбений вид прожарки) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_uBeleJv-YytDyLD-bDJnRBy_F-k-d.jpeg"
+        },
+        {
+          "slug": "filetto-al-funghi-za-100gram-sirogo-produktu",
+          "title": "Filetto al funghi за 100грам (сирого продукту)",
+          "price": 170,
+          "description": "Яловичина в грибному соусі (шампіньйони, білі гриби, лисички, вершки, зелень, пармезан) За замовчуванням прожарка Medium, за бажанням можемо приготувати Ваш улюбений вид прожарки) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_VBHDDWH-yBJjGrN-lpaSHEn_D-x-I.jpeg"
+        },
+        {
+          "slug": "scallopina-alla-sorentina",
+          "title": "Scallopina alla sorentina",
+          "price": 265,
+          "description": "Скалопіна ала сорентіна (філе курки приготоване на сковороді з моцарелою, базиліком та помідоровою сальсою)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_gzmeCvf-sdEwGHf-NDfSgCa_s-t-j.jpeg"
+        },
+        {
+          "slug": "scaloppina-al-limone",
+          "title": "Scaloppina al Limone",
+          "price": 265,
+          "description": "Філе курки, приготоване на сковороді, з моцарелою, базиліком та ніжним лимонним соусом.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_XYfbyio-JHqGNqq-aZJAJfV_X-I-c.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "РИБА",
+      "products": [
+        {
+          "slug": "pesce-gatto-al-forno-za-100g-sirogo-produktu",
+          "title": "Pesce gatto al forno за 100г (сирого продукту)",
+          "price": 140,
+          "description": "Африканський сом запечений з глазур'ю унагі. Подається на подушці броколі, стручкової квасолі та горошок і листя шпинату.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_kIgLLEV-JVDKpGq-JyBjCDI_R-H-j.jpeg"
+        },
+        {
+          "slug": "trota-alla-griglia-za-100gram-sirogo-produktu",
+          "title": "Trota alla griglia за 100грам (сирого продукту)",
+          "price": 115,
+          "description": "Трота аля грілья (риба форель, запечена на грилі зі спеціями та соусом)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JWkIpMM-FlWMxVd-xdeecgI_n-g-C.jpeg"
+        },
+        {
+          "slug": "trota-in-crema-di-fungi-za-100gram-sirogo-produktu",
+          "title": "Trota in crema di fungi за 100грам (сирого продукту)",
+          "price": 150,
+          "description": "Трота ін крема ді фунгі (риба форель, запечена у печі з вершками та міксом грибів)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_AejleQJ-SHFMRbU-KOQtUuu_I-e-x.jpeg"
+        },
+        {
+          "slug": "orata-alla-griglia-za-100gram-sirogo-produktu",
+          "title": "Orata alla griglia за 100грам (сирого продукту)",
+          "price": 120,
+          "description": "Ората аля грілья (риба дорадо, запечена на грилі зі спеціями та соусом)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_BTVqFGz-emtOkka-CxNeFoJ_R-Y-h.jpeg"
+        },
+        {
+          "slug": "orata-con-pomodorini-za-100gram-sirogo-produktu",
+          "title": "Orata con pomodorini за 100грам (сирого продукту)",
+          "price": 145,
+          "description": "Риба дорадо, запечена у печі з помідорами чері, каперсами, фокачею та пікантною сальсою)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CWJracc-GnZweOh-RBSensU_F-b-k.jpeg"
+        },
+        {
+          "slug": "salmone-alla-grilia",
+          "title": "Salmone alla grilia",
+          "price": 470,
+          "description": "Сальмоне аля гріля (філе лосося на грилі, який подається з каперсами, овочами гриль та соусом з оливкової олії, бальзамічного оцту та лимона)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_IyrffXD-LvpoIDR-WhsZiBK_R-m-e.jpeg"
+        },
+        {
+          "slug": "salmone-al-limone",
+          "title": "Salmone al limone",
+          "price": 470,
+          "description": "Сальмоне аль лімоне (філе лосося, запечене в печі з лимонним соусом та каперсами, оливками, пармезаном)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fHdnGdn-XrTkLLT-ulFEjcR_z-C-o.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ГАРНІРИ",
+      "products": [
+        {
+          "slug": "patate-gratinate",
+          "title": "Patate gratinate",
+          "price": 155,
+          "description": "Патате гратінате (картопля запечена в печі з цибулею, часником, пармезаном, вершковим соусом, оливковою олією та італійськими травами)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_zjmypxI-wXtyYmg-GkJeMGr_C-R-l.jpeg"
+        },
+        {
+          "slug": "patate-con-pancetta",
+          "title": "Patate con pancetta",
+          "price": 180,
+          "description": "Патате кон панчетта (картопля запечена в печі, з вершковий соусом, підчеревиною, помідорою, цибулею, часником)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_EzrnJbv-cPKqyky-qDnDhCv_H-J-H.jpeg"
+        },
+        {
+          "slug": "patate-quatro-formagi",
+          "title": "Patate quatro formagi",
+          "price": 180,
+          "description": "Патате куатро формаджі (картопля запечена в печі з цибулею, часником, пармезаном, Сирним соусом та італійськими травами)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DJfeHLb-mWoFbJc-lHKDJLP_W-V-D.jpeg"
+        },
+        {
+          "slug": "patate-con-fungi",
+          "title": "Patate con Fungi",
+          "price": 180,
+          "description": "Патате кон фунгі (картопля запечена в печі соус мікс грибів, цибулею, часником, пармезаном та італійськими травами)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_hwDuYSI-NCSOJiH-lreInCV_i-b-a.jpeg"
+        },
+        {
+          "slug": "verdure-alla-griglia",
+          "title": "Verdure alla griglia",
+          "price": 165,
+          "description": "Вердуре аля грілья (мікс овочів, приготованих на грилі та заправлених оливковою олією, часником та спеціями)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_wNmGDTu-CJuODsb-uGYBJGB_I-M-D.jpeg"
+        },
+        {
+          "slug": "broccoli-al-forno",
+          "title": "Broccoli al forno",
+          "price": 180,
+          "description": "Запечені в печі броколі з соусом бешамель (вершки, моцарела, сухарі, пармезан)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_cYloYCv-XkpcjED-XQkUgvD_u-f-A.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "СОУСИ",
+      "products": [
+        {
+          "slug": "pomodoro",
+          "title": "Pomodoro",
+          "price": 30,
+          "description": "соус з помідорів",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JCSZYZx-KkiBPkM-ozEkDFA_D-J-J.jpeg"
+        },
+        {
+          "slug": "bianco",
+          "title": "Bianco",
+          "price": 40,
+          "description": "Вершковий з часником",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KJyHXpC-vOTPyHb-QeKxYmp_a-w-W.jpeg"
+        },
+        {
+          "slug": "piccante",
+          "title": "Piccante",
+          "price": 30,
+          "description": "Оливкова олія, паперончіно, сальса з помідорів",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KPFFrwJ-athmJPb-AcxbDVu_G-C-t.jpeg"
+        },
+        {
+          "slug": "insalata",
+          "title": "Insalata",
+          "price": 30,
+          "description": "Оливкова олія, лимон, бальзамічний оцет",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_cnukeUg-YFDumNG-tKMGbCs_Q-Y-F.jpeg"
+        },
+        {
+          "slug": "bbq",
+          "title": "BBQ",
+          "price": 35,
+          "description": "Сальса з помідорів, цибуля, часник, пиво",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DTVOCyG-AkpQFtA-ZiFlIsG_B-h-k.jpeg"
+        },
+        {
+          "slug": "formaggi-138",
+          "title": "Formaggi",
+          "price": 40,
+          "description": "Сирно-вершковий",
+          "image": ""
+        },
+        {
+          "slug": "sweet-chili",
+          "title": "Sweet Chili",
+          "price": 35,
+          "description": "Солодко-гострий соус із шматочками справжнього чилі. Ідеальний до смажених закусок.",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "МОРОЗИВО \"Домашній пломбір | TM JEREMY\"",
+      "products": [
+        {
+          "slug": "morozivo-kulka-babl-gam-barbi",
+          "title": "Морозиво кулька \"Бабл Гам Барбі\"",
+          "price": 45,
+          "description": "ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-vishnya",
+          "title": "Морозиво кулька \"Вишня\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-dinya",
+          "title": "Морозиво кулька \"Диня\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-karamel",
+          "title": "Морозиво кулька \"Карамель\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-mango",
+          "title": "Морозиво кулька \"Манго\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-plombir",
+          "title": "Морозиво кулька \"Пломбір\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-tiramisu",
+          "title": "Морозиво кулька \"Тірамісу\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-fistashka",
+          "title": "Морозиво кулька \"Фісташка\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-shokolad",
+          "title": "Морозиво кулька \"Шоколад\"",
+          "price": 45,
+          "description": "Ціна вказана за 50г",
+          "image": ""
+        },
+        {
+          "slug": "morozivo-kulka-lisova-yagoda",
+          "title": "Морозиво кулька \"Лісова ягода\"",
+          "price": 45,
+          "description": "Ціна вказана за 50 г",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "Десерти",
+      "products": [
+        {
+          "slug": "beza-kruszona",
+          "title": "Beza Kruszona",
+          "price": 205,
+          "description": "Це ніжне біле бізе з маскарпоне, доповнене малиновим джемом і замороженою малиною. Легкий, хрусткий і водночас кремовий десерт, який тане в роті та залишає після себе ідеальну ягідну свіжість. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_kFoRFfR-ReErFIu-crSZtfD_i-D-I.jpeg"
+        },
+        {
+          "slug": "shu",
+          "title": "ШУ",
+          "price": 80,
+          "description": "Десерт Шу — це вишукані французькі тістечка із заварного тіста у формі кулі, вкриті хрустким пісочним тістом та наповнені ніжним кремом",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_BSJob-zdSNs-sedRB.jpeg"
+        },
+        {
+          "slug": "sirniki-z-malinovim-kyuli",
+          "title": "Сирники з малиновим кюлі",
+          "price": 180,
+          "description": "Наші сирники – це ідеальне поєднання ніжності та смаку. Легкі, повітряні, доповнені ароматним малиновим кюлі.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_SIjlxlo-KFulEDQ-AYYhYJH_x-x-q.jpeg"
+        },
+        {
+          "slug": "ekleri-v-asortimenti",
+          "title": "Еклери в асортименті",
+          "price": 80,
+          "description": "Еклер \"Класичний\" з ванільним смаком; Еклер \"Ягідний\" з малиною та полуницею; Еклер \"Карамельний\" з карамельним смаком.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_dmWrJLj-fpmVJOd-xpJSQPC_u-J-W.jpeg"
+        },
+        {
+          "slug": "kruasan",
+          "title": "Круасан",
+          "price": 40,
+          "description": "Шоколадний Ціна за 1шт",
+          "image": ""
+        },
+        {
+          "slug": "ponchik-dount-royal-donut",
+          "title": "Пончик Dount Royal-Donut",
+          "price": 70,
+          "description": "Начинка лісовий горіх",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bTkHPOn-CFgbACj-ZyXiUEU_Z-S-H.jpeg"
+        },
+        {
+          "slug": "ponchik-dount-caramel",
+          "title": "Пончик Dount Caramel",
+          "price": 60,
+          "description": "Карамельна начинка",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_gJKNFZj-hcUCxrH-SGIxnVx_V-S-v.jpeg"
+        },
+        {
+          "slug": "ponchik-donut-very-pery-creamy-berry",
+          "title": "Пончик Donut Very Pery Creamy Berry",
+          "price": 65,
+          "description": "Лісова Ягода",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QCCqnyN-RiOGxPP-iiBHkkO_M-J-S.jpeg"
+        },
+        {
+          "slug": "kapkeyk-v-asortimenti",
+          "title": "Капкейк в асортименті",
+          "price": 70,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DOMXpGw-wHDDiGC-LKPdIGm_b-E-H.jpeg"
+        },
+        {
+          "slug": "tistechka-makarons",
+          "title": "Тістечка макаронс",
+          "price": 40,
+          "description": "6 смаків в одному наборі: - Фісташка - Французька ваніль - Чорна смородина - Манго-маракуйя - Полуниця - Лісовий горіх-шоколад Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JriVlHo-kogRVwP-MXIKqGf_P-G-l.jpeg"
+        },
+        {
+          "slug": "musove-tistechko-v-asortimenti",
+          "title": "Мусове тістечко в асортименті",
+          "price": 80,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_wRovcex-UlLaSXT-VJsiWeJ_C-u-v.jpeg"
+        },
+        {
+          "slug": "musove-tistechko-tri-shokoladi",
+          "title": "Мусове тістечко \"Три шоколади\"",
+          "price": 80,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QQoGuvr-CGDFZCF-sJqlDEs_l-f-t.jpeg"
+        },
+        {
+          "slug": "tort-esterhayzi",
+          "title": "Торт \"Естерхайзі\"",
+          "price": 85,
+          "description": "Горіховий торт - коржі із взбитої білкової маси та волоських горіхів , крем Муслін із заварної основи, вареного згущеного молока. Ціна вказана за 100 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fkOkEeI-ZbbiSMG-dMYWlfc_x-m-l.jpeg"
+        },
+        {
+          "slug": "tort-zaher",
+          "title": "Торт \"Захер\"",
+          "price": 78,
+          "description": "Захер - австрійський шоколадний торт, шоколадні вологі бісквіти, абрикосовий джем, шоколадний ганаш із чорного шоколаду. Ціна вказана 100 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_sJchlmK-mJGxDAx-tDCAkGD_G-L-m.jpeg"
+        },
+        {
+          "slug": "tort-medovik",
+          "title": "Торт \"Медовик\"",
+          "price": 80,
+          "description": "Медовик - тонкі медові коржі, сметанно-вершковий крем на заварній основі. Ціна вказана за 100 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_xydAclD-gInuPgD-bfGgkCX_H-y-R.jpeg"
+        },
+        {
+          "slug": "tort-napoleon-fistashka",
+          "title": "Торт \"Наполеон-фісташка\"",
+          "price": 86,
+          "description": "Фісташковий Наполеон: листкове тісто, заварний крем із додаванням вершкового масла та фісташкової пасти. Ціна вказана за 100 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_qelZslD-WJgIFHO-XVGgtKI_H-b-D.jpeg"
+        },
+        {
+          "slug": "tort-napoleon",
+          "title": "Торт \"Наполеон\"",
+          "price": 86,
+          "description": "Наполеон: торт із листкового тіста, та ніжного ванільного заварного крему із додаванням масла. Ціна вказана за 100г Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "tort-spartak",
+          "title": "Торт \"Спартак\"",
+          "price": 80,
+          "description": "Спартак- тонкі медові шоколадні коржі, сметанний крем на заварній основі. Ціна вказана за 100 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_oeeoksW-lJaSXKv-IVtcnhM_q-k-D.jpeg"
+        },
+        {
+          "slug": "tort-tri-shokoladi",
+          "title": "Торт \"Три Шоколади\"",
+          "price": 87,
+          "description": "Запечений сирний десерт: три сирних шари із додаванням трьох видів шоколаду, шоколадний вологий бісквіт, шоколадний ганаш. Ціна вказана за 100 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tguCHge-xlImFeM-bVVlHFt_f-D-d.jpeg"
+        },
+        {
+          "slug": "tort-chervoniy-oksamit",
+          "title": "Торт \"Червоний Оксамит\"",
+          "price": 85,
+          "description": "Червоний оксамит: шифоновий бісквіт, полуничне конфі, вершковий крем-чіз.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_xCHXlVb-PDFuvbG-XNFiSpO_y-J-u.jpeg"
+        },
+        {
+          "slug": "tort-chizkeyk",
+          "title": "Торт \"Чізкейк\"",
+          "price": 87,
+          "description": "класичний запечений чізкейк: пісочна основа, сирний шар із додаванням лимонного соку та цедри. Ціна вказана за 100г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_GFpccQQ-GDpHtFa-GslvXzR_k-U-r.jpeg"
+        },
+        {
+          "slug": "tort-prazkiy",
+          "title": "Торт \"Празький\"",
+          "price": 87,
+          "description": "Вологі бісквіти на основі чорного шоколаду із абрикосовим джемом, ніжний шоколадний масляно-заварний крем, та шоколадна глазур із чорного шоколаду. Ціна вказана за 100г Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "domashnie-varennya-malinova-fazenda",
+          "title": "Домашнє варення \"Малинова Фазенда\"",
+          "price": 180,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_cwblIfW-SHbFfPI-whGuAIP_l-h-I.jpeg"
+        },
+        {
+          "slug": "zavarne-tistechko",
+          "title": "Заварне тістечко",
+          "price": 80,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_mFZueZF-vfJDylu-Seokjyt_i-K-l.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПІЦА З САЛЬСОЮ",
+      "products": [
+        {
+          "slug": "stracciatella-863",
+          "title": "Stracciatella",
+          "price": 310,
+          "description": "415 грн/40 см (сальса, чері, оригано, оливкова олія, листя шпинату, Stracciatella, на вибір анчоуси або прошуто грудо)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_RfUIfVS-nqMAFbn-rCbaUJX_M-L-e.jpeg"
+        },
+        {
+          "slug": "ferara",
+          "title": "Ferara",
+          "price": 290,
+          "description": "365.00грн/40 см Ферара (пармське в‎'ялене м‎'ясо, моцарела, помодоріні, шампінйони гриль, нитки чілі, Пеперончіно сушене",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CfMPyaG-IokGKnN-qkbHauP_b-q-I.jpeg"
+        },
+        {
+          "slug": "margherita",
+          "title": "Margherita",
+          "price": 185,
+          "description": "225 грн/40 см Маргеріта (моцарела, базилік, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_aeCqcGF-wwMwCgW-gseQrDf_c-G-b.jpeg"
+        },
+        {
+          "slug": "fantasia",
+          "title": "Fantasia",
+          "price": 225,
+          "description": "265.00грн/40 см Фантазія (моцарела, сосиски, картопля фрі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_YpWFKIe-VGhciOt-AICvIlk_H-m-o.jpeg"
+        },
+        {
+          "slug": "diavola",
+          "title": "Diavola",
+          "price": 225,
+          "description": "265.00грн/40 см Д’явола (моцарела, паприка. салямі, базилік, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QdlHcmi-GekjWOl-jmbljme_N-l-x.jpeg"
+        },
+        {
+          "slug": "seba",
+          "title": "Seba",
+          "price": 225,
+          "description": "265.00грн/40 см Себа (моцарела, підчеревина, цибуля, кукурудза)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_djnIocV-bJakWDm-ZTXqdDp_Q-d-f.jpeg"
+        },
+        {
+          "slug": "pollo",
+          "title": "Pollo",
+          "price": 225,
+          "description": "265.00грн/40 см Полло (курка, кукурудза, моцарела, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_xpPhCuy-lhFNVGQ-zxcJOET_h-v-H.jpeg"
+        },
+        {
+          "slug": "capriciosa",
+          "title": "Capriciosa",
+          "price": 245,
+          "description": "305.00грн/40 см Капрічьоза (моцарела, шампіньйони, прошутто котто, оливки, артишоки, базилік, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JdgTgld-YFcEbmp-FmcZvGN_C-N-b.jpeg"
+        },
+        {
+          "slug": "contadino",
+          "title": "Contadino",
+          "price": 255,
+          "description": "355.00грн/40 см Кoнтадіно (моцарела, кабачок, баклажан, солодкий перець, помідори, базилік, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_GUbelPy-DmrouFW-RkSNWbp_l-j-Z.jpeg"
+        },
+        {
+          "slug": "ricca",
+          "title": "Ricca",
+          "price": 245,
+          "description": "310.00грн/40 см Рікка (моцарела, курка, шинка, салямі, прошутто котто, базилік, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HTXrBvC-XBORMwG-lyHlLmV_P-v-d.jpeg"
+        },
+        {
+          "slug": "saraceno",
+          "title": "Saraceno",
+          "price": 265,
+          "description": "345.00грн/40см Сарачено (тунець, моцарела, чорні маслини, кукурудза, рукола, помодоріні)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bDIFtQT-VjGbKFM-cjJoLRB_l-v-S.jpeg"
+        },
+        {
+          "slug": "calzone",
+          "title": "Calzone",
+          "price": 245,
+          "description": "Кальцоне (закрита піца: рікотта, моцарела, шампіньйони мариновані, прошутто котто, оливки, кукурудза)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fbdeotM-HCjbDlZ-LzGlTAI_N-C-L.jpeg"
+        },
+        {
+          "slug": "frutti-di-mare-63",
+          "title": "Frutti di mare",
+          "price": 325,
+          "description": "425.00грн/40 см Фрутті ді маре (моцарела, креветки, кальмари, лосось, два види мідій)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UkdEHUM-ZhKmuJp-mFbcMCU_n-K-B.jpeg"
+        },
+        {
+          "slug": "quattro-staggione",
+          "title": "Quattro staggione",
+          "price": 255,
+          "description": "310.00грн/40 см Кватро стаджоні (шинка, салямі, прошутто котто, курка, маслини, шампіньйони мариновані, артишоки, кукурудза)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_EIFhKHx-kYGFMtH-nqtAbJO_B-R-Z.jpeg"
+        },
+        {
+          "slug": "schicciata",
+          "title": "Schicciata",
+          "price": 265,
+          "description": "Ск'яччата (дві основи, сальса з помідорів, шинка, шампіньйони, салямі, маслини, помідори, моцарела)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_xYcUlIm-ZGJHfVI-CyVXMhs_I-D-e.jpeg"
+        },
+        {
+          "slug": "oliva",
+          "title": "Oliva",
+          "price": 285,
+          "description": "335.00грн/40 см Оліва (моцарела, салямі, оливки calamati, шампіньйони, перець болгарський, перець маринований пікантний)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bRpFQpz-ksFmDPI-wflwBJb_v-D-C.jpeg"
+        },
+        {
+          "slug": "sancho",
+          "title": "Sancho",
+          "price": 265,
+          "description": "305.00грн/40 см Санчо (бекон, курка, гострий маринований перець халапеньйо, кукурудза, шампіньйони мариновані, домашні чіпси)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DYxTOhw-WWWDLhy-gnBRgak_z-b-m.jpeg"
+        },
+        {
+          "slug": "porchetta",
+          "title": "Porchetta",
+          "price": 285,
+          "description": "335.00грн/40 см Порчетта (Моцарела, рвана свинина, бекон, маринована цибуля, халапеньйо.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZgJaGGn-laIxZbV-JCGbIhq_J-k-C.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПІЦА З ВЕРШКАМИ",
+      "products": [
+        {
+          "slug": "vitello",
+          "title": "Vitello",
+          "price": 285,
+          "description": "355.00грн/40 см Vitello (вершкова основа, моцарела, базилік, телятина, свіжі шампіньйони, орегано, оливкова олія, помодоріні)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_VqYSrPb-ipkkbnD-IFZgHDV_A-i-Q.jpeg"
+        },
+        {
+          "slug": "anetta",
+          "title": "Anetta",
+          "price": 255,
+          "description": "325.00грн/40 см Анетта (вершкова основа, моцарела, бекон, камамбер, малина)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_krIxsBI-PkweIWe-XBNnJVl_k-S-C.jpeg"
+        },
+        {
+          "slug": "chorizo",
+          "title": "Chorizo",
+          "price": 245,
+          "description": "305.00грн/40 см Чорізо (вершкова основа, моцарела, салямі чорізо, свіжі шампіньйони)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_RzmSFDT-itrbvUL-zSUTCkH_m-g-s.jpeg"
+        },
+        {
+          "slug": "funghi-cipolla",
+          "title": "Funghi cipolla",
+          "price": 250,
+          "description": "305.00грн/40 см Склад: Моцарела, вершки, грибний соус з 3 видів грибів, свіжі шампінйони, петрушка, оливкова олія, кармелізована цибуля в бальзамічному оцеті, цибуля кріспі Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_jIpBjEJ-AUDHDGG-ADWsPSj_d-z-e.jpeg"
+        },
+        {
+          "slug": "verona",
+          "title": "Verona",
+          "price": 315,
+          "description": "375.00грн/40 см Верона (моцарела, шпинатна основа, лосось, чері, броколі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_naACamT-uVmlJhk-AUAKINa_t-O-t.jpeg"
+        },
+        {
+          "slug": "molfetta",
+          "title": "Molfetta",
+          "price": 285,
+          "description": "345.00грн/40 см Мольфетта (сир моцарела, мортаделла, бейбі моцарела кульками, фісташка, базилік)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HtIDccf-WHIeTyQ-CDHfuFd_w-n-x.jpeg"
+        },
+        {
+          "slug": "quattro-formaggi",
+          "title": "Quattro formaggi",
+          "price": 265,
+          "description": "325.00грн/40 см Куатро формаджі (чотири види італійського сиру, базилік, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CiyatVk-XceOyzA-biNOeAv_w-U-e.jpeg"
+        },
+        {
+          "slug": "daniel",
+          "title": "Daniel",
+          "price": 300,
+          "description": "355.00грн/40 см Даніель (моцарела, креветки, лосось, базилік)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_eJVIdSw-NCPJGuG-gGOQFPT_D-Y-G.jpeg"
+        },
+        {
+          "slug": "tonno-cipolla",
+          "title": "Tonno cipolla",
+          "price": 255,
+          "description": "310.00грн/40 см Тонно чіпола (тунець, цибуля, моцарелла, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_WXHqgDc-slUkdHS-mUmlfFl_M-j-C.jpeg"
+        },
+        {
+          "slug": "salami",
+          "title": "Salami",
+          "price": 245,
+          "description": "310.00грн/40 см Салямі (салямі, помідори, моцарела, оливкова олія)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_oOIoJXq-rHlRbMB-cnZebIG_P-o-y.jpeg"
+        },
+        {
+          "slug": "prosciutto",
+          "title": "Prosciutto",
+          "price": 235,
+          "description": "295.00грн/40 см Прошутто (моцарела, прошутто котто, кукурудза, маринована в бальзамічномому оцеті цибуля)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bLlMCLz-fBcbXzc-RdfQJFA_I-I-C.jpeg"
+        },
+        {
+          "slug": "positano",
+          "title": "Positano",
+          "price": 295,
+          "description": "365.00грн/40 см Позітано (пармське в‎'ялене м‎'ясо, моцарела, помодоріні, рукола, сир пармезан)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QrkjRfe-fPGCSdI-cOaUMzn_C-F-X.jpeg"
+        },
+        {
+          "slug": "mortadella",
+          "title": "Mortadella",
+          "price": 285,
+          "description": "335.00грн/40 см Мортаделла (моцарела, пармезан, мортаделла, шпинат, помодоріні)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_wGQtLya-cpqWnge-GxMmOve_C-j-o.jpeg"
+        },
+        {
+          "slug": "luciano",
+          "title": "Luciano",
+          "price": 295,
+          "description": "410.00грн/40 см Лучано (сир combozola, моцарелла, креветки, манго, пармезан, горіхи, м’ята)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DXDYAeb-uUtIQwm-MxpJVIk_m-u-S.jpeg"
+        },
+        {
+          "slug": "tropea",
+          "title": "Tropea",
+          "price": 235,
+          "description": "295.00грн/40 см Тропея (курка, маринована цибуля, помодоріні)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_goeJEQT-GRaQQFn-UZYnAAl_u-b-e.jpeg"
+        },
+        {
+          "slug": "mamma-mia",
+          "title": "Mamma mia!",
+          "price": 265,
+          "description": "355.00грн/40 см Мама мія! (6 видів м'яса: прошуто кото, салямі, шинка, курка, підчеревина, сосиски)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KhHZCWZ-BhYJgte-zvkKoiE_f-F-c.jpeg"
+        },
+        {
+          "slug": "trufaldino",
+          "title": "Trufaldino",
+          "price": 345,
+          "description": "440.00грн/40 см Трюфальдіно (королівські креветки та кальмари обсмажені у фритюрі, сир рікота, соус з чорного трюфеля)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_cmTCQQt-hgzcBPy-meDqeQC_I-y-l.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПАНІНІ З ПЕЧІ",
+      "products": [
+        {
+          "slug": "panino-con-pollo",
+          "title": "Panino con pollo",
+          "price": 190,
+          "description": "Курка, моцарела, помідори, листя салату, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_kHPVLiH-GFoCVIH-xVjFpql_w-X-I.jpeg"
+        },
+        {
+          "slug": "panino-con-carne",
+          "title": "Panino con carne",
+          "price": 210,
+          "description": "Салямі, шинка, моцарела, помідори, листя салату, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_VHeptgb-KbQzzGj-wBVIWtp_I-J-D.jpeg"
+        },
+        {
+          "slug": "panino-con-prosciutto-cotto",
+          "title": "Panino con prosciutto cotto",
+          "price": 190,
+          "description": "Шинка, моцарела, помідори, листя салату, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_yXMWeIk-RFLgqOA-ulACPjn_m-I-P.jpeg"
+        },
+        {
+          "slug": "panino-caprese",
+          "title": "Panino caprese",
+          "price": 175,
+          "description": "Моцарела, помідори, рукола, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_pnEKNDZ-LeQJNDW-CkQTEMu_v-i-Z.jpeg"
+        },
+        {
+          "slug": "panino-con-tonno",
+          "title": "Panino con tonno",
+          "price": 210,
+          "description": "Тунець, помідори, кукурудза, моцарела, листя салату, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_hiFltRJ-CpcHkPJ-GqNbTug_t-W-P.jpeg"
+        },
+        {
+          "slug": "panino-con-prosciutto-grudo",
+          "title": "Panino con prosciutto grudo",
+          "price": 220,
+          "description": "Прошутто грудо, моцарела, помідора, рукола, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HyuEjGC-sVJDhNb-ZkQJACJ_Y-z-B.jpeg"
+        },
+        {
+          "slug": "panino-burger",
+          "title": "Panino-burger",
+          "price": 230,
+          "description": "Котлета, картопля фрі, маринований огірок, помідора, сир моцарела, сир чеддер, бальзамічний соус",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_IcPvfYg-eheRycb-AOrVeoA_k-l-v.jpeg"
+        },
+        {
+          "slug": "panino-di-maiale-tirato",
+          "title": "Panino di maiale tirato",
+          "price": 230,
+          "description": "Паніні з рваною свининою (моцарела, сальса, вершки, помідор, маринована цибуля, халапеньйо, листя салату, рвана свинина)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HqBCUfG-TAlvSNS-CqbkwJs_D-M-e.jpeg"
+        },
+        {
+          "slug": "sendwich-caprese-mortadela",
+          "title": "Sendwich Caprese-Mortadelа",
+          "price": 215,
+          "description": "Основа від піци, молода моцарела, помідоріні, рукола, песто, мортадела",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fGYnCzn-HneSnCk-WMqHHSs_J-R-E.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Устриці",
+      "products": [
+        {
+          "slug": "fin-de-kler",
+          "title": "Фін Де Клер",
+          "price": 135,
+          "description": "Поставка устриць кожного четверга, при бажанні гостя кожного понеділка можемо приймати перед замовлення на устриці під вас. Розмір устриць - 1 Походження Франція Від 2шт бокал Prosecco в подарунок Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DFNlvGq-FwLLSrH-rXgeXcs_H-o-G.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Сети",
+      "products": [
+        {
+          "slug": "set-no-1",
+          "title": "Сет № 1",
+          "price": 950,
+          "description": "Філадельфія з авокадо Золотий дракон Каліфорнія креветка Макі огірок Салат чука 1025 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HokGGot-LeoDvyF-KUsHHeU_t-y-G.jpeg"
+        },
+        {
+          "slug": "set-no-2",
+          "title": "Сет № 2",
+          "price": 900,
+          "description": "Аляска в конжуті Лотос Зелений дракон Макі лосось 930 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OchiERe-KAzYxfE-wFLNHRb_i-R-b.jpeg"
+        },
+        {
+          "slug": "set-no-3",
+          "title": "Сет № 3",
+          "price": 900,
+          "description": "Окінава в конжуті Рожевий дракон Макі креветка Банзай рол 925 г Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_VJgMjnq-kGjWtaG-NVCMenj_q-d-t.jpeg"
+        },
+        {
+          "slug": "set-no-4-dlya-neyi",
+          "title": "Сет № 4 ( Для неї )",
+          "price": 990,
+          "description": "Сакура, Філадельфія з огірком, Макі лосось, Камічата з лососем, Вогняний дракон - 1,105 кг",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KDVgblQ-MuVkOqr-dXkkyQl_p-F-W.jpeg"
+        },
+        {
+          "slug": "set-no-5",
+          "title": "Сет № 5",
+          "price": "NaN",
+          "description": "Діамантовий дракон, Каліфорнія з вугрем, Макі вугор, Маямі, Азійський салат з огірка і томаго.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_nGRDXcv-pJAERww-jzLJoGC_I-Y-G.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Запечені",
+      "products": [
+        {
+          "slug": "detroit-with-eel-baked",
+          "title": "Detroit with eel (baked)",
+          "price": 315,
+          "description": "Рол Детройт запечений з вугрем (рис, норі, вугор, перець, огірок, мікс жовтих сирів, японський майонез, унагі, кунжут)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_BDGjGsf-UCKLGtg-ZmmksnR_B-e-Q.jpeg"
+        },
+        {
+          "slug": "dallas-with-salmon-baked",
+          "title": "Dallas with salmon (baked)",
+          "price": 310,
+          "description": "Рол Даллас запечений з лососем (рис, норі, крем-сир, авокадо, лосось, манго, мікс жовтих сирів, японський майонез, соус Poke)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_XgrfIdv-kkoTEyj-NDsjlwp_Y-D-G.jpeg"
+        },
+        {
+          "slug": "shicago-with-shrimp-baked",
+          "title": "Сhicago with shrimp (baked)",
+          "price": 315,
+          "description": "Рол Чікаго запечений з креветкою (рис, норі, крем-сир, дайкон, креветка, манго, мікс жовтих сирів, японський майонез, соус Юзу)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fQgGqcl-IWYwAqG-YXpnBZC_b-G-l.jpeg"
+        },
+        {
+          "slug": "boston-with-tuna-baked",
+          "title": "Boston with tuna (baked)",
+          "price": 300,
+          "description": "Рол Бостон запечений з тунцем (рис, норі, тунець консервований, перець, мікс жовтих сирів, японський майонез, салат хіяші, цибуля кріспі)",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "Дракони",
+      "products": [
+        {
+          "slug": "diamond-dragon",
+          "title": "Diamond dragon",
+          "price": 345,
+          "description": "Діамантовий дракон (вугор, креветка тигрова, лосось с/с, огірок, рис, норі, кунжут, соус унагі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_qkNvski-JSjGeVU-kXnieAc_r-G-n.jpeg"
+        },
+        {
+          "slug": "fit-dragon",
+          "title": "Fit dragon",
+          "price": 315,
+          "description": "Фіт – дракон (креветка тигрова, крем – сир, рис, норі, ікра Тобіко, дайкон, соус гомодарі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_eZDuRkI-JwHAYca-ZonIgHh_e-G-j.jpeg"
+        },
+        {
+          "slug": "green-dragon",
+          "title": "Green dragon",
+          "price": 310,
+          "description": "Зелений дракон (лосось с/с, авокадо, крем – сир, рис, норі, дайкон, соус тонкацу)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_WkCOCfX-seHeMMh-IjJKNOd_G-O-l.jpeg"
+        },
+        {
+          "slug": "fire-dragon-spicy",
+          "title": "Fire dragon (spicy)",
+          "price": 310,
+          "description": "Вогняний дракон (гострий) (лосось с/с, омлет томаго, крем – сир, рис, норі, огірок, нитки чилі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_rgDTOol-FmDInr-feFgkkr_i-e-T.jpeg"
+        },
+        {
+          "slug": "pink-dragon",
+          "title": "Pink dragon",
+          "price": 335,
+          "description": "Рожевий дракон (креветки, лосось, крем-сир, огірок, японський майонез, чіпси креветочні, рис, норі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UxMGUaZ-GOUUySP-FqiGgSs_I-m-j.jpeg"
+        },
+        {
+          "slug": "golden-dragon",
+          "title": "Golden dragon",
+          "price": 325,
+          "description": "Золотий дракон (вугор, крем – сир, огірок, рис, норі, унагі, кунжут, ікра Тобіко)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_dZVcWxG-LDTnGSE-VjHWBze_p-H-C.jpeg"
+        },
+        {
+          "slug": "spaysi-cheder",
+          "title": "Spaysi cheder",
+          "price": 235,
+          "description": "Крем сир, чедер підпалений, пармезан, цибуля кріспі, спайсі соус,рис,норі",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KbnfkGc-HIpeRSY-PHErIEJ_k-t-o.jpeg"
+        },
+        {
+          "slug": "sakura",
+          "title": "Sakura",
+          "price": 280,
+          "description": "рис, норі, крем сир, омлет томаго, авокадо, тар тар з лосося, ікра тобіко, японський майонез",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bSgftKI-qrHunIb-XmkHIFm_L-J-Q.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Філадельфія",
+      "products": [
+        {
+          "slug": "philadelphia-with-cucumber",
+          "title": "Philadelphia with cucumber",
+          "price": 255,
+          "description": "Філадельфія з огірком (рис, норі, лосось с/с, крем-сир, огірок)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KMhXtRJ-rRYGlIb-iPOreJm_G-J-J.jpeg"
+        },
+        {
+          "slug": "philadelphia-with-avocado",
+          "title": "Philadelphia with avocado",
+          "price": 275,
+          "description": "Філадельфія з авокадо (рис, норі, лосось с/с, крем-сир, авокадо)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_yJlCrmL-waiJuHl-hsvPGYc_q-I-F.jpeg"
+        },
+        {
+          "slug": "philadelphia-with-mango",
+          "title": "Philadelphia with mango",
+          "price": 305,
+          "description": "Філадельфія з манго (рис, норі, лосось с/с, крем-сир, авокадо, манго)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JMdeATu-GPIWFHJ-WNDrcFa_f-n-K.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Каліфорнія",
+      "products": [
+        {
+          "slug": "california-with-shrimp-in-caviar",
+          "title": "California with shrimp (in caviar)",
+          "price": 255,
+          "description": "Каліфорнія з креветкою (в ікрі) Рис, норі, креветки, огірок, авокадо, дайкон, японський майонез, ікра тобіко. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_kqeqvJJ-yqRXEqY-wTbytYW_D-F-O.jpeg"
+        },
+        {
+          "slug": "california-with-salmon-in-caviar",
+          "title": "California with salmon (in caviar)",
+          "price": 255,
+          "description": "Каліфорнія з лососем (в ікрі) Рис, норі, лосось с/с, огірок, авокадо, дайкон, японський майонез, ікра тобіко. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_IpKoYJZ-eJdzcEY-bgQHGev_S-J-q.jpeg"
+        },
+        {
+          "slug": "california-with-eel-in-caviar",
+          "title": "California with eel (in caviar)",
+          "price": 255,
+          "description": "Каліфорнія з вугрем (в ікрі) (рис, норі, вугор, огірок, авокадо, дайкон, японський майонез, в ікрі тобіко)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_zQGdTrH-KxyjHDj-HMeveLD_p-R-w.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Футомакі",
+      "products": [
+        {
+          "slug": "lotus",
+          "title": "Lotus",
+          "price": 285,
+          "description": "Лотос (рис, норі, креветки, крем – сир, огірок, листя салата, соус гомодарі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_qlrHjZL-eYbReAH-VnDCifx_P-G-t.jpeg"
+        },
+        {
+          "slug": "banzai-spicy",
+          "title": "Banzai (spicy)",
+          "price": 265,
+          "description": "Банзай (гострий) (лосось с/с, рис, норі, крем – сир, перець болгарський, огірок, нитки чілі, соус кім чі) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_eryqlIZ-sibnRve-kIpYvkY_h-f-Y.jpeg"
+        },
+        {
+          "slug": "yasay-vegge",
+          "title": "Yasay (vegge)",
+          "price": 220,
+          "description": "Ясай (вег.) (рис, норі, авокадо, листя салата, дайкон, водорості чука, тартар з огірків, соус гомодарі, кунжут)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_XeiUugC-oVlFIDL-pHHqzfb_W-h-m.jpeg"
+        },
+        {
+          "slug": "miami",
+          "title": "Miami",
+          "price": 275,
+          "description": "рис, норі, вугор, авокадо, омлет томаго, соус тонкацу, цибуля кріспі",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FKkkGuQ-kvcVsua-DbkclEB_m-Q-S.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Роли в кунжуті / стружці тунця",
+      "products": [
+        {
+          "slug": "okinawa",
+          "title": "Okinawa",
+          "price": 265,
+          "description": "Окінава (лосось с/с, рис, норі, крем – сир, авокадо, кунжут)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DWCOHHl-FbCDkkY-JRiokGK_a-j-z.jpeg"
+        },
+        {
+          "slug": "tuna",
+          "title": "Tuna",
+          "price": 265,
+          "description": "Туна (Тунець консервований, омлет томаго, рис, норі, крем – сир, тартар з огірків, цибуля кріспі, соус комодорі, стружка тунця) Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "kamichata",
+          "title": "Kamichata",
+          "price": 265,
+          "description": "Камічата (лосось с/с, омлет томаго, рис, норі, крем – сир, огірок, стружка тунця)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tJXQjoK-CeGDGsC-FGOYruW_C-s-z.jpeg"
+        },
+        {
+          "slug": "alaska",
+          "title": "Alaska",
+          "price": 270,
+          "description": "Аляска (вугор, рис, норі, крем – сир, огірок, кунжут, соус унагі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_PCJVGSE-gvItKkr-gzJmMoj_H-F-J.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Maki",
+      "products": [
+        {
+          "slug": "maki-cucumber---avocado",
+          "title": "Maki cucumber – avocado",
+          "price": 125,
+          "description": "Maki огірок – авокадо (огірок, авокадо, рис, норі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_wqnupDh-iCmzGHH-GokoLkr_f-M-N.jpeg"
+        },
+        {
+          "slug": "maki-shrimp",
+          "title": "Maki shrimp",
+          "price": 140,
+          "description": "Maki – креветка (креветка, рис, норі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ueIOUzT-bUHUScZ-DkiNDAj_m-y-Z.jpeg"
+        },
+        {
+          "slug": "maki-eel",
+          "title": "Maki eel",
+          "price": 145,
+          "description": "Maki – вугор (вугор, рис, норі, соус, уногі, кунжут)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FxcYCMB-eCIgMjA-JKLnDjw_l-i-G.jpeg"
+        },
+        {
+          "slug": "maki-salmon",
+          "title": "Maki-salmon",
+          "price": 140,
+          "description": "Maki – лосось (лосось с/с, рис, норі)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_YwqDkeW-tHGtCdi-IGFRlAH_J-X-D.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Салати / закуски",
+      "products": [
+        {
+          "slug": "salat-chuka",
+          "title": "Салат Чука",
+          "price": 160,
+          "description": "морські водорості, соус гомодарі, кунжут, лимон, листя салату",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_eudBIDj-dwNgFXg-cbuoGeZ_c-K-c.jpeg"
+        },
+        {
+          "slug": "aziyskiy-salat-z-ogirka-i-tomago",
+          "title": "Азійський салат з огірка і томаго",
+          "price": 180,
+          "description": "Огірок, омлет томаго, паста чилі, яблучний оцет, соєвий соус, конжут, соус унагі, листя салату",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZJvyEJr-UpbDbGF-bOXetuL_U-Y-f.jpeg"
+        },
+        {
+          "slug": "tar-tar-z-lososem",
+          "title": "Тар Тар з Лососем",
+          "price": 235,
+          "description": "Лосось С/С, ікра Тобіко, авокадо, креветочні чіпси, японський майонез, кім-чі, шрірача, унагі, лайм.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HDXUPMq-pIGrQtD-CpkmISp_A-C-L.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Сашимі",
+      "products": [
+        {
+          "slug": "prawns",
+          "title": "Prawns",
+          "price": 175,
+          "description": "Креветки, за 50 г",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_mvmTTBG-akDoDHl-CQCCHfH_n-j-K.jpeg"
+        },
+        {
+          "slug": "salmon",
+          "title": "Salmon",
+          "price": 170,
+          "description": "Лосось, за 50 г",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FBRDymA-AICyHkR-dKfUKYH_G-E-Q.jpeg"
+        },
+        {
+          "slug": "eel",
+          "title": "Eel",
+          "price": 185,
+          "description": "Вугор, за 50 г",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_PhUzdei-oSbglfz-EIqyafI_k-i-N.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Соуса",
+      "products": [
+        {
+          "slug": "vasabi",
+          "title": "Васабі",
+          "price": 5,
+          "description": "",
+          "image": ""
+        },
+        {
+          "slug": "imbir",
+          "title": "Імбирь",
+          "price": 5,
+          "description": "",
+          "image": ""
+        },
+        {
+          "slug": "sous-kim-chi",
+          "title": "Соус Кім чі",
+          "price": 20,
+          "description": "Це оригінальне поєднання фруктів і спецій, доповнене морськими водоростями і сіллю з цукром. Зокрема, головними інгредієнтами вважаються м'якоть яблук, аніс, сіль, перець, сушені водорості, рисовий оцет і гострий перець чилі. Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "sous-unagi",
+          "title": "Соус Унагі",
+          "price": 20,
+          "description": "Являє собою густий соєвий соус золотисто-коричневого кольору, приготований з карамелізованим цукром. Ідеально поєднюється з вугрем",
+          "image": ""
+        },
+        {
+          "slug": "sous-gomodari",
+          "title": "Соус Гомодарі",
+          "price": 20,
+          "description": "Виготовляється шляхом змішування великої кількості смаженого цільного насіння кунжуту з вершково-емульсійним соусом на основі соєвого соусу. Ідеально підходить для лосося і креветки Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "sous-mangoviy",
+          "title": "Соус Манговий",
+          "price": 20,
+          "description": "Соус манговий з апельсином і гірчицею ідеальний для гурманів",
+          "image": ""
+        },
+        {
+          "slug": "sous-tonkacu",
+          "title": "Соус Тонкацу",
+          "price": 20,
+          "description": "",
+          "image": ""
+        },
+        {
+          "slug": "sous-shri-racha",
+          "title": "Соус Шрі-Рача",
+          "price": 20,
+          "description": "Складається з свіжого тайського чилі перцю rawit (маленького, але дуже гострого). Колір насичено червоний, аромат пряний, гострий.",
+          "image": ""
+        },
+        {
+          "slug": "sous-spaysi",
+          "title": "Соус Спайсі",
+          "price": 25,
+          "description": "Японський майонез, кім чі, шрі-рача, унагі",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "ПИВО РОЗЛИВНЕ",
+      "products": [
+        {
+          "slug": "kolenberg-pshenichne",
+          "title": "KÖLENBERG \"Пшеничне\"",
+          "price": 0,
+          "description": "Пшеничне від KÖLENBERG Бельгійське пшеничне нефільтроване пиво з легким тілом, м’яким смаком і витонченим фруктовим післясмаком. При створенні цього сорту ми додаємо натуральну цитрусову цедру та спеції, що надають йому характерної свіжості, легкої солодкавості та пряного акценту. Освіжає, чудово втамовує спрагу й смакує у будь-яку пору року. Алк. 4.5% Щіл. 12% Гіркота 9 Колір 5 Стиль: Belgian Witbier Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_hDmCU-nnpUh-VIVEF.jpeg"
+        },
+        {
+          "slug": "kolenberg-bavarian-gold",
+          "title": "KÖLENBERG \"Bavarian Gold\"",
+          "price": 0,
+          "description": "Bavarian Gold від KÖLENBERG фільтроване. Світле пиво, натхнене Баварськими пивоварними традиціями. Класичний Helles Lager зі збалансованим смаком: м’який солодовий профіль з легкими хлібними нотками, ніжна солодова солодкість і делікатна, виразна хмільна гірчинка. Освіжає, добре п’ється й залишає чистий післясмак. Алк. 4.3% Щіл. 11.5% Гіркота 7 Колір 7 Стиль: Helles Lager Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JGSCK-IQlGM-IZfHI.jpeg"
+        },
+        {
+          "slug": "kolenberg-dunkel",
+          "title": "KÖLENBERG \"Дункель\"",
+          "price": 0,
+          "description": "Дункель від KÖLENBERG нефільтроване. Темний лагер у німецькому стилі з глибоким, оксамитовим смаком. Залишає приємний ванільно-горіховий післясмак. Алк. 5% Щіл. 13% Гіркота 15 Колір 57 Стиль: German Dark Lager Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_AzobH-IGUIM-jnAXQ.jpeg"
+        },
+        {
+          "slug": "kolenberg-ipa",
+          "title": "KÖLENBERG \"IPA\"",
+          "price": 0,
+          "description": "IPA — India Pale Ale від KÖLENBERG IPA - це стиль пива з яскравим характером та історією. Його створили у Британії для тривалих морських подорожей до Індії: завдяки підвищеній кількості хмелю та міцності пиво краще зберігалося і набувало насиченого смаку. IPA вирізняється інтенсивним хмелевим ароматом і виразною гіркотою. У смаку часто відчуваються нотки цитрусових, тропічних фруктів, хвої та квітів, а післясмак — сухий і довгий. Це пиво для тих, хто шукає баланс між міцністю, ароматом та характерною гіркотою. Алкоголь: 6% Гіркота: 54 IBU Щільність: 13% Колірність: 23 EBC Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UlvIi-eIifC-vToaT.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПИВО ПЛЯШКА",
+      "products": [
+        {
+          "slug": "leff-brun-0-33",
+          "title": "Leff Brun 0,33",
+          "price": 110,
+          "description": "Темне, нефільтроване",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UpnltLl-Ckfqurk-cTKlGHG_d-U-n.jpeg"
+        },
+        {
+          "slug": "hoegaarden-white-0-33-279",
+          "title": "Hoegaarden white 0,33",
+          "price": 110,
+          "description": "Бельгія, пшеничне, нефільтроване",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UKlOGjI-icroFrj-FPuerJl_q-H-W.jpeg"
+        },
+        {
+          "slug": "grinbergen-0-33",
+          "title": "GRINBERGEN 0,33",
+          "price": 105,
+          "description": "Пляшкове темне",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UXyexYO-EQmehJM-YieplVh_w-I-I.jpeg"
+        },
+        {
+          "slug": "corona-extra-0-33",
+          "title": "Corona extra 0,33",
+          "price": 105,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CtSDIeJ-JCldbqs-YCVcBDt_K-p-l.jpeg"
+        },
+        {
+          "slug": "corona-extra-bezalkogolne",
+          "title": "Corona extra (безалкогольне)",
+          "price": 105,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_pmVFXyZ-DEkDYxX-kwyYkFW_J-z-C.jpeg"
+        },
+        {
+          "slug": "kronenbourg-1664-blanc-bezalkogolne",
+          "title": "Kronenbourg 1664 Blanc (безалкогольне)",
+          "price": 90,
+          "description": "безалкогольне 0,460мл",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_UvJSbLB-IJvOKpC-OHcgSJU_B-M-J.jpeg"
+        },
+        {
+          "slug": "kronenbourg-1664-blanc",
+          "title": "Kronenbourg 1664 Blanc",
+          "price": 90,
+          "description": "Kronenbourg (Кроненбур) - це французька пивна торгова марка, що належить міжнародній пивоварній компанії Carlsberg Group. Найвідомішим продуктом є Kronenbourg 1664, яке є найпопулярнішим пивом у Франції, займаючи близько третини внутрішнього споживання пива в країні. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_zcTwJlA-EZCkSss-jrBZezS_o-O-K.jpeg"
+        },
+        {
+          "slug": "staropramen-174",
+          "title": "Staropramen",
+          "price": 85,
+          "description": "Staropramen (Старопрамен) – це чеське пиво, яке також виробляється в Україні за ліцензією Carlsberg Ukraine. Це міжнародний бренд, відомий своїм класичним світлим лагером пльзенського типу. Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "guinness-original",
+          "title": "Guinness Original",
+          "price": 135,
+          "description": "Темне нефільтроване 0,33 мл Guinness — це відомий ірландський бренд пива, зокрема стауту, який вариться з 1759 року. Зараз він належить компанії Diageo. Guinness Draught — найпопулярніший сорт, який часто асоціюється з цим брендом. Показати більше",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "АЛКОГОЛЬНІ КОКТЕЙЛІ",
+      "products": [
+        {
+          "slug": "bacio-frizzante",
+          "title": "Bacio Frizzante",
+          "price": 190,
+          "description": "Шампанське, пюре маракуї, кокосовий сироп",
+          "image": ""
+        },
+        {
+          "slug": "mojito",
+          "title": "Mojito",
+          "price": 185,
+          "description": "Мохіто — освіжаючий коктейль з лайму, цукрового сиропу, м’яти, рому та спрайту.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vTuFfDk-LgPMHxJ-UJESCZD_c-y-e.jpeg"
+        },
+        {
+          "slug": "mojito-fruity",
+          "title": "Mojito fruity",
+          "price": 200,
+          "description": "Мохіто — освіжаючий коктейль з лайму, цукрового сиропу, м’яти, рому та спрайту з поєднанням фруктового пюре. На вибір: -Полуничне -Чорничне -Маракуя Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ByCKQYO-JTpDrly-AOFRFBa_v-e-F.jpeg"
+        },
+        {
+          "slug": "corona-sunrise",
+          "title": "Corona Sunrise",
+          "price": 220,
+          "description": "Легкий і яскравий мікс пива Corona, апельсинового соку, лайму, текіли та гренадину. Свіжий, трішки цитрусовий і з легкою солодкою ноткою. Ідеально, коли хочеться відчути літній настрій у кожному ковтку. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QCbdGbG-VhNJinv-ryIJHzQ_y-j-c.jpeg"
+        },
+        {
+          "slug": "mai-tai",
+          "title": "Mai Tai",
+          "price": 195,
+          "description": "Mai Tai — тропічний мікс із золотого та темного рому, амарето, тріпл секу, соку лимона та ананаса. Яскравий, насичений і з легкими мигдальними нотками. Коктейль, який створений для гарного настрою і відчуття відпустки навіть у середині тижня. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OjjCjYo-nCTHjDu-FQhWSaJ_A-k-J.jpeg"
+        },
+        {
+          "slug": "gin-tonic",
+          "title": "Gin tonic",
+          "price": 155,
+          "description": "Джин Тонік – класика коктейльного світу: джин і тонік у ідеальному поєднанні.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_xgylrzq-VdbQPQr-CleXKTF_V-G-D.jpeg"
+        },
+        {
+          "slug": "gin-tonic-coconut",
+          "title": "Gin tonic coconut",
+          "price": 160,
+          "description": "Знайома класика з тропічною ноткою. Джин, тонік і кокосовий сироп — коли хочеться чогось освіжаючого, але з характером.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QSrikEy-MdnIoPp-LlnNjtk_V-f-C.jpeg"
+        },
+        {
+          "slug": "arkobaleno",
+          "title": "Arkobaleno",
+          "price": 165,
+          "description": "Легкий, яскравий і тропічно-соковитий. Динний лікер, кокос, апельсин та ананас — щоб настрій був кольоровим, як саме літо в келиху.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_pTnHFqX-euRUrqH-UgZwPjb_L-q-n.jpeg"
+        },
+        {
+          "slug": "blue-laguna",
+          "title": "Blue Laguna",
+          "price": 175,
+          "description": "Освіжаюча, яскрава і трошки грайлива. Горілка, блакитний кюрасао, лимонний сік і спрайт — коли хочеться чогось легкого і з настроєм відпустки.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_XfilueY-iiFEbkx-fxNhUEG_k-t-l.jpeg"
+        },
+        {
+          "slug": "long-island",
+          "title": "Long Island",
+          "price": 225,
+          "description": "Один із найвідоміших і найміцніших коктейлів. Поєднання текіли, рому, горілки, джину та трипл-секу з додаванням пепсі створює насичений багатошаровий смак із легкою цитрусовою нотою та характерною карамельною післясмаковістю. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_lGCbltA-JwZjazC-LdPTFNk_o-b-k.jpeg"
+        },
+        {
+          "slug": "dominic",
+          "title": "Dominic",
+          "price": 185,
+          "description": "Цікавий мікс яблучного соку, віскі, блю кюрасао та гренадіну. Соковитий, з легкою кислинкою і м’яким характером.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FLLMBUh-NCKTVfB-HHekvod_k-m-I.jpeg"
+        },
+        {
+          "slug": "green-spring",
+          "title": "Green Spring",
+          "price": 185,
+          "description": "Яскравий мікс апельсинового соку, рому, текіли та блю кюрасао. Легкий, свіжий і з гарним цитрусовим післясмаком.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_aepbVHf-TJdmiUc-lbGuPOu_i-Q-k.jpeg"
+        },
+        {
+          "slug": "cherry-lady",
+          "title": "Cherry lady",
+          "price": 185,
+          "description": "Насичений коктейль з яскравою кисло-солодкою основою. Горілка додає міцності, вишневий сік і полуничний сироп відповідають за насичений фруктовий смак, а кокосовий лікер додає легкі тропічні нотки і м’якість у післясмаку. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KGDlLvo-ysHqmrf-nLqseHY_g-M-I.jpeg"
+        },
+        {
+          "slug": "crazy-dazy",
+          "title": "Crazy Dazy",
+          "price": 185,
+          "description": "Легкий, грайливий і водночас пряний коктейль. Яблучний сік додає свіжості, карамельний сироп — ніжної солодкості, а поєднання рому, амарето і тріпл-секу дає приємну глибину смаку. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_MmZxGFF-rHbJJfL-ZblLXeD_C-W-s.jpeg"
+        },
+        {
+          "slug": "bella-ciao",
+          "title": "Bella Ciao",
+          "price": 185,
+          "description": "Bella Ciao — елегантний коктейль з лімончело, шампанського брют, м’ятного лікеру, цукрового сиропу, м’яти та лимона.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_AzLrpJC-kGFGVDC-eQbbFLK_s-e-i.jpeg"
+        },
+        {
+          "slug": "jager-sour",
+          "title": "Jager sour",
+          "price": 185,
+          "description": "Освіжаюча кисло-солодка історія з характером. Єгермейстер додає пряної гіркоти, апельсиновий та лимонний сік відповідають за яскраву цитрусову кислинку, а коктейльний білок — за ніжну піну і приємну текстуру. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_cvGybxn-vjTqVGz-TedVHib_G-G-A.jpeg"
+        },
+        {
+          "slug": "burbon-sour",
+          "title": "Burbon sour",
+          "price": 185,
+          "description": "Міцний і збалансований коктейль на основі Jim Beam Bourbon Apple, лимонного соку, цукрового сиропу та білкової пінки.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_uQuKPwG-QbmwxFG-eqKcfKG_b-H-T.jpeg"
+        },
+        {
+          "slug": "aperol-sour",
+          "title": "Aperol sour",
+          "price": 205,
+          "description": "Легкий і освіжаючий мікс на основі Aperol, безалкогольного bitter, лимонного соку, цукрового сиропу та білкової пінки для ніжної текстури.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_BCTWHte-QDfMgbA-kiFgcQb_F-F-E.jpeg"
+        },
+        {
+          "slug": "strawberry-daiquiri",
+          "title": "Strawberry Daiquiri",
+          "price": 175,
+          "description": "Полуничне Дайкірі — коктейль з рому, полуничного сиропу, цукрового сиропу, лимонного соку .",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_xpXlBcy-cffIGNj-xIkYjvm_h-A-l.jpeg"
+        },
+        {
+          "slug": "margarita",
+          "title": "Margarita",
+          "price": 175,
+          "description": "Маргарита: Текіла, Тріпл сек (Апельсиновий лікер), лимоний сік, сіль і лайм",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HzEJVGb-bTdFDPb-GIgAIfr_N-C-E.jpeg"
+        },
+        {
+          "slug": "sex-on-the-beach",
+          "title": "Sex on the beach",
+          "price": 165,
+          "description": "Секс на пляжі — горілка, гренадин, лікер дині та апельсиновий сік. Яскравий та тропічний.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_GigFHeG-UAIFqwQ-JPgeuJJ_C-E-f.jpeg"
+        },
+        {
+          "slug": "pina-colada",
+          "title": "Pina Colada",
+          "price": 175,
+          "description": "Піна Колада — тропічний коктейль з ромом, ананасовим соком, кокосовим лікером, вершками та збитими вершками.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FGXBJhF-uDwOefJ-FJDFeii_I-F-V.jpeg"
+        },
+        {
+          "slug": "tequila-sunrise",
+          "title": "Tequila Sunrise",
+          "price": 175,
+          "description": "Текіла Санрайз — яскравий коктейль з текіли, апельсинового соку та гренадину.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZetlwXK-oYYpqvb-oxRSlCv_H-J-e.jpeg"
+        },
+        {
+          "slug": "aperol",
+          "title": "Aperol",
+          "price": 200,
+          "description": "Апероль — ідеальне поєднання шампанського, аперолю та Schweppes для легкого і ароматного напою.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OmJcCrf-AymeBtx-gMGUUGp_H-q-L.jpeg"
+        },
+        {
+          "slug": "b-52",
+          "title": "B-52",
+          "price": 125,
+          "description": "Б-52 – багатошаровий коктейль з кавового лікеру, бейлізу та апельсинового лікеру.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_EiFJiqb-rLjmCrN-RuTHmCt_e-Q-v.jpeg"
+        },
+        {
+          "slug": "green-mexican",
+          "title": "Green Mexican",
+          "price": 125,
+          "description": "Зелений мексиканець – коктейль на основі текіли з лікером банана, лимонним фрешем",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_rNCCJeb-xtshJVe-OFIxJCF_e-r-n.jpeg"
+        },
+        {
+          "slug": "negroni",
+          "title": "Negroni",
+          "price": 175,
+          "description": "Негроні — класичний коктейль з вермуту, кампарі, джину та Schweppes.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HYiStXk-ptuiCbk-bbVhyJb_V-m-K.jpeg"
+        },
+        {
+          "slug": "martini-tonic",
+          "title": "Martini tonic",
+          "price": 145,
+          "description": "Мартіні Тонік — Martini Bianco з тоніком.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_fHFQjUL-cYyDUxK-IuVVWlv_E-U-G.jpeg"
+        },
+        {
+          "slug": "bellini",
+          "title": "Bellini",
+          "price": 165,
+          "description": "Белліні — ігристе вино з персиковим і лимонним соком.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_tTaGbQM-FFHrfkZ-GGvCPDP_D-o-x.jpeg"
+        },
+        {
+          "slug": "godfather",
+          "title": "Godfather",
+          "price": 150,
+          "description": "Хресний батько — елегантний коктейль з віскі та лікеру Амарето.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_VSlnCll-bKvPzec-UnLdluT_Y-V-Y.jpeg"
+        },
+        {
+          "slug": "paradiso",
+          "title": "Paradiso",
+          "price": 175,
+          "description": "Райська насолода – коктейль з лимончелло, вершками, кокосовим сиропом і лимонним соком.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_IjGesoz-gdxHRkF-IRDMGAE_c-I-J.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ГАРЯЧІ КОКТЕЙЛІ",
+      "products": [
+        {
+          "slug": "grinch",
+          "title": "Grinch",
+          "price": 185,
+          "description": "Ананасовий сік, вершки, карамельний сироп, тріплсек, блюкурасау",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_KxkvImU-lXJVNDo-MFYbDvJ_h-f-D.jpeg"
+        },
+        {
+          "slug": "hot-orrange",
+          "title": "Hot orrange",
+          "price": 175,
+          "description": "Гарячий апельсин (коньяк, апельсин, лимон, лікер амаретто, кориця, гвоздика, апельсиновий сік)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QTwSlrf-dBJNhOa-LGYQDEb_Y-a-o.jpeg"
+        },
+        {
+          "slug": "mulled-wine",
+          "title": "Mulled wine",
+          "price": 165,
+          "description": "Глінтвейн (сухе біле або червоне вино, ром, яблуко, апельсин, кориця, гвоздика, мед)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vyuyhXu-ZKlXjkF-JrIzzJb_w-Q-r.jpeg"
+        },
+        {
+          "slug": "drunk-coffee",
+          "title": "Drunk coffee",
+          "price": 165,
+          "description": "Хмільна кава (подвійне еспресо, збите молоко, апельсиновий лікер, кавовий лікер, гвоздика, кориця, вершки, горіхи)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZGhmAjn-gdBYJyk-mGbgKDF_l-s-N.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ВИНА ІТАЛІЇ",
+      "products": [
+        {
+          "slug": "solo-corso-bianco",
+          "title": "Solo Corso Bianco",
+          "price": 75,
+          "description": "Біле напівсолодке вино, має смак нектарину та персика. Має аромат свіжих тропічних фруктів.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OrKPLPe-DIiHSLu-txJIJGn_p-Y-S.jpeg"
+        },
+        {
+          "slug": "solo-corso-rosso",
+          "title": "Solo Corso Rosso",
+          "price": 75,
+          "description": "Червоне напівсолодке вино. Насиченого рубінового кольору з приємним смаком чорносливу, родзинок та спецій.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_IIkftgD-sEofYhI-mPJDVaD_F-H-l.jpeg"
+        },
+        {
+          "slug": "prosecco-corner-gran-cuve",
+          "title": "Prosecco Corner Gran Cuve",
+          "price": 680,
+          "description": "Італійське ігристе сухе біле вино Corner Prosecco Gran Cuve – ідеальний варіант для поціновувачів вишуканих напоїв. Його порівняно невелика міцність (11%) робить вино незамінним атрибутом у приємних жіночих компаніях. Відмінно поєднується з десертами, гірким шоколадом та різними фруктами, особливо полуницею та ананасом. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QkCRGDk-kHzGQAe-emaZHEO_D-L-p.jpeg"
+        },
+        {
+          "slug": "vallefiore",
+          "title": "Vallefiore",
+          "price": 65,
+          "description": "3 види чудового сухого італійського вина Vallefiore : Bianco - сухе біле Rosato - сухе рожеве Rosso - сухе червоне обери для себе своє) Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bpCfeeb-uwQfitC-JYHkZYW_w-k-U.jpeg"
+        },
+        {
+          "slug": "sangiovese",
+          "title": "Sangiovese",
+          "price": 75,
+          "description": "Червоне сухе італійське вино з насиченим , глибоким смаком без яскравої кислинки та інтенсивної терпкості",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_wIekkTJ-OBWUYhG-KUfEjiH_U-u-k.jpeg"
+        },
+        {
+          "slug": "bardolino",
+          "title": "Bardolino",
+          "price": 75,
+          "description": "Червоне сухе італійське вино, легке, ароматне з нотками червоних фруктів (вишні, полуниці), з приємною кислотністю і м'якими танінами в смаку",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_pLgkKJb-ftFMlcE-JOIkrJp_i-U-Y.jpeg"
+        },
+        {
+          "slug": "fragolino",
+          "title": "Fragolino",
+          "price": 440,
+          "description": "Ігристе червоне солодке вино",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_arJgnQV-yJKENBg-GKkgGZR_m-S-P.jpeg"
+        },
+        {
+          "slug": "pinot-grigio-727",
+          "title": "Pinot Grigio",
+          "price": 75,
+          "description": "Вино Le Colline dei Filari Pinot Grigio delle Venez біле сухе Вино легке і зрозуміле. Має фруктовий аромат та сухий, свіжий, квітковий смак. Ідеально для поєднання зі стравами. Смакує з рибою та птицею. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_sODsG-Qnphw-GkYlB.jpeg"
+        },
+        {
+          "slug": "rosato",
+          "title": "Rosato",
+          "price": 75,
+          "description": "Вино Colline die Filari Rosato delle Venezie рожеве сух. Світло-гранатовий колір, тонкий аромат, легкі нотки спецій, дует дикої малини та квіткових пелюсток. Багатий смак, щільність, але водночас і легкість в післясмаку. Смакує з птицею, морепродуктами та сиром. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_dSZlG-aVwYg-HoTUu.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ВИНА УКРАЇНИ",
+      "products": [
+        {
+          "slug": "leleka-wines-semi-sweet",
+          "title": "Leleka Wines Semi-Sweet",
+          "price": 55,
+          "description": "має світло-солом'яний колір. Аромат пряний, смак свіжий і повний, з приємною кислотністю, який переходить у медовий післясмак",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OCMEa-iJICn-zFbaX.jpeg"
+        },
+        {
+          "slug": "vino-zelenici-yu-rozheve-napivsolodke",
+          "title": "Вино Зелениці \"Ю\" рожеве напівсолодке",
+          "price": 75,
+          "description": "Юпітер 2024 рік урожаю Алкоголь 10% Виго рожеве напівсолодке. Виготовлено методом залишкового цукру. Яскравий аромат полуниці, гарячої карамелі, . Яскравий післясмак. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_f-l-m.jpeg"
+        },
+        {
+          "slug": "vino-zelenici-c-bile-napivsolodke",
+          "title": "Вино Зелениці \"Ц\" біле напівсолодке",
+          "price": 75,
+          "description": "Цитронний магарача 2024 рік урожаю Алкоголь 10% Вино біле, напівсолодке. Виготовлено за методом залишкового цукру. Виразний теплий аромат лемонграсу, лайму, дині. Яскравий післясмак. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_I-m-H.jpeg"
+        },
+        {
+          "slug": "vino-zelenici-c-bile-suhe",
+          "title": "Вино Зелениці \"Ц\" біле сухе",
+          "price": 70,
+          "description": "2024 рік врожаю. Алкоголь 12,5%. Ароматне біле з нотками бузку, липи, прянощів і альпійських трав. У смаку дюшес, цитрус, персик. Тіло легке, смак кисло-солодкий, добре збалансований. Показати більше",
+          "image": ""
+        },
+        {
+          "slug": "vino-zelenici-muskat-pomaranchive-suhe",
+          "title": "Вино Зелениці \"Мускат\" помаранчиве сухе",
+          "price": 75,
+          "description": "Мускатне Skin Contact 2023 рік урожаю Сорт - Мускат білий Алкоголь - 12 5% Помаранчеве вино виготовлене з білого винограду за технологією червоного вина. Витримане в дубових діжках 12 місяців. Глибокий складний аромат парфумів, стиглої айви, свіжої випічки. Складний післясмак, збалансований. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_F-V-F.jpeg"
+        },
+        {
+          "slug": "vino-zelenici-m-chervone-suhe",
+          "title": "Вино Зелениці \"М\" червоне сухе",
+          "price": 75,
+          "description": "Мерло 2022 рік урожаю Алкоголь 13% Червоне сухе вино, витримане в дубових діжках 12 місяців. В ароматі - чорна смородина, в'ялена вишня. Виразні таніни та кислотність. Повнотіле. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_g-H-Y.jpeg"
+        },
+        {
+          "slug": "alazanska-dolina-rozheve",
+          "title": "Aлазанська долина (Рожеве)",
+          "price": 45,
+          "description": "Adjari напівсолодке рожеве",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vnqZmGJ-iGkfeAX-ArRknYN_z-u-f.jpeg"
+        },
+        {
+          "slug": "alazanska-dolina-bile",
+          "title": "Aлазанська долина (Біле)",
+          "price": 45,
+          "description": "DIDI LARI напівсолодке біле",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_CMclcBz-JehITNb-CeWmrdV_J-M-w.jpeg"
+        },
+        {
+          "slug": "alazanska-dolina-chervone",
+          "title": "Aлазанська долина (Червоне)",
+          "price": 45,
+          "description": "DIDI LARI напівсолодке червоне",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_EWGGlYj-yalGSqG-ZRMRDkZ_O-D-N.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ВИНА ФРАНЦІЇ",
+      "products": [
+        {
+          "slug": "michel-laurent-vouvray-off-dry-bile-napiv-suhe",
+          "title": "Michel Laurent Vouvray off-dry Біле напів сухе",
+          "price": 90,
+          "description": "У букеті вина аромати меду, акації, лічі, ананасу та ноти білого перцю. У смаку приємний баланс солодкості та фруктовості, смаки персиків, акації та тропічних фруктів. Гастрономічні поєднання: морепродукти, птиця, сир, салати, овочі. Рекомендовано подавати при температурі від +10°С до +12°С. Вино виноградне натуральне, виготовлене з білого винограду сорту Шенін Блан, вирощеного в регіоні Долина Луари, Франція. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_Q-C-e.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ШАМПАНСЬКЕ",
+      "products": [
+        {
+          "slug": "leleka-wines-semi-dry",
+          "title": "Leleka Wines Semi-Dry",
+          "price": 410,
+          "description": "аромат зеленого яблука, крем-соди, лайму, ванільного пломбіру і ананасу, що доповнюється нотами бісквіта та дині.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_SIJcY-aHDsH-GZdQd.png"
+        },
+        {
+          "slug": "leleka-wines-brut",
+          "title": "Leleka Wines Brut",
+          "price": 410,
+          "description": "Аромати польових квітів, жовтих яблук, груш, свіжого хліба,лимону, білої фіалки а також стиглого персика.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_jFUXp-CVZsF-UHVqJ.png"
+        },
+        {
+          "slug": "leleka-wines-semi-sweet-14",
+          "title": "Leleka Wines Semi-Sweet",
+          "price": 410,
+          "description": "Аромат насичений, з відтінками аґрусу, бананового пирога, крем-соди та ванілі.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_RlEbg-AjCwE-JCmkg.png"
+        },
+        {
+          "slug": "villa-ua-brut",
+          "title": "Villa UA Brut",
+          "price": 400,
+          "description": "Villa UA Brut , чудове легке ігристе вино з приємною кислинкою і відтінками весняних квітів",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_qHjySJx-OORMIOD-umhyqBM_a-x-d.jpeg"
+        },
+        {
+          "slug": "villa-ua-rose",
+          "title": "Villa UA Rose",
+          "price": 400,
+          "description": "В основі купажу – добірний виноград мускатних сортів. Вино благородного рожевого відтінку. Повний яскравий букет з ароматами чайної троянди, півонії та малини.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_JHvqUHh-sEnuCIC-Sbbeaxf_m-U-h.jpeg"
+        },
+        {
+          "slug": "villa-ua-asti",
+          "title": "Villa UA Asti",
+          "price": 400,
+          "description": "Villa UA Asti чудове ігристе вино, яке має солодкий смак з нотками фруктів. Освіжаючий аромат цього напою виражається легкими відтінками мускатного винограду, персика, меду і тропічних фруктів. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_NkFSHJX-FVTGbHu-SMEEzlr_I-k-G.jpeg"
+        },
+        {
+          "slug": "villa-ua-muskat",
+          "title": "Villa UA Muskat",
+          "price": 400,
+          "description": "Villa UA Мускат напівсолодке – це унікальний напій, який виробляється з добірного винограду мускатних сортів. Шампанське наповнене інтенсивним ароматом, з нотками троянди і меду. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_bSwBWvm-krONDJM-PGcJksb_e-D-V.jpeg"
+        },
+        {
+          "slug": "morra-asti-321",
+          "title": "Morra Asti",
+          "price": 600,
+          "description": "Ігристе солодке вино з класичним ароматом та смаком Мускату, світлого меду та сухофруктів. Добре смакує з: сиром, фруктами, десертами. Термін зберігання необмежений Температура зберігання 5-20 градусів. Країна Італія. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_T-c-j.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ВІСКІ",
+      "products": [
+        {
+          "slug": "viski-glenmorangie-original",
+          "title": "Віскі Glenmorangie Original",
+          "price": 220,
+          "description": "Шляхетний односолодовий віскі родом із Шотландії прийдеться до смаку тим, хто полюбляє міцні алкогольні напої зі складним букетом. Напій виробляється з найкращих сортів зерна, а спирти для нього витримуються 10 років у діжках від бурбона. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_vjStccb-teWgfIG-lzIgxgH_G-K-z.jpeg"
+        },
+        {
+          "slug": "chivas-regal",
+          "title": "Chivas Regal",
+          "price": 210,
+          "description": "Вершковий, насичений смак c тонами стиглих, медових яблук, ванілі, горіхів і ірисок. Багатий, тривалий післясмак",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_neqCmyI-hEgKuvA-yqiafnq_C-Y-l.jpeg"
+        },
+        {
+          "slug": "monkey-shoulder",
+          "title": "Monkey Shoulder",
+          "price": 150,
+          "description": "Шотландський солодовий віскі 100% солодовий віскі. Monkey Shoulder створюється невеликими екслюзивними розливами з трьох різних видів односолодового віскі регіону Спейсайд в Шотландії, які надалі «одружують» для досягнення найвищого рівня якості. Смак Monkey Shoulder був створений настільки універсальним, що дало віскі можливість брати участь у найсміливіших коктейльних експериментах. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_QIHluLc-fJCJFmk-Kjhafcl_e-C-H.jpeg"
+        },
+        {
+          "slug": "jameson",
+          "title": "Jameson",
+          "price": 125,
+          "description": "Дуже м’який, зі збалансованими і вираженими тонами горіха, ванілі і дерева, з легкої хересної солодкістю.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_MDckzSn-ncbeyEF-DWqmHbC_Q-I-V.jpeg"
+        },
+        {
+          "slug": "jack-daniel-s-tennessee-apple",
+          "title": "Jack Daniel's Tennessee Apple",
+          "price": 120,
+          "description": "Віскі-лікер Jack Daniel's Tennessee Apple має золотистий колір. Виразний аромат стиглих яблук з нотками ванілі, спецій, дубових відтінків та меду. Карамельний і фруктовий смак елегантно підкреслені витонченою кислинкою зеленого яблука і лимона в тривалому присмаку, що зігріває. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_rgpAWYi-cQCCkHp-sNlorQZ_u-D-p.jpeg"
+        },
+        {
+          "slug": "viski-liker-jack-daniels-tennessee-fire",
+          "title": "Віскі-Лікер Jack Daniels Tennessee Fire",
+          "price": 120,
+          "description": "Теплий смак з ніжними відтінками карамелі, злаків і підпаленого дуба під ароматною корицею з зігріваючим пряним посмаком",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_kNfDhsk-XtuHzSl-ROGGefX_z-u-k.jpeg"
+        },
+        {
+          "slug": "jack-daniel-s-tennessee-old-no.7",
+          "title": "Jack Daniel's Tennessee Old No.7",
+          "price": 115,
+          "description": "",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_iOTCJuG-uBzlvGv-lTDkynL_P-H-J.jpeg"
+        },
+        {
+          "slug": "jack-daniel-s-honey",
+          "title": "Jack Daniel`s Honey",
+          "price": 115,
+          "description": "Має легкий смак з тонами меду, іриски і груші, легкими нюансами бад’яну. Віскі рекомендується вживати в чистому вигляді трохи охолодженим, з льодом або додавати в каву. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_PJIDJVF-hOkNxAs-MHeEqMW_x-y-f.jpeg"
+        },
+        {
+          "slug": "jim-beam-apple",
+          "title": "Jim Beam Apple",
+          "price": 110,
+          "description": "Унікальний алкогольний напій сім’ї Beam – об’єднав у собі легендарний чотирирічний бурбон Jim Beam і екстракт соку свіжих зелених яблук. Майстри сімейного винокурні майстерно поєднали хрумку свіжість зелених яблук з багатим ароматом бурбону, досягнувши досконалого балансу соковитості та глибини напою. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_uccMqul-zKkxnIW-otprXJI_y-J-k.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "РОМ",
+      "products": [
+        {
+          "slug": "capitan-morgan-black-spiced",
+          "title": "Capitan Mоrgan Black Spiced",
+          "price": 79,
+          "description": "Основна частина виготовлення рому Captain Morgan здійснюється на Ямайці, де з добірного ямайського очерету в ретіфікаціонних колонах безперервного типу отримують дистилят найвищої якості. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ZbaIMTh-ORJBCue-zaPxSBi_p-A-A.jpeg"
+        },
+        {
+          "slug": "captain-morgan-spiced-gold",
+          "title": "Captain Morgan Spiced Gold",
+          "price": 74,
+          "description": "Основна частина виготовлення рому Captain Morgan здійснюється на Ямайці, де з добірного ямайського очерету в ретіфікаціонних колонах безперервного типу отримують дистилят найвищої якості. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_MDFXlKH-LGAwQqm-MKnyxyU_w-k-f.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "АЛКОГОЛЬ РІЗНЕ",
+      "products": [
+        {
+          "slug": "limonchello",
+          "title": "Limonchello",
+          "price": 50,
+          "description": "У жаркий, сонячний день, коли так хочеться свіжості і прохолоди, Ви навряд чи знайдете кращий спосіб розслабитися, ніж розмірено смакувати кожен ковток цього чудового напою. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_qEFXqqd-XLxlcus-nKdGGDS_T-V-T.jpeg"
+        },
+        {
+          "slug": "becherovka",
+          "title": "Becherovka",
+          "price": 67,
+          "description": "У напою насичений, солодкий і одночасно гіркувато-терпкий смак. “Бехеровка” прекрасна в якості аперитиву і дижестива, її п’ють з маленьких чарок. Існує безліч коктейлів з її участю. Настоянка має сонячний, золотистий, чистий колір. Напій має густий, трав’яний ароматом. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_mVVGSPg-bXZeZkX-KIZbqhJ_H-U-I.jpeg"
+        },
+        {
+          "slug": "becherovka-lemond",
+          "title": "Becherovka Lemond",
+          "price": 58,
+          "description": "Освіжаючий, питкий, приємний, нетривіальний, смак що поєднує в собі яскраві цитрусові апельсиново – лаймові ноти зі щедрою трав’яною композицією. Інтонації ментолу надають додаткову свіжість, чайні тони привносять особливий шарм в фіналі. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_HAFtPAO-xFHLDmR-HSRbGUF_C-B-y.jpeg"
+        },
+        {
+          "slug": "jagermeister",
+          "title": "Jagermeister",
+          "price": 75,
+          "description": "Популярний німецький лікер Jagermeister у процесі виготовлення проходить кілька етапів. Запашний трав’яний збір наполягає на чистому спирті, після чого витримується в дубових бочках протягом цілого року. За цей час напій набуває глибокого темного кольору і багатого трав’янистого аромату, в якому вгадуються відтінки шафрану, пряної гвоздики, імбиру та кориці. У повному смаку переважає приємна терпкість, яка завершується м’яким післясмаком пряних трав. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_AZdNJFD-TKoYoiI-HimyxmN_L-E-t.jpeg"
+        },
+        {
+          "slug": "baileys",
+          "title": "Baileys",
+          "price": 90,
+          "description": "Можна пити в чистому вигляді, доречно додавання льоду. На основі цього легендарного лікеру існує величезна кількість коктейлів. Додайте “Бейлс” до кави і насолодитеся зігріваючим напоєм. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_mnEWYkx-NQTFXuE-OIgbkEc_p-L-Y.jpeg"
+        },
+        {
+          "slug": "sierra-tequila",
+          "title": "Sierra Tequila",
+          "price": 90,
+          "description": "безбарвна молода ординарна текіла, яка містить 51% спирту блакитної агави, вирощеної в штаті Халіско, біля його столиці – міста Гвадалахари, на висоті 1500 метрів над рівнем моря. Тільки професіонали з покоління в покоління працюють на полях агави та дбають про весь процес від посадки до збирання врожаю. Готують агаву 12 годин під високим тиском і ще 12 годин при низькій температурі, після чого слідує м’який віджимання соку.Смак текіли дуже терпкий, глибокий, насичений і трохи солодкуватий, бадьорий і тривалий післясмак Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_SPuaDHk-JeYPGOs-FpbflXi_q-D-z.jpeg"
+        },
+        {
+          "slug": "martini",
+          "title": "Martini",
+          "price": 64,
+          "description": "Класичний італійський вермуту, найбільш популярного в усьому світі.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_SlPCSac-skvFFeH-ploHlFe_L-I-K.jpeg"
+        },
+        {
+          "slug": "gordonss",
+          "title": "Gordonss",
+          "price": 80,
+          "description": "Джин Gordon’s має терпкий і сухий смак, завдяки триразовій дистиляції. Чистого, прозорого кольору. Насичений аромат джину розкривається тонами диких ягід ялівцю, цитрусових фруктів, коріандру і лакриці. Джин відмінно поєднується з тоніком і лаймом. Існує велика різноманітність коктейлів на його основі Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ADDmWMt-bDTkKSF-ODvGBBb_y-G-q.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ГОРІЛКА",
+      "products": [
+        {
+          "slug": "zubrowka-rose",
+          "title": "Zubrowka Rose",
+          "price": 38,
+          "description": "Якщо ви вважаєте, що Зубровка – це звичайна польська горілка, то вам варто спробувати цей напій, щоб зрозуміти, наскільки ви помиляєтесь. Яскравий п’янкий лікер з натуральними екстрактами лісових трав і ягід закохає в себе з першого ковтка, миттєво звеселить і надасть бадьорості. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_spcGGDu-KwUhGWQ-aMdbIbr_a-D-O.jpeg"
+        },
+        {
+          "slug": "zubrowka-biala",
+          "title": "Zubrowka Biala",
+          "price": 30,
+          "description": "Зубровки легко впізнати по фірмовій травинці, що плаває в прозорому алкоголі. Саме ця травинка, точніше, багато травинок, на яких настоюють спирт, надають напою його свіжий кислуватий смак. Достеменно не відомо, чи дійсно Zubrowka Biala виробляється за рецептом, який винайшли середньовічні алхіміки, але точно відомо, що цей алкоголь має шалений попит. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_aFqeqqa-HVPvtfE-BlkkyBi_W-b-f.jpeg"
+        },
+        {
+          "slug": "zubrowka-bison-grass",
+          "title": "Zubrowka Bison Grass",
+          "price": 31,
+          "description": "В дикій природі трава зубрівка – це їжа для могутніх зубрів, що надає їм сил та здоров’я. У складі горілки Зубровка Бізон Грасс ця трава робить напій не просто смачний, а ще й надзвичайно ароматним, свіжим і додає йому кілька корисних властивостей. Алкоголь сприяє травленню, покращує апетит і настрій, а також швидко звеселяє і не залишає по собі нічого крім приємних спогадів. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_hflfoJk-eJzaYrk-yQUgaAk_u-z-Q.jpeg"
+        },
+        {
+          "slug": "green-day-classic",
+          "title": "Green Day Classic",
+          "price": 27,
+          "description": "Cучасні технології і бездоганний зерновий спирт “Люкс” дарують відчуття м’якості. Відчувається шовковиста м’якість природної горілки Green Day .",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_XDVdXUI-IaHVQcz-ihRbCBe_e-K-E.jpeg"
+        },
+        {
+          "slug": "helsinki",
+          "title": "Helsinki",
+          "price": 38,
+          "description": "Проходить унікальну технологію фільтрації, а вишукана рецептура, в якій присутні натуральний мед і м’ята, додають відчуття м’якої прохолоди і свіжості.",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_jbKpWlp-HkExibU-XkkJUlR_x-C-Z.jpeg"
+        },
+        {
+          "slug": "finlandia",
+          "title": "Finlandia",
+          "price": 63,
+          "description": "Володіє приголомшливо м’яким, яскравим і свіжим смаком з легкими нюансами фруктів і стиглого ячменю",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_grONdrA-OSfUEad-nEOtLLf_w-w-f.jpeg"
+        },
+        {
+          "slug": "grappa",
+          "title": "Grappa",
+          "price": 63,
+          "description": "Італійський самогон, який готується шляхом перегону виноградного соку",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_zgGRvOJ-GCJrZUk-txnZrDd_u-X-Z.jpeg"
+        },
+        {
+          "slug": "green-day-planet",
+          "title": "Green Day Planet",
+          "price": 27,
+          "description": "Горілка Premium якості з найвищою фільтрацією",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_lqZHWgy-cfWZlbD-kGHMrhI_S-C-C.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "КОНЬЯК",
+      "products": [
+        {
+          "slug": "hennessy",
+          "title": "Hennessy",
+          "price": 190,
+          "description": "має багатогранний смак з багатою, об’ємної текстурою і багатою палітрою різних відтінків, в якій присутні ноти ранніх фруктів, що відтіняють легкої свіжістю. Приємний післясмак з відтінком ванілі створює відчуття завершеності і насиченості смаку. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_keIDKDI-GqVwZMw-bCChOGi_e-t-p.jpeg"
+        },
+        {
+          "slug": "metaxa-5",
+          "title": "Metaxa 5*",
+          "price": 80,
+          "description": "Kоньячний напій, народжений у Греції та який витримав перевірку часом протягом п’яти років. Об’єднання виноградних спиртів, делікатного мускатного вина та секретного набору запашних трав створює дивовижний купаж із різноманітними квітковими тонами в ароматі. Смак напою включає приємні абрикосові ноти, змішані з відтінками білого родзинок і ванілі, а довгий квітковий смак підтримує загальний коньячний фон. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_aenbvSp-BeEaPNG-KGXbeMj_u-Q-J.jpeg"
+        },
+        {
+          "slug": "dovbush-5",
+          "title": "Довбуш 5*",
+          "price": 40,
+          "description": "Добре підкреслюється елегантним, міцним, смолистим та збалансованим смаком з горіховим та пряним трав’яним ароматом. Сподобається гурманам коньяку. П’ється легко та м’яко. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_OJPlLNE-SerIllf-pllJkCq_i-X-m.jpeg"
+        },
+        {
+          "slug": "zhan-zhak-medoviy",
+          "title": "Жан-Жак Медовий",
+          "price": 40,
+          "description": "З медовим характером. Продукт поєднує в собі коньяк і свіжий мед диких медоносних бджіл. Це 100% унікальний продукт. Продукт відрізняється великою кількістю перги і воску. За рахунок цього смак коньяку як і смак меду – значно багатогранний, а сам продукт густий і насичений. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_FkiazCa-gDtdKcw-cIXHkXD_B-d-e.jpeg"
+        },
+        {
+          "slug": "klinkov-s",
+          "title": "Klinkov S",
+          "price": 48,
+          "description": "Кращі коньячні спирти, що входять до його складу, витримуються в дубових бочках не менше 5 років. Коньяк має м’який, оксамитовий смак і теплий післясмак. Коньяк золотистого кольору. Експресивний аромат і квіткові тони коньяку Klinkov S Class доповнені відтінками стиглої сливи, шоколаду і ванілі. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_ksaDiBi-OFbhZeU-aIFdUUT_J-V-s.jpeg"
+        },
+        {
+          "slug": "adjari-5",
+          "title": "Adjari 5*",
+          "price": 45,
+          "description": "У карамельних нотах відчувається м’якість, що поєднується з бархатистою горіховою терпкістю і легкими фруктовими тонами. Завершується ансамбль приємним шоколадним смаком. Витримка 5 років. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DGckFbs-aEFOwdX-RggeJJG_E-A-x.jpeg"
+        },
+        {
+          "slug": "adjari-3",
+          "title": "Adjari 3*",
+          "price": 42,
+          "description": "Коньяк Аджарі 3-річної витримки з м’яким ванільно-карамельним відтінком, фруктовими та шоколадними нотками і ароматом інжиру. Традиційно трьохрічний коньяк є найм’якішим серед усіх інших. Відчувається виноградна солодкість у післясмаку. Витримка 3 роки. Показати більше",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_DKjQFkZ-Repjxlt-YjKTwBF_X-L-z.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ДЕГУСТАЦІЙНІ СЕТИ",
+      "products": [
+        {
+          "slug": "set-di-vino-0-5-ml",
+          "title": "Set di vino 0,5 мл",
+          "price": 325,
+          "description": "Винний сет (вина Італії, Франції, Молдова, Грузія та України)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_PDBXXaV-SswoseS-zOVbqFB_k-N-y.jpeg"
+        },
+        {
+          "slug": "forte-set-0-250-ml",
+          "title": "Forte set 0,250 мл",
+          "price": 325,
+          "description": "Міцний сет (п'ять видів настоянок)",
+          "image": "https://cdn-media.choiceqr.com/prod-eat-pizzeriadaniel/menu/thumbnail_uJIJwel-nuSQuyK-rQbtDeQ_U-e-u.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "ПОСЛУГИ",
+      "products": [
+        {
+          "slug": "korkoviy-zbir",
+          "title": "Корковий збір",
+          "price": 200,
+          "description": "Корковий збір 0,5л - 200 грн Корковий збір 0,75л - 300 грн Корковий збір 1л - 400 грн Або пляшка на пляшку відповідно алкоголю. Показати більше",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
