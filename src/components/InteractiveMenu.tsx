@@ -130,11 +130,11 @@ export default function InteractiveMenu() {
 
   const handleAddToCart = (e: React.MouseEvent, product: any) => {
     e.stopPropagation();
-    
+
     addToCart({
       id: product.slug,
       nameKey: product.title[language],
-      price: product.price && product.price !== "NaN" ? Number(product.price) : 0,
+      price: product.price && !isNaN(product.price) ? Number(product.price) : 0,
       size: "",
       image: product.image
     });
@@ -310,7 +310,7 @@ export default function InteractiveMenu() {
                         </div>
                         <div className="flex flex-col items-end gap-2 shrink-0">
                           <span className="text-base md:text-lg font-bold text-zinc-900 dark:text-white whitespace-nowrap">
-                            {price && price !== "NaN" ? `${price} ${t("currency")}` : t("priceByWeight")}
+                            {price && !isNaN(price) ? `${price} ${t("currency")}` : t("priceByWeight")}
                           </span>
                           <motion.button
                             whileTap={{ scale: 0.95 }}

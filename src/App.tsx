@@ -3,7 +3,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 import { CartProvider } from "./context/CartContext";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import InteractiveMenu from "./components/InteractiveMenu";
+import MenuSection from "./components/MenuSection";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import BottomMobileNav from "./components/BottomMobileNav";
@@ -16,7 +16,7 @@ function AppContent() {
       <Header />
       <main>
         <Hero />
-        <InteractiveMenu />
+        <MenuSection />
         <SectionSeparator />
         <Gallery />
       </main>

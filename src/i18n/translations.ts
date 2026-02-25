@@ -68,6 +68,10 @@ export const translations = {
     allRightsReserved: "Всі права захищено.",
     loadMore: "Завантажити ще",
     priceByWeight: "Ціна за вагу",
+    viewDetails: "Детальніше",
+    closeModal: "Закрити",
+    selectSubcategory: "Оберіть підкатегорію",
+    allProducts: "Усі позиції",
   },
   en: {
     heroTitle: "Daniel - the gastronomic heart of Italy and the art of your vacation",
@@ -139,6 +143,10 @@ export const translations = {
     allRightsReserved: "All rights reserved.",
     loadMore: "Load More",
     priceByWeight: "Price by weight",
+    viewDetails: "View Details",
+    closeModal: "Close",
+    selectSubcategory: "Select Subcategory",
+    allProducts: "All Products",
   },
 };
 

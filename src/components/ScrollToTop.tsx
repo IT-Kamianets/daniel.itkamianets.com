@@ -7,7 +7,8 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.scrollY > 300) {
+      const isModalOpen = document.body.style.overflow === "hidden";
+      if (window.scrollY > 300 && !isModalOpen) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -16,6 +17,30 @@ export default function ScrollToTop() {
 
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  // Hide button when modal is open (body overflow is hidden)
+  useEffect(() => {
+    const checkModalState = () => {
+      const isModalOpen = document.body.style.overflow === "hidden";
+      const isScrolled = window.scrollY > 300;
+      if (isModalOpen) {
+        setIsVisible(false);
+      } else if (isScrolled) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    // Check immediately
+    checkModalState();
+
+    // Use MutationObserver to detect changes to body style
+    const observer = new MutationObserver(checkModalState);
+    observer.observe(document.body, { attributes: true, attributeFilter: ["style"] });
+
+    return () => observer.disconnect();
   }, []);
 
   const scrollToTop = () => {
