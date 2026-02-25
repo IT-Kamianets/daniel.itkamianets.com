@@ -30,7 +30,7 @@ export default function Gallery() {
           <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 dark:text-white mb-2 md:mb-4 font-serif">
             {t("gallery")}
           </h2>
-          <div className="w-16 md:w-24 h-1 bg-orange-500 mx-auto rounded-full"></div>
+          <div className="w-16 md:w-24 h-1 mx-auto rounded-full" style={{ backgroundColor: '#1B3425' }}></div>
         </motion.div>
 
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-3 md:gap-4 space-y-3 md:space-y-4 mb-8 md:mb-12">

@@ -35,7 +35,8 @@ export default function ScrollToTop() {
           whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
           onClick={scrollToTop}
-          className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-50 p-2.5 md:p-3 rounded-full bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition-colors"
+          className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-50 p-2.5 md:p-3 rounded-full text-white shadow-lg transition-colors cursor-pointer"
+          style={{ backgroundColor: '#1B3425' }}
         >
           <ArrowUp size={20} className="md:w-6 md:h-6" />
         </motion.button>

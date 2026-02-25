@@ -1,5 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
-import { MapPin, Phone, Mail, Instagram, Facebook, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Facebook, Clock, Music2 } from "lucide-react";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -7,91 +7,100 @@ export default function Footer() {
   return (
     <footer
       id="contacts"
-      className="bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-300 py-8 md:py-12 border-t border-zinc-200 dark:border-zinc-900 transition-colors duration-300"
+      className="bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-white py-8 md:py-12 border-t border-zinc-200 dark:border-zinc-800 transition-colors duration-300"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8">
           {/* Brand & Status */}
           <div className="space-y-3 md:space-y-4">
             <div className="flex items-center gap-3 md:gap-4">
-              <img 
-                src="/images/logo/logo.png" 
-                alt="Daniel Pizzeria Logo" 
+              <img
+                src="/images/logo/logo.png"
+                alt="Daniel Logo"
                 className="h-12 md:h-16 w-auto object-contain"
               />
-              <div className="font-serif text-2xl md:text-3xl font-bold text-orange-500">
-                Daniel Pizzeria
+              <div className="font-serif text-2xl md:text-3xl font-bold text-zinc-900 dark:text-white">
+                Daniel
               </div>
             </div>
-            <p className="text-xs md:text-sm text-zinc-500 dark:text-zinc-400">
-              {t("heroSubtitle")}
+            <p className="text-xs md:text-sm">
+              {t("footerTagline")}
             </p>
           </div>
 
           {/* Contacts */}
           <div className="space-y-2 md:space-y-3">
-            <h4 className="text-zinc-900 dark:text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
+            <h4 className="font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
               {t("contacts")}
             </h4>
             <a
               href="tel:+380507232362"
-              className="flex items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1"
+              className="flex items-center gap-3 text-sm py-1"
             >
-              <Phone size={16} className="text-orange-500" />
+              <Phone size={16} style={{ color: '#1B3425' }} />
               <span>+380 50 723 2362</span>
             </a>
             <a
               href="tel:+380686080028"
-              className="flex items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1"
+              className="flex items-center gap-3 text-sm py-1"
             >
-              <Phone size={16} className="text-orange-500" />
+              <Phone size={16} style={{ color: '#1B3425' }} />
               <span>+380 68 608 0028</span>
             </a>
             <a
               href="mailto:daniel.big.family@gmail.com"
-              className="flex items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1"
+              className="flex items-center gap-3 text-sm py-1"
             >
-              <Mail size={16} className="text-orange-500" />
+              <Mail size={16} style={{ color: '#1B3425' }} />
               <span>daniel.big.family@gmail.com</span>
             </a>
           </div>
 
           {/* Location */}
           <div className="space-y-2 md:space-y-3">
-            <h4 className="text-zinc-900 dark:text-white font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
+            <h4 className="font-semibold mb-3 md:mb-4 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
               {t("location")}
             </h4>
             <div className="flex items-start gap-3 text-sm">
-              <MapPin size={16} className="text-orange-500 shrink-0 mt-1" />
+              <MapPin size={16} style={{ color: '#1B3425' }} className="shrink-0 mt-0.5" />
               <span>{t("address")}</span>
             </div>
-            <div className="flex items-start gap-3 text-sm">
-              <Clock size={16} className="text-orange-500 shrink-0 mt-1" />
+            <div className="flex items-center gap-3 text-sm">
+              <Clock size={16} style={{ color: '#1B3425' }} className="shrink-0" />
               <span>{t("workingHours")}</span>
             </div>
           </div>
 
           {/* Social */}
-          <div className="flex flex-col items-start space-y-2 md:space-y-3">
-            <h4 className="text-zinc-900 dark:text-white font-semibold mb-2 md:mb-3 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
+          <div className="space-y-2 md:space-y-3">
+            <h4 className="font-semibold mb-2 md:mb-3 uppercase tracking-wider text-xs md:text-sm transition-colors duration-300">
               {t("social")}
             </h4>
             <a
-              href="https://www.instagram.com/p/Csg_JMetbqI/"
+              href="https://www.instagram.com/daniel.pizzeria.kp/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex w-fit items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1.5 rounded-lg"
+              className="flex items-center gap-3 text-sm py-1.5 rounded-lg"
             >
-              <Instagram size={16} className="text-orange-500" />
+              <Instagram size={16} style={{ color: '#1B3425' }} />
               <span>Instagram</span>
+            </a>
+            <a
+              href="https://www.tiktok.com/@daniel.kamianets"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-sm py-1.5 rounded-lg"
+            >
+              <Music2 size={16} style={{ color: '#1B3425' }} />
+              <span>TikTok</span>
             </a>
             <a
               href="https://www.facebook.com/p/%D0%94%D0%B0%D0%BD%D1%96%D0%B5%D0%BB%D1%8C-%D0%9A%D0%B0%D0%BC%D1%8F%D0%BD%D0%B5%D1%86%D1%8C-%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-100068689121934/?locale=uk_UA"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex w-fit items-center gap-3 hover:text-orange-500 dark:hover:text-orange-500 transition-colors text-sm py-1.5 rounded-lg"
+              className="flex items-center gap-3 text-sm py-1.5 rounded-lg"
             >
-              <Facebook size={16} className="text-orange-500" />
+              <Facebook size={16} style={{ color: '#1B3425' }} />
               <span>Facebook</span>
             </a>
           </div>
@@ -109,8 +118,8 @@ export default function Footer() {
           ></iframe>
         </div>
 
-        <div className="text-center text-[10px] md:text-xs text-zinc-500 dark:text-zinc-600 pt-6 border-t border-zinc-200 dark:border-zinc-900 transition-colors duration-300">
-          © {new Date().getFullYear()} Pizzeria Daniel. {t("allRightsReserved")}
+        <div className="text-center text-[10px] md:text-xs pt-6 border-t border-zinc-200 dark:border-zinc-800 transition-colors duration-300">
+          © {new Date().getFullYear()} Daniel. {t("allRightsReserved")}
         </div>
       </div>
     </footer>

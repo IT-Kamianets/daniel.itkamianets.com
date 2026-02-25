@@ -25,20 +25,22 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 dark:bg-zinc-950/95 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 ${
-        isScrolled ? "py-3 shadow-md" : "py-5.5"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md border-b ${
+        isScrolled
+          ? "py-3 shadow-md bg-zinc-100/85 dark:bg-zinc-900/85 border-zinc-200/85 dark:border-zinc-800/85"
+          : "py-5.5 bg-zinc-100 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
-          <img 
-            src="images/logo/logo.png" 
-            alt="Daniel Pizzeria Logo" 
+          <img
+            src="images/logo/logo.png"
+            alt="Daniel Logo"
             className="h-9 md:h-11 w-auto object-contain"
           />
-          <span className="font-serif text-2xl md:text-3xl font-bold text-orange-500">
-            Daniel Pizzeria
+          <span className="font-serif text-2xl md:text-3xl font-bold text-zinc-900 dark:text-white">
+            Daniel
           </span>
         </a>
 
@@ -46,37 +48,19 @@ export default function Header() {
         <nav className="hidden lg:flex items-center gap-6 lg:gap-8">
           <a
             href="#menu"
-            className="text-sm lg:text-base font-semibold text-zinc-900 dark:text-zinc-100 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
+            className="text-sm lg:text-base font-semibold transition-colors text-zinc-900 dark:text-white"
           >
             {t("menu")}
           </a>
           <a
-            href="#booking"
-            className="text-sm lg:text-base font-semibold text-zinc-900 dark:text-zinc-100 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
-          >
-            {t("booking")}
-          </a>
-          <a
-            href="#delivery"
-            className="text-sm lg:text-base font-semibold text-zinc-900 dark:text-zinc-100 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
-          >
-            {t("delivery")}
-          </a>
-          <a
             href="#gallery"
-            className="text-sm lg:text-base font-semibold text-zinc-900 dark:text-zinc-100 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
+            className="text-sm lg:text-base font-semibold transition-colors text-zinc-900 dark:text-white"
           >
             {t("gallery")}
           </a>
           <a
-            href="#reviews"
-            className="text-sm lg:text-base font-semibold text-zinc-900 dark:text-zinc-100 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
-          >
-            {t("reviews")}
-          </a>
-          <a
             href="#contacts"
-            className="text-sm lg:text-base font-semibold text-zinc-900 dark:text-zinc-100 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
+            className="text-sm lg:text-base font-semibold transition-colors text-zinc-900 dark:text-white"
           >
             {t("contacts")}
           </a>

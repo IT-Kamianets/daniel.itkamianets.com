@@ -1,9 +1,6 @@
 import {
   Menu,
-  CalendarDays,
-  ShoppingBag,
   Image,
-  MessageSquare,
   MapPin,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
@@ -13,20 +10,7 @@ export default function BottomMobileNav() {
 
   const navItems = [
     { id: "menu", icon: Menu, label: t("menu"), href: "#menu" },
-    {
-      id: "booking",
-      icon: CalendarDays,
-      label: t("booking"),
-      href: "#booking",
-    },
-    { id: "delivery", icon: ShoppingBag, label: t("delivery"), href: "#delivery" },
     { id: "gallery", icon: Image, label: t("gallery"), href: "#gallery" },
-    {
-      id: "reviews",
-      icon: MessageSquare,
-      label: t("reviews"),
-      href: "#reviews",
-    },
     {
       id: "contacts",
       icon: MapPin,
@@ -36,7 +20,7 @@ export default function BottomMobileNav() {
   ];
 
   return (
-    <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/95 dark:bg-zinc-950/95 backdrop-blur-lg border-t border-zinc-200 dark:border-zinc-800 pb-safe shadow-[0_-4px_20px_rgba(0,0,0,0.05)] dark:shadow-[0_-4px_20px_rgba(0,0,0,0.2)]">
+    <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-zinc-100 dark:bg-zinc-900/95 backdrop-blur-lg border-t border-zinc-200 dark:border-zinc-800 pb-safe shadow-[0_-4px_20px_rgba(0,0,0,0.05)] dark:shadow-[0_-4px_20px_rgba(0,0,0,0.2)]">
       <nav className="flex justify-between items-center h-16 px-1">
         {navItems.map((item) => {
           const Icon = item.icon;
@@ -44,10 +28,10 @@ export default function BottomMobileNav() {
             <a
               key={item.id}
               href={item.href}
-              className="flex flex-col items-center justify-center flex-1 h-full space-y-1 text-zinc-500 hover:text-orange-500 dark:text-zinc-400 dark:hover:text-orange-400 transition-colors"
+              className="flex flex-col items-center justify-center flex-1 h-full space-y-1 transition-colors"
             >
-              <Icon size={18} />
-              <span className="text-[10px] font-bold whitespace-nowrap">
+              <Icon size={18} className="text-zinc-900 dark:text-white" />
+              <span className="text-[10px] font-bold whitespace-nowrap text-zinc-900 dark:text-white">
                 {item.label}
               </span>
             </a>

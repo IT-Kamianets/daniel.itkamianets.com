@@ -2,7 +2,7 @@ import React, { useState, useMemo, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { useLanguage } from "../context/LanguageContext";
 import { useCart } from "../context/CartContext";
-import { Plus, Check, Search, Heart } from "lucide-react";
+import { Plus, Check, Search, Heart, X } from "lucide-react";
 import menuData from "../../menu.json";
 
 export default function InteractiveMenu() {
@@ -178,7 +178,7 @@ export default function InteractiveMenu() {
           <h2 className="text-3xl md:text-5xl font-bold text-zinc-900 dark:text-white mb-2 md:mb-4 font-serif">
             {t("menu")}
           </h2>
-          <div className="w-16 md:w-24 h-1 bg-orange-500 mx-auto rounded-full"></div>
+          <div className="w-16 md:w-24 h-1 mx-auto rounded-full" style={{ backgroundColor: '#1B3425' }}></div>
         </motion.div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
@@ -225,8 +225,18 @@ export default function InteractiveMenu() {
                     placeholder={`${t("search")}...`}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl pl-10 pr-4 py-2.5 text-sm md:text-base text-zinc-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all"
+                    className="w-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl pl-10 pr-10 py-2.5 text-sm md:text-base text-zinc-900 dark:text-white focus:outline-none focus:ring-2 transition-all"
+                    style={{ '--tw-ring-color': '#1B3425' } as React.CSSProperties}
                   />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery("")}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 p-0.5 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors cursor-pointer"
+                      type="button"
+                    >
+                      <X size={16} className="text-zinc-400" />
+                    </button>
+                  )}
                 </div>
                 <motion.button
                   whileTap={{ scale: 0.95 }}
@@ -256,9 +266,10 @@ export default function InteractiveMenu() {
                     onClick={() => handleCategoryChange(index)}
                     className={`px-4 py-1.5 md:px-6 md:py-2 rounded-full text-xs md:text-sm font-bold transition-colors cursor-pointer whitespace-nowrap ${
                       activeCategoryIndex === index && !searchQuery && !showFavoritesOnly
-                        ? "bg-orange-500 text-white shadow-lg shadow-orange-500/30"
+                        ? "text-white shadow-lg"
                         : "bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-300 dark:hover:bg-zinc-700"
                     }`}
+                    style={activeCategoryIndex === index && !searchQuery && !showFavoritesOnly ? { backgroundColor: '#1B3425', boxShadow: '0 10px 15px rgba(27, 52, 37, 0.3)' } : {}}
                   >
                     {category.name[language]}
                   </motion.button>
@@ -279,20 +290,17 @@ export default function InteractiveMenu() {
                       key={product.slug}
                       className={`p-3 md:p-4 rounded-xl cursor-pointer transition-all duration-300 border ${
                         isActive
-                          ? "bg-white dark:bg-zinc-900 border-orange-500 shadow-xl"
+                          ? "bg-white dark:bg-zinc-900 shadow-xl"
                           : "bg-transparent border-transparent hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
                       }`}
+                      style={isActive ? { borderColor: '#1B3425' } : {}}
                       onClick={() => handleProductSelect(product)}
                       whileHover={{ x: 5 }}
                     >
                       <div className="flex justify-between items-start mb-1">
                         <div className="flex-1">
                           <h3
-                            className={`text-lg md:text-xl font-bold font-serif ${
-                              isActive
-                                ? "text-orange-500"
-                                : "text-zinc-900 dark:text-white"
-                            }`}
+                            className="text-lg md:text-xl font-bold font-serif text-zinc-900 dark:text-white"
                           >
                             {product.title[language]}
                           </h3>
@@ -304,28 +312,18 @@ export default function InteractiveMenu() {
                           <span className="text-base md:text-lg font-bold text-zinc-900 dark:text-white whitespace-nowrap">
                             {price && price !== "NaN" ? `${price} ${t("currency")}` : t("priceByWeight")}
                           </span>
-                          <div className="flex items-center gap-2">
-                            <motion.button
-                              whileTap={{ scale: 0.95 }}
-                              transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                              onClick={(e) => toggleLike(e, product.slug)}
-                              className={`p-1.5 rounded-full transition-colors cursor-pointer ${
-                                isLiked
-                                  ? "text-red-500 bg-red-50 dark:bg-red-900/20"
-                                  : "text-zinc-400 hover:text-red-500 hover:bg-zinc-200 dark:hover:bg-zinc-800"
-                              }`}
-                            >
-                              <Heart size={16} fill={isLiked ? "currentColor" : "none"} />
-                            </motion.button>
-                            <motion.button
-                              whileTap={{ scale: 0.95 }}
-                              transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                              onClick={(e) => handleAddToCart(e, product)}
-                              className="p-1.5 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-orange-500 hover:text-white transition-colors shadow-sm hover:shadow-orange-500/30 cursor-pointer"
-                            >
-                              <Plus size={16} />
-                            </motion.button>
-                          </div>
+                          <motion.button
+                            whileTap={{ scale: 0.95 }}
+                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                            onClick={(e) => toggleLike(e, product.slug)}
+                            className={`p-1.5 rounded-full transition-colors cursor-pointer ${
+                              isLiked
+                                ? "text-red-500 bg-red-50 dark:bg-red-900/20"
+                                : "text-zinc-400 hover:text-red-500 hover:bg-zinc-200 dark:hover:bg-zinc-800"
+                            }`}
+                          >
+                            <Heart size={16} fill={isLiked ? "currentColor" : "none"} />
+                          </motion.button>
                         </div>
                       </div>
                     </motion.div>
