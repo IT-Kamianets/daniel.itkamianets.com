@@ -10,7 +10,6 @@ export default function Hero() {
       id="home"
       className="relative h-[80vh] md:h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src="images/logo/hero.png"

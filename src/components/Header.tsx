@@ -32,7 +32,6 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <img
             src="images/logo/logo.png"
@@ -44,7 +43,6 @@ export default function Header() {
           </span>
         </a>
 
-        {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-6 lg:gap-8">
           <a
             href="#menu"
@@ -66,9 +64,7 @@ export default function Header() {
           </a>
         </nav>
 
-        {/* Actions */}
         <div className="flex items-center gap-3 md:gap-5">
-          {/* Status */}
           <div className="hidden sm:flex items-center gap-2.5 bg-zinc-200 dark:bg-zinc-800 px-3.5 py-1.5 rounded-full">
             <div className="relative flex h-2.5 w-2.5">
               {isOpen && (

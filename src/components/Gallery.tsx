@@ -9,7 +9,6 @@ export default function Gallery() {
   const [visibleCount, setVisibleCount] = useState(10);
 
   useEffect(() => {
-    // Generate paths for images 1.jpg through 30.jpg
     const imagePaths = Array.from({ length: 30 }, (_, i) => `images/gallery/${i + 1}.jpg`);
     setPhotos(imagePaths);
   }, []);

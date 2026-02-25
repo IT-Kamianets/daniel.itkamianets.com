@@ -395,7 +395,6 @@ export default function MenuSection() {
                             transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
                             className="bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-zinc-100 dark:border-zinc-800 w-full h-fit"
                           >
-                            {/* Image container - hover only on this area */}
                             <div className="relative aspect-[4/3] overflow-hidden group/img cursor-pointer" onClick={() => setSelectedProduct(product)}>
                               <img
                                 src={product.image || "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80"}
@@ -405,7 +404,6 @@ export default function MenuSection() {
                                   (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80";
                                 }}
                               />
-                              {/* Overlay - appears only when hovering the image */}
                               <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer">
                                 <motion.button
                                   initial={{ scale: 0.8, opacity: 0 }}
@@ -425,7 +423,6 @@ export default function MenuSection() {
                               </div>
                             </div>
 
-                            {/* Content */}
                             <div className="p-3 md:p-4">
                               <h3 className="text-lg md:text-xl font-bold font-serif text-zinc-900 dark:text-white mb-2">
                                 {product.title[language]}
@@ -475,7 +472,6 @@ export default function MenuSection() {
         </div>
       </div>
 
-      {/* Modal */}
       <AnimatePresence>
         {selectedProduct && (
           <motion.div
@@ -495,7 +491,6 @@ export default function MenuSection() {
             >
               <div className="p-3 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-8">
-                  {/* Image */}
                   <div className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden">
                     <img
                       src={selectedProduct.image || "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80"}
@@ -507,7 +502,6 @@ export default function MenuSection() {
                     />
                   </div>
 
-                  {/* Info */}
                   <div className="flex flex-col">
                     <h3 className="text-2xl md:text-4xl font-bold font-serif text-zinc-900 dark:text-white mb-2 md:mb-4">
                       {selectedProduct.title[language]}
