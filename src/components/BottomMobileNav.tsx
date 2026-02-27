@@ -2,6 +2,7 @@ import {
   Menu,
   Image,
   MapPin,
+  Star,
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -11,6 +12,12 @@ export default function BottomMobileNav() {
   const navItems = [
     { id: "menu", icon: Menu, label: t("menu"), href: "#menu" },
     { id: "gallery", icon: Image, label: t("gallery"), href: "#gallery" },
+    {
+      id: "reviews",
+      icon: Star,
+      label: t("reviews"),
+      href: "#reviews",
+    },
     {
       id: "contacts",
       icon: MapPin,

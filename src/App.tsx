@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MenuSection from "./components/MenuSection";
 import Gallery from "./components/Gallery";
+import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 import BottomMobileNav from "./components/BottomMobileNav";
 import ScrollToTop from "./components/ScrollToTop";
@@ -19,6 +20,8 @@ function AppContent() {
         <MenuSection />
         <SectionSeparator />
         <Gallery />
+        <SectionSeparator />
+        <Reviews />
       </main>
       <Footer />
       <BottomMobileNav />

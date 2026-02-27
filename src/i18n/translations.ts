@@ -150,4 +150,41 @@ export const translations = {
   },
 };
 
+export const reviewsData = {
+  uk: [
+    { rating: 5, author: "Настя", text: "Улюблений заклад. Піца найсмачніша в місті, адекватні ціни, сервіс на найвищому рівні." },
+    { rating: 5, author: "Андрій", text: "Дуже смачна піца та якісний сервіс." },
+    { rating: 5, author: "Ніна", text: "Відвідували ресторан 31 грудня та 1 січня. Смачна їжа та чудове обслуговування. Рекомендую." },
+    { rating: 5, author: "Юлія", text: "Смачно, асортимент і обслуговування на рівні." },
+    { rating: 5, author: "Олена", text: "Дуже смачно! Сервірування на висоті!" },
+    { rating: 5, author: "Каміла", text: "Чудове місце, дуже швидке обслуговування, все було дуже смачно." },
+    { rating: 5, author: "Григорій", text: "Крута піца, класне обслуговування. Однозначно рекомендую відвідати." },
+    { rating: 5, author: "Оксана", text: "Дуже смачна піца!" },
+    { rating: 5, author: "Віталій", text: "Все дуже сподобалось. Заклад далеко не обмежується піцою." },
+    { rating: 5, author: "Вадим", text: "Дуже смачно! Другий поверх дитяча кімната дуже крута і зручна, задоволені, рекомендуємо!" },
+    { rating: 5, author: "Настя", text: "Хороша атмосфера зі смачною кухнею. Окрема подяка за привітність персоналу." },
+    { rating: 5, author: "Ярослава", text: "Дуже смачно, привітний персонал, найкращий заклад в старому місті! Всім рекомендую!" },
+    { rating: 5, author: "Ангеліна", text: "Дуже смачна піца, офіціанти супер, швидко приймають замовлення." },
+    { rating: 5, author: "Каріна", text: "Смачна їжа, приємний персонал. Хочу особливо відмітити чудову атмосферу закладу. Щирі рекомендації." },
+    { rating: 5, author: "Володимир", text: "Крем-суп - дуже смачний. Піца дуже смачна. Ціни помірні. Персонал привітний. Хороше місце, щоб зайти поїсти." },
+  ],
+  en: [
+    { rating: 5, author: "Nastya", text: "Favorite place. The pizza is the tastiest in town, reasonable prices, service at the highest level." },
+    { rating: 5, author: "Andriy", text: "Very tasty pizza and quality service." },
+    { rating: 5, author: "Nina", text: "Visited the restaurant on December 31st and January 1st. Delicious food and excellent service. I recommend it." },
+    { rating: 5, author: "Yuliia", text: "Delicious, assortment and service are top-notch." },
+    { rating: 5, author: "Olena", text: "Very delicious! Serving is top-notch!" },
+    { rating: 5, author: "Kamila", text: "Wonderful place, very fast service, everything was very tasty." },
+    { rating: 5, author: "Hryhorii", text: "Cool pizza, great service. Definitely recommend visiting." },
+    { rating: 5, author: "Oksana", text: "Very tasty pizza!" },
+    { rating: 5, author: "Vitalii", text: "Liked everything very much. The place is not limited to just pizza." },
+    { rating: 5, author: "Vadym", text: "Very tasty! The second floor kids' room is very cool and convenient, we are satisfied, we recommend it!" },
+    { rating: 5, author: "Nastya", text: "Good atmosphere with delicious cuisine. Special thanks for the friendly staff." },
+    { rating: 5, author: "Yaroslava", text: "Very tasty, friendly staff, the best place in the old town! I recommend to everyone!" },
+    { rating: 5, author: "Anhelina", text: "Very tasty pizza, waiters are super, quickly take orders." },
+    { rating: 5, author: "Karina", text: "Delicious food, pleasant staff. I especially want to note the wonderful atmosphere of the place. Sincere recommendations." },
+    { rating: 5, author: "Volodymyr", text: "Cream soup is very tasty. Pizza is very tasty. Prices are moderate. Friendly staff. A good place to come and eat." },
+  ],
+};
+
 export type Language = "uk" | "en";

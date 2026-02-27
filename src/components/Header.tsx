@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { useTheme } from "../context/ThemeContext";
 import { useLanguage } from "../context/LanguageContext";
-import { Moon, Sun, Globe } from "lucide-react";
+import { Moon, Sun, Globe, Star } from "lucide-react";
 import { useRestaurantStatus } from "../hooks/useRestaurantStatus";
 
 export default function Header() {
@@ -55,6 +55,12 @@ export default function Header() {
             className="text-sm lg:text-base font-semibold transition-colors text-zinc-900 dark:text-white"
           >
             {t("gallery")}
+          </a>
+          <a
+            href="#reviews"
+            className="text-sm lg:text-base font-semibold transition-colors text-zinc-900 dark:text-white"
+          >
+            {t("reviews")}
           </a>
           <a
             href="#contacts"
