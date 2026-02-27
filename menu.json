@@ -2338,8 +2338,8 @@
           "products": [
             {
               "slug": "kolenberg-pshenichne",
-              "title": { "uk": "KÖLENBERG Пшеничне", "en": "KÖLENBERG Wheat Beer" },
-              "price": 0,
+              "title": { "uk": "KÖLENBERG Пшеничне 0.5", "en": "KÖLENBERG Wheat Beer 0.5" },
+              "price": 85,
               "description": {
                 "uk": "Бельгійське пшеничне нефільтроване, розливне",
                 "en": "Belgian wheat unfiltered, draft"
@@ -2348,8 +2348,8 @@
             },
             {
               "slug": "kolenberg-bavarian-gold",
-              "title": { "uk": "KÖLENBERG Bavarian Gold", "en": "KÖLENBERG Bavarian Gold" },
-              "price": 0,
+              "title": { "uk": "KÖLENBERG Bavarian Gold 0.5", "en": "KÖLENBERG Bavarian Gold 0.5" },
+              "price": 85,
               "description": {
                 "uk": "Класичний світлий лагер, розливне",
                 "en": "Classic light lager, draft"
@@ -2358,8 +2358,8 @@
             },
             {
               "slug": "kolenberg-dunkel",
-              "title": { "uk": "KÖLENBERG Дункель", "en": "KÖLENBERG Dunkel" },
-              "price": 0,
+              "title": { "uk": "KÖLENBERG Дункель 0.5", "en": "KÖLENBERG Dunkel 0.5" },
+              "price": 80,
               "description": {
                 "uk": "Темний лагер у німецькому стилі, розливне",
                 "en": "German dark lager, draft"
@@ -2368,8 +2368,8 @@
             },
             {
               "slug": "kolenberg-ipa",
-              "title": { "uk": "KÖLENBERG IPA", "en": "KÖLENBERG IPA" },
-              "price": 0,
+              "title": { "uk": "KÖLENBERG IPA 0.5", "en": "KÖLENBERG IPA 0.5" },
+              "price": 85,
               "description": {
                 "uk": "India Pale Ale з хмелевим ароматом, розливне",
                 "en": "India Pale Ale with hoppy aroma, draft"

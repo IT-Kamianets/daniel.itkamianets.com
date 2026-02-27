@@ -12,7 +12,7 @@ import SectionSeparator from "./components/SectionSeparator";
 
 function AppContent() {
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans transition-colors duration-300 pb-16 md:pb-0">
       <Header />
       <main>
         <Hero />

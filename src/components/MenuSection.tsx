@@ -335,7 +335,7 @@ export default function MenuSection() {
                       <div className="py-2 max-h-[250px] md:max-h-[300px] overflow-y-auto">
                         <button
                           onClick={() => selectSubcategory(idx, 0)}
-                          className={`w-full px-3 py-2 md:px-4 md:py-2.5 text-left text-xs md:text-sm transition-colors cursor-pointer hover:bg-emerald-50 dark:hover:bg-emerald-900/20 ${
+                          className={`w-full px-3 py-2 md:px-4 md:py-2.5 text-left text-xs md:text-sm transition-colors cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-900/20 ${
                             activeSubcatIdx === 0 && isActive
                               ? "bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 font-medium"
                               : "text-zinc-700 dark:text-zinc-300"
@@ -350,7 +350,7 @@ export default function MenuSection() {
                             <button
                               key={sub.name[language]}
                               onClick={() => selectSubcategory(idx, realIdx)}
-                              className={`w-full px-3 py-2 md:px-4 md:py-2.5 text-left text-xs md:text-sm transition-colors cursor-pointer hover:bg-emerald-50 dark:hover:bg-emerald-900/20 ${
+                              className={`w-full px-3 py-2 md:px-4 md:py-2.5 text-left text-xs md:text-sm transition-colors cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-900/20 ${
                                 activeSubcatIdx === realIdx && isActive
                                   ? "bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 font-medium"
                                   : "text-zinc-700 dark:text-zinc-300"
@@ -374,15 +374,15 @@ export default function MenuSection() {
         <div className="w-full min-h-[40vh]">
           <AnimatePresence mode="wait">
             {filteredProducts.length > 0 ? (
-              <motion.div 
+              <motion.div
                 key="grid"
-                initial={{ opacity: 0 }} 
-                animate={{ opacity: 1 }} 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 className="flex items-start gap-4 md:gap-6 w-full"
               >
                 {masonryColumns.map((col, colIdx) => (
-                  <div key={colIdx} className="flex-1 flex flex-col gap-4 md:gap-6">
+                  <div key={colIdx} className="flex-1 min-w-0 flex flex-col gap-4 md:gap-6">
                     <AnimatePresence mode="popLayout">
                       {col.map((product) => {
                         const isLiked = likedProducts.has(product.slug);
@@ -465,7 +465,7 @@ export default function MenuSection() {
                 transition={{ duration: 0.2 }}
                 className="flex w-full items-center justify-center pt-20 pb-12 text-zinc-500 dark:text-zinc-400"
               >
-                <p className="text-lg md:text-xl font-medium">{showFavoritesOnly ? t("noFavorites") : t("noResults")}</p>
+                <p className="text-lg md:text-xl font-medium text-center">{showFavoritesOnly ? t("noFavorites") : t("noResults")}</p>
               </motion.div>
             )}
           </AnimatePresence>

@@ -1,7 +1,7 @@
 export const translations = {
   uk: {
     heroTitle: "Daniel - гастрономічне серце Італії та мистецтво вашого відпочинку",
-    heroSubtitle: "Ваш особливий простір у Кам'янці-Подільському, де класичні традиції зустрічаються з сучасною естетикою. Від ідеальної пасти та преміальних суші до страв на відкритому вогні й теплого аромату випічки з дров'яної печі. Створюємо смак, до якого хочеться повертатися",
+    heroSubtitle: "Ваш особливий простір у Кам'янці-Подільському, де класика поєднується із сучасною естетикою. Ідеальна паста, преміальні суші, страви на відкритому вогні та ароматна випічка з дров’яної печі. Створюємо смак, до якого хочеться повертатися",
     footerTagline: "Daniel – гастрономічне серце Італії та мистецтво вашого відпочинку",
     viewMenu: "Дивитись Меню",
     openNow: "Зараз відчинено",
@@ -75,7 +75,7 @@ export const translations = {
   },
   en: {
     heroTitle: "Daniel - the gastronomic heart of Italy and the art of your vacation",
-    heroSubtitle: "Your special place in Kamianets-Podilskyi, where classic traditions meet modern aesthetics. From perfect pasta and premium sushi to dishes cooked over an open fire and the warm aroma of baked goods from a wood-fired oven. We create flavors you'll want to come back to.",
+    heroSubtitle: "Your special place in Kamianets-Podilskyi, where classic traditions meet modern aesthetics. Perfect pasta, premium sushi, open-fire dishes, and aromatic wood-fired oven pastries. We create flavors you'll always want to come back to",
     footerTagline: "Daniel – the gastronomic heart of Italy and the art of your vacation",
     viewMenu: "View Menu",
     openNow: "Open Now",

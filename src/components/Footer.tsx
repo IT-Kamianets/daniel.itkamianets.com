@@ -1,8 +1,19 @@
 import { useLanguage } from "../context/LanguageContext";
-import { MapPin, Phone, Mail, Instagram, Facebook, Clock, Music2 } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Facebook, Clock, Music2, Github } from "lucide-react";
+import { motion } from "motion/react";
 
 export default function Footer() {
   const { t } = useLanguage();
+
+  const handleGithubClick = (e: MouseEvent) => {
+    if (e.ctrlKey || e.metaKey) {
+      window.open("https://github.com/IT-Kamianets/daniel.itkamianets.com", "_blank");
+    } else {
+      setTimeout(() => {
+        window.location.href = "https://github.com/IT-Kamianets/daniel.itkamianets.com";
+      }, 300);
+    }
+  };
 
   return (
     <footer
@@ -118,8 +129,30 @@ export default function Footer() {
           ></iframe>
         </div>
 
-        <div className="text-center text-[10px] md:text-xs pt-6 border-t border-zinc-200 dark:border-zinc-800 transition-colors duration-300">
-          © {new Date().getFullYear()} Daniel. {t("allRightsReserved")}
+        <div className="flex flex-col md:flex-row justify-between items-center text-[10px] md:text-xs pt-6 border-t border-zinc-200 dark:border-zinc-800 transition-colors duration-300 gap-3 md:gap-0">
+          <div className="text-zinc-900 dark:text-zinc-100 text-center md:text-left">
+            <div>© 2026 Daniel.</div>
+            <div>{t("allRightsReserved")}</div>
+          </div>
+          <div className="flex items-center gap-2">
+            <motion.button
+              initial={{ scale: 1 }}
+              animate={{ scale: 1 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              onClick={handleGithubClick}
+              className="p-1 rounded-full bg-black dark:bg-white cursor-pointer"
+            >
+              <Github
+                size={14}
+                className="text-white dark:text-black"
+              />
+            </motion.button>
+            <span className="text-black dark:text-white text-center md:text-left">
+              <div>Designed by</div>
+              <div>Valtser V. O.</div>
+            </span>
+          </div>
         </div>
       </div>
     </footer>
