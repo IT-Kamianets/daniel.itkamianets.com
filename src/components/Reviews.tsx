@@ -26,8 +26,8 @@ export default function Reviews() {
   }, []);
 
   const allReviews = [...reviews, ...reviews, ...reviews, ...reviews];
-  const scrollDuration = 50;
-  const scrollDistance = cardWidth * reviews.length;
+  const scrollDuration = 50; // Трохи уповільнимо для більшої плавності
+  const scrollDistance = Math.round(cardWidth * reviews.length);
 
   return (
     <section id="reviews" className="py-10 md:py-16 bg-white dark:bg-zinc-950 overflow-hidden">
@@ -49,15 +49,19 @@ export default function Reviews() {
             <motion.div
               ref={carouselRef}
               className="flex gap-2 md:gap-4 lg:gap-6"
-              animate={{ x: [0, -scrollDistance] }}
+              initial={{ x: 0 }}
+              animate={{ x: -scrollDistance }}
               transition={{
                 duration: scrollDuration,
                 ease: "linear",
                 repeat: Infinity,
+                repeatType: "loop"
               }}
               style={{ 
                 width: 'max-content',
                 willChange: 'transform',
+                transform: 'translateZ(0)',
+                backfaceVisibility: 'hidden'
               }}
             >
               {allReviews.map((review, index) => (

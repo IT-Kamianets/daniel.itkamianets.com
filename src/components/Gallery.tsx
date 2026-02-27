@@ -39,15 +39,17 @@ export default function Gallery() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
-              className="relative overflow-hidden rounded-xl md:rounded-2xl break-inside-avoid group bg-zinc-200 dark:bg-zinc-800"
+              className="relative overflow-hidden rounded-xl md:rounded-2xl break-inside-avoid group bg-zinc-200 dark:bg-zinc-800 min-h-[200px] md:min-h-[300px]"
             >
               <img
                 src={photo}
                 alt={`Gallery image ${index + 1}`}
-                className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110 opacity-0 transition-opacity duration-300"
+                onLoad={(e) => (e.currentTarget.classList.remove('opacity-0'))}
                 loading="lazy"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80&text=Image+${index+1}`;
+                  (e.target as HTMLImageElement).classList.remove('opacity-0');
                 }}
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500"></div>

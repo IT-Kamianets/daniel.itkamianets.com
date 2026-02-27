@@ -22,8 +22,11 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Висота фіксованого хедеру + невеликий відступ */
+  scroll-padding-top: 70px; /* Висота фіксованого хедеру + невеликий відступ */
+}
+
+section {
+  scroll-margin-top: 70px;
 }
 
 @layer utilities {
