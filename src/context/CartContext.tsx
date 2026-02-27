@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 
 export interface CartItem {
   id: string;
-  nameKey: string; // We store the key to translate it later
+  nameKey: string; 
   price: number;
   quantity: number;
   size: string;

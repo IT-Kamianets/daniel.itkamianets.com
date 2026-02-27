@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'nav-giant': '2.25rem', // ~36px
+        'nav-giant': '2.25rem', 
       },
     },
   },

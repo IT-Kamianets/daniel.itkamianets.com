@@ -26,7 +26,7 @@ export default function Reviews() {
   }, []);
 
   const allReviews = [...reviews, ...reviews, ...reviews, ...reviews];
-  const scrollDuration = 50; // Трохи уповільнимо для більшої плавності
+  const scrollDuration = 50; 
   const scrollDistance = Math.round(cardWidth * reviews.length);
 
   return (

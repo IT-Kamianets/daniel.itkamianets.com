@@ -47,10 +47,6 @@ export default function Gallery() {
                 className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110 opacity-0 transition-opacity duration-300"
                 onLoad={(e) => (e.currentTarget.classList.remove('opacity-0'))}
                 loading="lazy"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80&text=Image+${index+1}`;
-                  (e.target as HTMLImageElement).classList.remove('opacity-0');
-                }}
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500"></div>
             </motion.div>

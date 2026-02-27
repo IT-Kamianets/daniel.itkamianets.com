@@ -27,7 +27,7 @@ function AppContent() {
           e.preventDefault();
           
           const headerOffset = 70;
-          const duration = 1100; // Збільшено для спокійного темпу
+          const duration = 1100; 
           const startTime = performance.now();
           const startScrollY = window.scrollY;
 
@@ -35,12 +35,10 @@ function AppContent() {
             const elapsedTime = currentTime - startTime;
             const progress = Math.min(elapsedTime / duration, 1);
             
-            // Ефект плавного старту та м'якої зупинки (Ease In Out Cubic)
             const easeProgress = progress < 0.5 
               ? 4 * progress * progress * progress 
               : 1 - Math.pow(-2 * progress + 2, 3) / 2;
             
-            // Перераховуємо ціль на кожному кадрі (захист від layout shift)
             const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - headerOffset;
             const currentTargetScrollY = startScrollY + (targetPosition - startScrollY) * easeProgress;
 
@@ -49,7 +47,6 @@ function AppContent() {
             if (progress < 1) {
               requestAnimationFrame(animateScroll);
             } else {
-              // Фінальна "крапка" для ідеальної точності
               const finalPosition = targetElement.getBoundingClientRect().top + window.scrollY - headerOffset;
               window.scrollTo({ top: finalPosition, behavior: 'auto' });
             }

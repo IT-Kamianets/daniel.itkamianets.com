@@ -57,7 +57,6 @@ export default function MenuSection() {
   const [likedProducts, setLikedProducts] = useState<Set<string>>(new Set());
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [toasts, setToasts] = useState<{ id: number; message: string }[]>([]);
   const [numCols, setNumCols] = useState(5);
 
   // Responsive columns for masonry
@@ -135,24 +134,6 @@ export default function MenuSection() {
     });
   };
 
-  const handleAddToCart = (e: React.MouseEvent, product: Product) => {
-    e.stopPropagation();
-    addToCart({
-      id: product.slug,
-      nameKey: product.title[language],
-      price: !isNaN(product.price) ? product.price : 0,
-      size: "",
-      image: product.image,
-    });
-    const id = Date.now();
-    setToasts((prev) => [...prev, { id, message: t("addedToCart") }]);
-    setTimeout(() => removeToast(id), 2000);
-  };
-
-  const removeToast = (id: number) => {
-    setToasts((prev) => prev.filter((toast) => toast.id !== id));
-  };
-
   const selectCategory = (idx: number) => {
     setActiveCategoryIdx(idx);
     setActiveSubcatIdx(0);
@@ -210,24 +191,6 @@ export default function MenuSection() {
 
   return (
     <section id="menu" className="py-10 md:py-16 bg-white dark:bg-zinc-950 overflow-hidden relative">
-      {/* Toasts */}
-      <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 pointer-events-none">
-        <AnimatePresence>
-          {toasts.map((toast) => (
-            <motion.div
-              key={toast.id}
-              initial={{ opacity: 0, y: -20, scale: 0.8 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.2 } }}
-              className="flex items-center gap-2 bg-emerald-500 text-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-2xl font-medium text-sm md:text-base whitespace-nowrap"
-            >
-              <Check size={18} />
-              {toast.message}
-            </motion.div>
-          ))}
-        </AnimatePresence>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <motion.div
@@ -397,12 +360,9 @@ export default function MenuSection() {
                           >
                             <div className="relative aspect-[4/3] overflow-hidden group/img cursor-pointer" onClick={() => setSelectedProduct(product)}>
                               <img
-                                src={product.image || "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80"}
+                                src={product.image}
                                 alt={product.title[language]}
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover/img:scale-110"
-                                onError={(e) => {
-                                  (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80";
-                                }}
                               />
                               <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer">
                                 <motion.button
@@ -445,7 +405,7 @@ export default function MenuSection() {
                                 </motion.button>
 
                                 <span className="text-base md:text-lg font-bold text-zinc-900 dark:text-white whitespace-nowrap">
-                                  {!isNaN(product.price) ? `${product.price} ${t("currency")}` : t("priceByWeight")}
+                                  {!isNaN(product.price) && `${product.price} ${t("currency")}`}
                                 </span>
                               </div>
                             </div>
@@ -493,12 +453,9 @@ export default function MenuSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-8">
                   <div className="relative aspect-square rounded-lg md:rounded-2xl overflow-hidden">
                     <img
-                      src={selectedProduct.image || "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80"}
+                      src={selectedProduct.image}
                       alt={selectedProduct.title[language]}
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80";
-                      }}
                     />
                   </div>
 
@@ -513,7 +470,7 @@ export default function MenuSection() {
                     <div className="mt-auto">
                       <div className="flex items-center justify-between mb-3 md:mb-6">
                         <span className="text-2xl md:text-4xl font-bold text-zinc-900 dark:text-white">
-                          {!isNaN(selectedProduct.price) ? `${selectedProduct.price} ${t("currency")}` : t("priceByWeight")}
+                          {!isNaN(selectedProduct.price) && `${selectedProduct.price} ${t("currency")}`}
                         </span>
 
                         <motion.button
