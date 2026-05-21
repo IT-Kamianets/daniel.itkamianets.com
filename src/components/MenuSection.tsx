@@ -57,20 +57,6 @@ export default function MenuSection() {
   const [likedProducts, setLikedProducts] = useState<Set<string>>(new Set());
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [numCols, setNumCols] = useState(5);
-
-  // Responsive columns for masonry
-  useEffect(() => {
-    const updateCols = () => {
-      if (window.innerWidth < 768) setNumCols(2);
-      else if (window.innerWidth < 1024) setNumCols(3);
-      else if (window.innerWidth < 1280) setNumCols(4);
-      else setNumCols(5);
-    };
-    updateCols();
-    window.addEventListener('resize', updateCols);
-    return () => window.removeEventListener('resize', updateCols);
-  }, []);
 
   const activeCategory = categories[activeCategoryIdx];
   const hasSubcats = !!activeCategory?.subcategories && activeCategory.subcategories.length > 0;
@@ -182,12 +168,6 @@ export default function MenuSection() {
       document.documentElement.style.overflow = "";
     };
   }, [selectedProduct]);
-
-  // Create masonry columns from filtered products
-  const masonryColumns = Array.from({ length: numCols }, () => [] as Product[]);
-  filteredProducts.forEach((item, i) => {
-    masonryColumns[i % numCols].push(item);
-  });
 
   return (
     <section id="menu" className="py-10 md:py-16 bg-white dark:bg-zinc-950 overflow-hidden relative">
@@ -333,7 +313,7 @@ export default function MenuSection() {
           })}
         </div>
 
-        {/* Products Grid - JS Masonry Layout */}
+        {/* Products Grid */}
         <div className="w-full min-h-[40vh]">
           <AnimatePresence mode="wait">
             {filteredProducts.length > 0 ? (
@@ -342,79 +322,75 @@ export default function MenuSection() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="flex items-start gap-4 md:gap-6 w-full"
+                className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6 w-full items-stretch"
               >
-                {masonryColumns.map((col, colIdx) => (
-                  <div key={colIdx} className="flex-1 min-w-0 flex flex-col gap-4 md:gap-6">
-                    <AnimatePresence mode="popLayout">
-                      {col.map((product) => {
-                        const isLiked = likedProducts.has(product.slug);
-                        return (
-                          <motion.div
-                            key={product.slug}
-                            initial={{ opacity: 0, y: 40, scale: 0.95 }}
-                            animate={{ opacity: 1, y: 0, scale: 1 }}
-                            exit={{ opacity: 0, y: -20, scale: 0.95 }}
-                            transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
-                            className="bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-zinc-100 dark:border-zinc-800 w-full h-fit"
-                          >
-                            <div className="relative aspect-[4/3] overflow-hidden group/img cursor-pointer" onClick={() => setSelectedProduct(product)}>
-                              <img
-                                src={product.image}
-                                alt={product.title[language]}
-                                className="w-full h-full object-cover transition-transform duration-500 group-hover/img:scale-110"
-                              />
-                              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer">
-                                <motion.button
-                                  initial={{ scale: 0.8, opacity: 0 }}
-                                  animate={{ scale: 1, opacity: 1 }}
-                                  whileHover={{ scale: 1.05 }}
-                                  whileTap={{ scale: 0.95 }}
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    setSelectedProduct(product);
-                                  }}
-                                  className="bg-white/90 dark:bg-zinc-800/90 text-zinc-900 dark:text-white px-6 py-2.5 rounded-full text-sm font-medium flex items-center gap-2 shadow-lg cursor-pointer"
-                                  type="button"
-                                >
-                                  <Maximize2 size={16} />
-                                  {t("viewDetails")}
-                                </motion.button>
-                              </div>
-                            </div>
+                <AnimatePresence mode="popLayout">
+                  {filteredProducts.map((product) => {
+                    const isLiked = likedProducts.has(product.slug);
+                    return (
+                      <motion.div
+                        key={product.slug}
+                        initial={{ opacity: 0, y: 40, scale: 0.95 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: -20, scale: 0.95 }}
+                        transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+                        className="bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-zinc-100 dark:border-zinc-800 flex flex-col"
+                      >
+                        <div className="relative aspect-[4/3] overflow-hidden group/img cursor-pointer shrink-0" onClick={() => setSelectedProduct(product)}>
+                          <img
+                            src={product.image}
+                            alt={product.title[language]}
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover/img:scale-110"
+                          />
+                          <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer">
+                            <motion.button
+                              initial={{ scale: 0.8, opacity: 0 }}
+                              animate={{ scale: 1, opacity: 1 }}
+                              whileHover={{ scale: 1.05 }}
+                              whileTap={{ scale: 0.95 }}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setSelectedProduct(product);
+                              }}
+                              className="bg-white/90 dark:bg-zinc-800/90 text-zinc-900 dark:text-white px-6 py-2.5 rounded-full text-sm font-medium flex items-center gap-2 shadow-lg cursor-pointer"
+                              type="button"
+                            >
+                              <Maximize2 size={16} />
+                              {t("viewDetails")}
+                            </motion.button>
+                          </div>
+                        </div>
 
-                            <div className="p-3 md:p-4">
-                              <h3 className="text-lg md:text-xl font-bold font-serif text-zinc-900 dark:text-white mb-2">
-                                {product.title[language]}
-                              </h3>
-                              <p className="text-xs md:text-sm text-zinc-500 dark:text-zinc-400 mb-3 leading-snug">
-                                {product.description[language]}
-                              </p>
-                              <div className="flex items-center justify-between">
-                                <motion.button
-                                  whileTap={{ scale: 0.9 }}
-                                  onClick={(e) => toggleLike(e, product.slug)}
-                                  className={`p-2 rounded-full transition-colors cursor-pointer ${
-                                    isLiked
-                                      ? "text-red-500 bg-red-50 dark:bg-red-900/20"
-                                      : "text-zinc-400 hover:text-red-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
-                                  }`}
-                                  type="button"
-                                >
-                                  <Heart size={18} fill={isLiked ? "currentColor" : "none"} />
-                                </motion.button>
+                        <div className="p-3 md:p-4 flex flex-col flex-1">
+                          <h3 className="text-lg md:text-xl font-bold font-serif text-zinc-900 dark:text-white mb-2">
+                            {product.title[language]}
+                          </h3>
+                          <p className="text-xs md:text-sm text-zinc-500 dark:text-zinc-400 mb-3 leading-snug flex-1">
+                            {product.description[language]}
+                          </p>
+                          <div className="flex items-center justify-between mt-auto">
+                            <motion.button
+                              whileTap={{ scale: 0.9 }}
+                              onClick={(e) => toggleLike(e, product.slug)}
+                              className={`p-2 rounded-full transition-colors cursor-pointer ${
+                                isLiked
+                                  ? "text-red-500 bg-red-50 dark:bg-red-900/20"
+                                  : "text-zinc-400 hover:text-red-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                              }`}
+                              type="button"
+                            >
+                              <Heart size={18} fill={isLiked ? "currentColor" : "none"} />
+                            </motion.button>
 
-                                <span className="text-base md:text-lg font-bold text-zinc-900 dark:text-white whitespace-nowrap">
-                                  {!isNaN(product.price) && `${product.price} ${t("currency")}`}
-                                </span>
-                              </div>
-                            </div>
-                          </motion.div>
-                        );
-                      })}
-                    </AnimatePresence>
-                  </div>
-                ))}
+                            <span className="text-base md:text-lg font-bold text-zinc-900 dark:text-white whitespace-nowrap">
+                              {!isNaN(product.price) && `${product.price} ${t("currency")}`}
+                            </span>
+                          </div>
+                        </div>
+                      </motion.div>
+                    );
+                  })}
+                </AnimatePresence>
               </motion.div>
             ) : (
               <motion.div

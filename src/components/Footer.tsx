@@ -46,21 +46,21 @@ export default function Footer() {
             </h4>
             <a
               href="tel:+380507232362"
-              className="flex items-center gap-3 text-sm py-1"
+              className="flex items-center gap-3 text-sm py-1 hover:underline"
             >
               <Phone size={16} style={{ color: '#1B3425' }} />
               <span>+380 50 723 2362</span>
             </a>
             <a
               href="tel:+380686080028"
-              className="flex items-center gap-3 text-sm py-1"
+              className="flex items-center gap-3 text-sm py-1 hover:underline"
             >
               <Phone size={16} style={{ color: '#1B3425' }} />
               <span>+380 68 608 0028</span>
             </a>
             <a
               href="mailto:daniel.big.family@gmail.com"
-              className="flex items-center gap-3 text-sm py-1"
+              className="flex items-center gap-3 text-sm py-1 hover:underline"
             >
               <Mail size={16} style={{ color: '#1B3425' }} />
               <span>daniel.big.family@gmail.com</span>
@@ -74,7 +74,12 @@ export default function Footer() {
             </h4>
             <div className="flex items-start gap-3 text-sm">
               <MapPin size={16} style={{ color: '#1B3425' }} className="shrink-0 mt-0.5" />
-              <span>{t("address")}</span>
+              <a
+                href="https://maps.app.goo.gl/mZXywha91ieQrJxa9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >{t("address")}</a>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Clock size={16} style={{ color: '#1B3425' }} className="shrink-0" />
@@ -91,7 +96,7 @@ export default function Footer() {
               href="https://www.instagram.com/daniel.pizzeria.kp/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 text-sm py-1.5 rounded-lg"
+              className="flex items-center gap-3 text-sm py-1.5 rounded-lg hover:underline"
             >
               <Instagram size={16} style={{ color: '#1B3425' }} />
               <span>Instagram</span>
@@ -100,7 +105,7 @@ export default function Footer() {
               href="https://www.tiktok.com/@daniel.kamianets"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 text-sm py-1.5 rounded-lg"
+              className="flex items-center gap-3 text-sm py-1.5 rounded-lg hover:underline"
             >
               <Music2 size={16} style={{ color: '#1B3425' }} />
               <span>TikTok</span>
@@ -109,7 +114,7 @@ export default function Footer() {
               href="https://www.facebook.com/p/%D0%94%D0%B0%D0%BD%D1%96%D0%B5%D0%BB%D1%8C-%D0%9A%D0%B0%D0%BC%D1%8F%D0%BD%D0%B5%D1%86%D1%8C-%D0%9F%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-100068689121934/?locale=uk_UA"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 text-sm py-1.5 rounded-lg"
+              className="flex items-center gap-3 text-sm py-1.5 rounded-lg hover:underline"
             >
               <Facebook size={16} style={{ color: '#1B3425' }} />
               <span>Facebook</span>
@@ -121,7 +126,7 @@ export default function Footer() {
         <div className="w-full h-48 md:h-64 rounded-xl md:rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 mb-6 md:mb-8 transition-colors duration-300">
           <iframe
             src="https://maps.google.com/maps?q=Піцерія+Даніель,+Кам'янець-Подільський&hl=uk&z=16&output=embed"
-            className="w-full h-full border-0 transition-all duration-300 dark:[filter:grayscale(1)_invert(0.9)_contrast(1.2)]"
+            className="w-full h-full border-0"
             allowFullScreen={false}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
